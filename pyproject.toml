@@ -15,6 +15,7 @@ taxii2-client = "^2.3.0"
 requests = "^2.31.0"
 click = "^8.1.7"
 jcs = "^0.2.1"
+neo4j = "^5.22.0"
 
 [tool.poetry.scripts]
 tool = "stix2_explorer.cli:main"

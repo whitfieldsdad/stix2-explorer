@@ -1,13 +1,10 @@
 import collections
 from dataclasses import dataclass
-import dataclasses
 import sys
-from typing import Any, List, Optional, Set, Tuple
-import uuid
-import jcs
+from typing import Any, Callable, List, Optional, Set, Tuple
 import networkx as nx
 
-import networkx.readwrite.json_graph as json_graph
+import polars as pl
 from stix2.serialization import STIXJSONEncoder as _JSONEncoder
 from stix2.base import _STIXBase
 from stix2.utils import STIXdatetime
@@ -25,6 +22,7 @@ from stix2 import (
     MemorySource,
     CompositeDataSource,
 )
+import stix2
 from typing import Iterable, Union
 from stix2.serialization import STIXJSONEncoder as _JSONEncoder
 from stix2.base import _STIXBase
@@ -40,29 +38,28 @@ logger = logging.getLogger(__name__)
 
 DOT_INDENT = 4
 
-
 class JSONEncoder(_JSONEncoder):
     def default(self, o: Any) -> Any:
-        if isinstance(o, nx.DiGraph):
-            return json_graph.node_link_data(o)
-        elif isinstance(o, _STIXBase):
+        if isinstance(o, _STIXBase):
             return dict(o)
         elif isinstance(o, STIXdatetime):
             return o.isoformat()
+        elif isinstance(o, set):
+            return list(o)
         elif iter(o) == o:
             return list(o)
         else:
             return super().default(o)
 
 
-def convert_stix2_objects_to_directed_property_graph(
+def convert_stix2_objects_to_digraph(
     objects: Iterable[Any],
     decoders: Optional[Iterable[Decoder]] = None,
     ignore_deprecated: bool = True,
     ignore_revoked: bool = True,
     drop_dangling_references: bool = True,
 ) -> nx.DiGraph:
-    
+
     if not decoders:
         decoders = [GenericDecoder(), MitreDecoder()]
 
@@ -70,8 +67,8 @@ def convert_stix2_objects_to_directed_property_graph(
     objects = list(convert_stix2_objects_to_dicts(
         filter_stix2_objects(
             objects,
-            ignore_deprecated=ignore_deprecated,
-            ignore_revoked=ignore_revoked,
+            include_deprecated=ignore_deprecated,
+            include_revoked=ignore_revoked,
         )
     ))
 
@@ -81,7 +78,8 @@ def convert_stix2_objects_to_directed_property_graph(
             data = node.data or {}
             if 'type' not in data:
                 data['type'] = node.type
-            g.add_node(node.id, **data)
+            #g.add_node(node.id, **data)
+            g.add_node(node.id)
 
         for (s, p, o, d) in decoder.iter_edges(objects):
             d = d or {}
@@ -95,20 +93,9 @@ def convert_stix2_objects_to_directed_property_graph(
         dangling_references = referenced_object_ids - object_ids
 
         if dangling_references:
-            logger.info(f"Dropping {len(dangling_references)} dangling references: {', '.join(sorted(dangling_references))}")
+            logger.info(f"Dropping {len(dangling_references)} dangling references")
             g.remove_nodes_from(dangling_references)
 
-    return g
-
-
-@dataclass()
-class GraphFilter:
-    related_node_ids: Optional[Set[str]] = dataclasses.field(default_factory=set) # Subject or object IDs.
-    related_node_types: Optional[Set[str]] = dataclasses.field(default_factory=set) # Subject or object types.
-
-
-# TODO
-def filter_digraph(g: nx.DiGraph, f: GraphFilter) -> nx.DiGraph:
     return g
 
 
@@ -121,7 +108,7 @@ def convert_stix2_objects_to_triples(
     """
     Given a stream of STIX 2 objects, return a stream of triples.
     """
-    g = convert_stix2_objects_to_directed_property_graph(
+    g = convert_stix2_objects_to_digraph(
         objects,
         decoders=decoders,
         ignore_deprecated=ignore_deprecated,
@@ -130,10 +117,36 @@ def convert_stix2_objects_to_triples(
     return convert_digraph_to_triples(g)
 
 
+def convert_stix2_objects_to_triple_dataframe(
+    objects: Iterable[Any],
+    decoders: Optional[Iterable[Decoder]] = None,
+    ignore_deprecated: bool = True,
+    ignore_revoked: bool = True,
+    drop_isolates: bool = True,
+    drop_dangling_references: bool = True,
+) -> pl.DataFrame:
+    
+    g = convert_stix2_objects_to_digraph(
+        objects,
+        decoders=decoders,
+        ignore_deprecated=ignore_deprecated,
+        ignore_revoked=ignore_revoked,
+        drop_dangling_references=drop_dangling_references,
+        drop_isolates=drop_isolates,
+    )
+
+    rows = []
+    for s, p, o in sorted(convert_digraph_to_triples(g)):
+        row = {
+            'subject': s,
+            'predicate': p,
+            'object': o,
+        }
+        rows.append(row)
+    return pl.DataFrame(rows)
+
+
 def convert_stix2_objects_to_dicts(rows: Iterable[Any]) -> Iterator[dict]:
-    """
-    Given a stream of STIX 2 objects, return a stream of dictionaries.
-    """
     for row in rows:
         if isinstance(row, dict):
             yield row
@@ -142,9 +155,6 @@ def convert_stix2_objects_to_dicts(rows: Iterable[Any]) -> Iterator[dict]:
 
 
 def convert_stix2_object_to_dict(o: Any) -> dict:
-    """
-    Convert a STIX 2 object to a dictionary.
-    """
     if isinstance(o, _STIXBase):
         b = json.dumps(o, cls=JSONEncoder)
         o = json.loads(b)
@@ -160,9 +170,7 @@ def iter_stix2_objects(
         decoders: Optional[Iterable[Decoder]] = None,
         ignore_deprecated: bool = True,
         ignore_revoked: bool = True) -> Iterator[Any]:
-    """
-    Given a data source, return a stream of STIX 2 objects.
-    """
+
     src = get_data_source(data_sources)
     rows = src.query()
 
@@ -172,28 +180,36 @@ def iter_stix2_objects(
         rows = filter_stix2_objects(
             rows,
             decoders=decoders,
-            ignore_deprecated=ignore_deprecated,
-            ignore_revoked=ignore_revoked,
+            include_deprecated=ignore_deprecated,
+            include_revoked=ignore_revoked,
         )
     yield from rows
 
 
 def filter_stix2_objects(
     objects: Iterable[Any],
+    object_ids: Optional[Iterable[str]] = None,
+    object_types: Optional[Iterable[str]] = None,
     decoders: Optional[Iterable[Decoder]] = None,
-    ignore_deprecated: bool = True,
-    ignore_revoked: bool = True,
+    include_deprecated: bool = True,
+    include_revoked: bool = True,
 ) -> Iterator[Any]:
-    """
-    Remove deprecated and revoked objects from a stream of STIX 2 objects.
-    """
+
     decoders = decoders or [GenericDecoder(), MitreDecoder()]
 
-    if ignore_deprecated:
+    if not include_deprecated:
         objects = filter(lambda o: not any(decoder.is_deprecated(o) for decoder in decoders), objects)
 
-    if ignore_revoked:
+    if not include_revoked:
         objects = filter(lambda o: not any(decoder.is_revoked(o) for decoder in decoders), objects)
+
+    if object_ids:
+        object_ids = set(object_ids)
+        objects = filter(lambda o: o["id"] in object_ids, objects)
+
+    if object_types:
+        object_types = set(object_types)
+        objects = filter(lambda o: get_stix2_type_from_id(o["id"]) in object_types, objects)
 
     yield from objects
 
@@ -205,7 +221,7 @@ def drop_dangling_references(objects: Iterable[Any], decoders: Optional[Iterable
         decoders=decoders,
     )
     if dangling_references:
-        logger.debug(f"Dropping {len(dangling_references)} dangling references: {', '.join(sorted(dangling_references))}")
+        logger.debug(f"Dropping {len(dangling_references)} dangling reference(s): {sorted(dangling_references)}")
         objects = list(filter(lambda o: o["id"] not in dangling_references, objects))
     return objects
 
@@ -236,22 +252,36 @@ def get_data_source(
         composite_data_source = CompositeDataSource()
         composite_data_source.add_data_sources(data_sources)
         return composite_data_source
+    
+
+def get_data_source_with_fallback(
+        data_sources: Union[str, DataSource, Iterable[Union[str, DataSource]]],
+        fallback_data_sources: Union[str, DataSource, Iterable[Union[str, DataSource]]]):
+    try:
+        return get_data_source(data_sources)
+    except ValueError:
+        return get_data_source(fallback_data_sources)
 
 
-def _get_data_source(path: str) -> DataSource:
-    if os.path.exists(path):
-        if os.path.isdir(path):
-            return FileSystemSource(path)
+def _get_data_source(src: Union[str, DataSource]) -> DataSource:
+    if isinstance(src, DataSource):
+        return src
+    
+    if src.startswith(("http://", "https://")):
+        return _get_memory_source_from_web(src)
+    
+    src = get_real_path(src)
+    if os.path.exists(src):
+        if os.path.isdir(src):
+            return FileSystemSource(src)
         else:
-            return _get_memory_source_from_file(path)
-    elif path.startswith(("http://", "https://")):
-        return _get_memory_source_from_web(path)
+            return _get_memory_source_from_file(src)
     else:
-        real_path = get_real_path(path)
+        real_path = get_real_path(src)
         if os.path.exists(real_path):
             return _get_data_source(real_path)
         
-        raise ValueError(f"Invalid path: {path}")
+        raise ValueError(f"Invalid path: {src}")
 
 
 def _get_memory_source_from_file(path: str) -> MemoryStore:
@@ -273,43 +303,11 @@ def get_real_path(path: str) -> str:
     return path
 
 
-# TODO
-def convert_digraph_to_triples(
-        g: nx.DiGraph, 
-        reduce_by_type: bool = False,
-        directed: bool = True) -> Iterable[tuple]:
-    
-    seen = set()
-    for a, b, data in g.edges(data=True):
-        a = data['type'] if reduce_by_type else a
-        b = data['type'] if reduce_by_type else b
-        label = data["label"]
-
-        triple = (a, label, b)
-        if triple not in seen:
-            seen.add(triple)
-            if not directed:
-                seen.add(reversed(triple))
-            
-            yield triple
-
-
-def convert_triples_to_digraph(triples: Iterable[Tuple[str, str, str]]) -> nx.DiGraph:
-    g = nx.DiGraph()
-    for s, p, o in triples:
-        g.add_edge(s, o, label=p)
-    return g
-
 
 def get_stix2_type_from_id(stix2_id: str) -> str:
     return stix2_id.split('--')[0]
 
 
-def convert_digraph_to_undirected_graph(g: nx.DiGraph) -> nx.Graph:
-    return g.to_undirected()
-
-
-# TODO: add nodes by ID, but allow for labels to be different
 def convert_digraph_to_dot(
         g: nx.DiGraph, 
         group_by: Optional[str] = None, 
@@ -331,7 +329,6 @@ def convert_digraph_to_dot(
     if not group_by:
         for o in objects:
             object_id = _get_dot_safe_string(o['id'])
-            #lines.append(f'{" " * indent}{object_id} [label=\"{d["name"]}\"];')
             lines.append(f'{" " * indent}{object_id}')
     else:
         objects = [o[1] for o in g.nodes(data=True)]
@@ -379,7 +376,83 @@ def get_groups(objects: Iterable[dict], key: str) -> Dict[str, List[dict]]:
     return dict(m)
 
 
-def get_uuid5(data: dict) -> str:
-    namespace = uuid.UUID(UUID_NAMESPACE)
-    blob = jcs.canonicalize(data).decode('utf-8')
-    return str(uuid.uuid5(namespace, blob))
+### Graphs
+
+def convert_digraph_to_triples(
+        g: nx.DiGraph, 
+        directed: bool = True) -> Iterable[Tuple[str, str, str]]:
+    
+    seen = set()
+    for a, b, data in g.edges(data=True):
+        label = data["label"]
+
+        triple = (a, label, b)
+        if triple not in seen:
+            seen.add(triple)
+            if not directed:
+                seen.add(reversed(triple))
+            
+            yield triple
+
+
+def convert_triples_to_digraph(triples: Iterable[Tuple[str, str, str]]) -> nx.DiGraph:
+    g = nx.DiGraph()
+    for s, p, o in triples:
+        g.add_edge(s, o, label=p)
+    return g
+
+
+def convert_digraph_to_undirected_graph(g: nx.DiGraph) -> nx.Graph:
+    return g.to_undirected()
+
+
+def convert_triples_to_undirected_graph(triples: Iterable[Tuple[str, str, str]]) -> nx.Graph:
+    g = convert_triples_to_digraph(triples)
+    return convert_digraph_to_undirected_graph(g)
+
+
+def tally_edges_by_type(g: nx.DiGraph) -> pl.DataFrame:
+    m = collections.defaultdict(int)
+    for (s, p, o) in convert_digraph_to_triples(g):
+        s = get_stix2_type_from_id(s)
+        o = get_stix2_type_from_id(o)
+        e = (s, p, o)
+        m[e] += 1
+    
+    rows = []
+    for (s, p, o), total in m.items():
+        row = {
+            'subject': s,
+            'predicate': p,
+            'object': o,
+            'total': total,
+        }
+        rows.append(row)
+
+    df = pl.DataFrame(rows)
+    df = df.sort('total', descending=True)
+    return df
+    
+
+def relabel_nodes(g: nx.DiGraph, f: Callable[[], str]) -> nx.DiGraph:
+    m = {}
+    for u in g.nodes:
+        try:
+            v = f(u)
+            if v is None:
+                continue
+        except Exception:
+            continue
+        else:
+            m[u] = v
+    return nx.relabel_nodes(g, m)
+
+
+def relabel_nodes_by_external_id(g: nx.DiGraph) -> nx.DiGraph:
+    return relabel_nodes(g, lambda u: parse_attack_external_id(g.nodes[u]))
+
+
+def parse_attack_external_id(o: dict) -> Optional[str]:
+    for ref in o.get('external_references', []):
+        if ref.get('source_name') == 'mitre-attack':
+            return ref.get('external_id')

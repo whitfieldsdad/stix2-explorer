@@ -1,10 +1,10 @@
 from dataclasses import dataclass
 import datetime
-import sys
 from typing import Iterator, Optional, Tuple
+import uuid
 
+import jcs
 from stix2_explorer.constants import EXTERNAL_REFERENCE
-import stix2_explorer.util as util
 
 
 RELATED_TO = "related-to"
@@ -70,7 +70,7 @@ class Decoder:
                 for external_reference in o.get('external_references', []):
                     url = external_reference.get('url')
                     if url:
-                        external_reference_id = util.get_uuid5({'url': url})
+                        external_reference_id = get_uuid5({'url': url})
                         yield external_reference_id, EXTERNAL_REFERENCE, external_reference
 
             object_type = o['type']
@@ -161,7 +161,7 @@ class GenericDecoder(Decoder):
                 for ref in o.get("external_references", []):
                     url = ref.get('url')
                     if url:
-                        external_reference_id = util.get_uuid5({'url': url})
+                        external_reference_id = get_uuid5({'url': url})
                         yield Edge(
                             source=stix2_id,
                             predicate=RELATED_TO,
@@ -244,3 +244,9 @@ class MitreDecoder(Decoder):
 def parse_timestamp(t: Optional[str]) -> Optional[datetime.datetime]:
     if t is not None:
         return datetime.datetime.fromisoformat(t)
+
+
+def get_uuid5(data: dict) -> str:
+    namespace = uuid.UUID(UUID_NAMESPACE)
+    blob = jcs.canonicalize(data).decode('utf-8')
+    return str(uuid.uuid5(namespace, blob))

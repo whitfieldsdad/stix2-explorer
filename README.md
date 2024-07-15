@@ -3,18 +3,26 @@
 
 A Python library for exploring STIX 2 content as [directed acyclic graphs (DAGs)](https://en.wikipedia.org/wiki/Directed_acyclic_graph) using [networkx](https://github.com/networkx/networkx) and [GraphViz](https://graphviz.org/).
 
-![Structure of MITRE ATT&CK](docs/enterprise-attack.png)
-
-![Structure of MITRE CAPEC](docs/capec.png)
-
-![Structure of MITRE MBC](docs/mbc.png)
-
 ## Features
 
 - Easily read STIX 2 content from a variety of sources (i.e. from local files or remote files)
 - Explore relationships between STIX 2 objects as both directed and undirected graphs
 - Reduce NetworkX digraphs to sequences of doubles or triples (i.e. SO or SPO - e.g., `malware` -> `attack-pattern` or `malware` -> `uses` -> `attack-pattern`)
 - Render STIX 2 content as DAGs using GraphViz DOT markup
+
+### Draw STIX 2 bundles
+
+MITRE ATT&CK:
+
+![Structure of MITRE ATT&CK](docs/enterprise-attack.png)
+
+MITRE CAPEC:
+
+![Structure of MITRE CAPEC](docs/capec.png)
+
+MITRE MBC:
+
+![Structure of MITRE MBC](docs/mbc.png)
 
 ## Design notes
 
