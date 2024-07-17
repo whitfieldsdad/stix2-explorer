@@ -2,3 +2,6 @@
 __pycache__/
 .vscode/
 test.py
+private/
+TODO.md
+.DS_Store

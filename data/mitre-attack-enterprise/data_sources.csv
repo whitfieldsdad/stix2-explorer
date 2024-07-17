@@ -1,0 +1,39 @@
+id,type,name,external_id
+x-mitre-data-source--06bb1e05-533b-4de3-ae87-9b99910465cf,x-mitre-data-source,Pod,DS0014
+x-mitre-data-source--072ec5a7-00ba-466f-9057-69751a22a967,x-mitre-data-source,Container,DS0032
+x-mitre-data-source--0b4f86ed-f4ab-46a3-8ed1-175be1974da6,x-mitre-data-source,User Account,DS0002
+x-mitre-data-source--0f42a24c-e035-4f93-a91c-5f7076bd8da0,x-mitre-data-source,Windows Registry,DS0024
+x-mitre-data-source--12c1e727-7fa4-49b6-af81-366ed2ce231e,x-mitre-data-source,Script,DS0012
+x-mitre-data-source--1ac0ca69-e07e-4b34-9061-e4588e146c52,x-mitre-data-source,Image,DS0007
+x-mitre-data-source--1e26f222-e27e-4bfa-830c-fa4b4f18b5e4,x-mitre-data-source,Web Credential,DS0006
+x-mitre-data-source--221adcd5-cccf-44df-9be6-ef607a6e1c3c,x-mitre-data-source,Named Pipe,DS0023
+x-mitre-data-source--29aa4e0e-4a26-4f79-a9bc-1ae66df1c923,x-mitre-data-source,Certificate,DS0037
+x-mitre-data-source--2cd6cc81-d86e-4595-a4f0-43f5519f14e6,x-mitre-data-source,WMI,DS0005
+x-mitre-data-source--2ce537a2-3b30-4374-9397-31d6460ec0bc,x-mitre-data-source,Cloud Storage,DS0010
+x-mitre-data-source--38fe306c-bdec-4f3d-8521-b72dd32dbd17,x-mitre-data-source,Internet Scan,DS0035
+x-mitre-data-source--3bef4799-906c-409c-ac00-3fb7a1e352e6,x-mitre-data-source,Persona,DS0021
+x-mitre-data-source--3c07684f-3794-4536-8f70-21efe700c0ec,x-mitre-data-source,Group,DS0036
+x-mitre-data-source--40269753-26bd-437b-986e-159c66dec5e4,x-mitre-data-source,Application Log,DS0015
+x-mitre-data-source--4358c631-e253-4557-86df-f687d0ef9891,x-mitre-data-source,Logon Session,DS0028
+x-mitre-data-source--45232bc0-e858-440d-aa93-d48c6cf167f0,x-mitre-data-source,Instance,DS0030
+x-mitre-data-source--4523e7f3-8de2-4078-96f8-1227eb537159,x-mitre-data-source,Sensor Health,DS0013
+x-mitre-data-source--509ed41e-ca42-461e-9058-24602256daf9,x-mitre-data-source,File,DS0022
+x-mitre-data-source--61bbbf27-f7c3-46ba-a6bc-48ae76928065,x-mitre-data-source,Drive,DS0016
+x-mitre-data-source--6d7de3b7-283d-48f9-909c-60d123d9d768,x-mitre-data-source,Snapshot,DS0020
+x-mitre-data-source--73691708-ffb5-4e29-906d-f485f6fa7089,x-mitre-data-source,Command,DS0017
+x-mitre-data-source--8765a845-dea1-4cd1-a56f-f54939b7ab9e,x-mitre-data-source,Kernel,DS0008
+x-mitre-data-source--9ec8c0d7-6137-456f-b829-c5f8b96ba054,x-mitre-data-source,Driver,DS0027
+x-mitre-data-source--b0b6d26f-3747-4444-ac7a-239a6ff80cb5,x-mitre-data-source,Volume,DS0034
+x-mitre-data-source--b1ddede4-cafe-4955-ac4c-14b33ac3f647,x-mitre-data-source,Cloud Service,DS0025
+x-mitre-data-source--b86d9b40-5fbe-4ef1-8dc3-263eff26f495,x-mitre-data-source,Malware Repository,DS0004
+x-mitre-data-source--ba27545a-9c32-47ea-ba6a-cce50f1b326e,x-mitre-data-source,Network Share,DS0033
+x-mitre-data-source--c000cd5c-bbb3-4606-af6f-6c6d9de0bbe3,x-mitre-data-source,Network Traffic,DS0029
+x-mitre-data-source--c3af32ff-65c5-4ea8-912a-fb4a85197239,x-mitre-data-source,Cluster,DS0031
+x-mitre-data-source--c9ddfb51-eb45-4e22-b614-44ac1caa7883,x-mitre-data-source,Scheduled Job,DS0003
+x-mitre-data-source--ca1cb239-ff6d-4f64-b9d7-41c8556a8b4f,x-mitre-data-source,Firmware,DS0001
+x-mitre-data-source--d6188aac-17db-4861-845f-57c369f9b4c8,x-mitre-data-source,Active Directory,DS0026
+x-mitre-data-source--d710099e-df94-4be4-bf85-cabd30e912bb,x-mitre-data-source,Service,DS0019
+x-mitre-data-source--dd75f457-8dc0-4a24-9ae5-4b61c33af866,x-mitre-data-source,Domain Name,DS0038
+x-mitre-data-source--e8b8ede7-337b-4c0c-8c32-5c7872c1ee22,x-mitre-data-source,Process,DS0009
+x-mitre-data-source--f2f4f4bd-3455-400f-b2ee-104004df0f5b,x-mitre-data-source,Firewall,DS0018
+x-mitre-data-source--f424e4b4-a8a4-4c58-a4ae-4f53bfd08563,x-mitre-data-source,Module,DS0011

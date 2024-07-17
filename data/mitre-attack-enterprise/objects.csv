@@ -1,0 +1,2052 @@
+id,type,name,external_id
+x-mitre-collection--1f5f1533-f617-4ca8-9ab4-6a02367fa019,x-mitre-collection,Enterprise ATT&CK,
+attack-pattern--0042a9f5-f053-4769-b3ef-9ad018dfa298,attack-pattern,Extra Window Memory Injection,T1055.011
+attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9,attack-pattern,Scheduled Task,T1053.005
+attack-pattern--005cc321-08ce-4d17-b1ea-cb5275926520,attack-pattern,Socket Filters,T1205.002
+attack-pattern--00d0b012-8a03-410e-95de-5826bf542de6,attack-pattern,Indicator Removal from Tools,T1066
+attack-pattern--00f90846-cbd1-4fc5-9233-df5c2bf2a662,attack-pattern,Archive via Utility,T1560.001
+attack-pattern--01327cde-66c4-4123-bf34-5f258d59457b,attack-pattern,VNC,T1021.005
+attack-pattern--01a5a209-b94c-450b-b7f9-946497d91055,attack-pattern,Windows Management Instrumentation,T1047
+attack-pattern--01df3350-ce05-4bdf-bdf8-0a919a66d4a8,attack-pattern,Malicious Shell Modification,T1156
+attack-pattern--0259baeb-9f63-4c69-bf10-eb038c390688,attack-pattern,Screen Capture,T1113
+attack-pattern--02c5abff-30bf-4703-ab92-1f6072fae939,attack-pattern,Fileless Storage,T1027.011
+attack-pattern--02fefddc-fb1b-423f-a76b-7552dd211d4d,attack-pattern,Bootkit,T1067
+attack-pattern--03259939-0b57-482f-8eb5-87c0e0d54334,attack-pattern,Boot or Logon Initialization Scripts,T1037
+attack-pattern--035bb001-ab69-4a0b-9f6c-2de8b09e1b9d,attack-pattern,Adversary-in-the-Middle,T1557
+attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104,attack-pattern,System Owner/User Discovery,T1033
+attack-pattern--0458aab9-ad42-4eac-9e22-706a95bafee2,attack-pattern,Acquire Infrastructure,T1583
+attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5,attack-pattern,Rundll32,T1218.011
+attack-pattern--0470e792-32f8-46b0-a351-652bc35e9336,attack-pattern,Container and Resource Discovery,T1613
+attack-pattern--04a5a8ab-3bc8-4c83-95c9-55274a89786d,attack-pattern,Serverless,T1583.007
+attack-pattern--04ee0cb7-dac3-4c6c-9387-4c6aa096f4cf,attack-pattern,Hidden Window,T1143
+attack-pattern--04ef4356-8926-45e2-9441-634b6f3dcecb,attack-pattern,LC_LOAD_DYLIB Addition,T1161
+attack-pattern--04fd5427-79c7-44ea-ae13-11b24778ff1c,attack-pattern,Standard Encoding,T1132.001
+attack-pattern--0533ab23-3f7d-463f-9bd8-634d27e4dee1,attack-pattern,Embedded Payloads,T1027.009
+attack-pattern--06780952-177c-4247-b978-79c357fb311f,attack-pattern,Plist Modification,T1150
+attack-pattern--06c00069-771a-4d57-8ef5-d3718c1a8771,attack-pattern,Pluggable Authentication Modules,T1556.003
+attack-pattern--0708ae90-d0eb-4938-9a76-d0fc94f6eec1,attack-pattern,Revert Cloud Instance,T1578.004
+attack-pattern--086952c4-5b90-4185-b573-02bad8e11953,attack-pattern,HISTCONTROL,T1148
+attack-pattern--09312b1a-c3c6-4b45-9844-3ccc78e5d82f,attack-pattern,Gather Victim Host Information,T1592
+attack-pattern--0979abf9-4e26-43ec-9b6e-54efc4e70fca,attack-pattern,Digital Certificates,T1596.003
+attack-pattern--09a60ea3-a8d1-4ae5-976e-5783248b72a4,attack-pattern,Keylogging,T1056.001
+attack-pattern--09b130a2-a77e-4af0-a361-f46f9aad1345,attack-pattern,Linux and Mac File and Directory Permissions Modification,T1222.002
+attack-pattern--09c4c11e-4fa1-4f8c-8dad-3cf8e69ad119,attack-pattern,Password Guessing,T1110.001
+attack-pattern--09cd431f-eaf4-4d2a-acaf-2a7acfe7ed58,attack-pattern,PubPrn,T1216.001
+attack-pattern--0a241b6c-7bb2-48f9-98f7-128145b4d27f,attack-pattern,Purchase Technical Data,T1597.002
+attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22,attack-pattern,OS Credential Dumping,T1003
+attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65,attack-pattern,Shared Modules,T1129
+attack-pattern--0ad7bc5c-235a-4048-944b-3b286676cb74,attack-pattern,Data from Configuration Repository,T1602
+attack-pattern--0af0ca99-357d-4ba1-805f-674fdfb7bef9,attack-pattern,Disk Structure Wipe,T1561.002
+attack-pattern--0bda01d5-4c1d-4062-8ee2-6872334383c3,attack-pattern,Direct Network Flood,T1498.001
+attack-pattern--0bf78622-e8d2-41da-a857-731472d61a92,attack-pattern,Stored Data Manipulation,T1492
+attack-pattern--0c2d00da-7742-49e7-9928-4514e5075d32,attack-pattern,Path Interception by PATH Environment Variable,T1574.007
+attack-pattern--0c4b4fda-9062-47da-98b9-ceae2dcf052a,attack-pattern,Sharepoint,T1213.002
+attack-pattern--0c8ab3eb-df48-4b9c-ace7-beacaac81cc5,attack-pattern,Direct Volume Access,T1006
+attack-pattern--0ca7beef-9bbc-4e35-97cf-437384ddce6a,attack-pattern,File System Permissions Weakness,T1044
+attack-pattern--0cf55441-b176-4332-89e7-2c4c7799d0ff,attack-pattern,Email Hiding Rules,T1564.008
+attack-pattern--0cfe31a7-81fc-472c-bc45-e2808d1066a3,attack-pattern,External Defacement,T1491.002
+attack-pattern--0dbf5f1b-a560-4d51-ac1b-d70caab3e1f0,attack-pattern,LLMNR/NBT-NS Poisoning and Relay,T1171
+attack-pattern--0dda99f0-4701-48ca-9774-8504922e92d3,attack-pattern,IP Addresses,T1590.005
+attack-pattern--0df05477-c572-4ed6-88a9-47c581f548f7,attack-pattern,OS Exhaustion Flood,T1499.001
+attack-pattern--0f20e3cb-245b-4a61-8a91-2d93f7cb0e9b,attack-pattern,Rootkit,T1014
+attack-pattern--0f2c410d-d740-4ed9-abb1-b8f4a7faf6c3,attack-pattern,PowerShell Profile,T1546.013
+attack-pattern--0f4a0c76-ab2d-4cb0-85d3-3f0efb8cba0d,attack-pattern,JavaScript,T1059.007
+attack-pattern--0ff59227-8aa8-4c09-bf1f-925605bd07ea,attack-pattern,DNS,T1590.002
+attack-pattern--0fff2797-19cb-41ea-a5f1-8a9303b8158e,attack-pattern,Systemd Service,T1501
+attack-pattern--101c3a64-9ba5-46c9-b573-5c501053cbca,attack-pattern,Elevated Execution with Prompt,T1514
+attack-pattern--1035cdf2-3e5f-446f-a7a7-e8f6d7925967,attack-pattern,Audio Capture,T1123
+attack-pattern--106c0cf6-bf73-4601-9aa8-0945c2715ec5,attack-pattern,Create or Modify System Process,T1543
+attack-pattern--10d51417-ee35-4589-b1ff-b6df1c334e8d,attack-pattern,External Remote Services,T1133
+attack-pattern--10d5f3b7-6be6-4da5-9a77-0f1e2bbfcc44,attack-pattern,Component Firmware,T1109
+attack-pattern--10ff21b9-5a01-4268-a1b5-3b55015f1847,attack-pattern,LC_LOAD_DYLIB Addition,T1546.006
+attack-pattern--10ffac09-e42d-4f56-ab20-db94c67d76ff,attack-pattern,Steal Web Session Cookie,T1539
+attack-pattern--1126cab1-c700-412f-a510-61f4937bb096,attack-pattern,Container Orchestration Job,T1053.007
+attack-pattern--118f61a5-eb3e-4fb6-931f-2096647f4ecd,attack-pattern,Domain Generation Algorithms,T1568.002
+attack-pattern--11f29a39-0942-4d62-92b6-fe236cf3066e,attack-pattern,Double File Extension,T1036.007
+attack-pattern--120d5519-3098-4e1c-9191-2aa61232f073,attack-pattern,Bypass User Account Control,T1548.002
+attack-pattern--128c55d3-aeba-469f-bd3e-c8996ab4112a,attack-pattern,Timestomp,T1099
+attack-pattern--132d5b37-aac5-4378-a8dc-3127b18a73dc,attack-pattern,Internet Connection Discovery,T1016.001
+attack-pattern--1365fe3b-0f50-455d-b4da-266ce31c23b0,attack-pattern,Sudo and Sudo Caching,T1548.003
+attack-pattern--143c0cbb-a297-4142-9624-87ffc778980b,attack-pattern,Archive via Custom Method,T1560.003
+attack-pattern--144e007b-e638-431d-a894-45d90c54ab90,attack-pattern,Modify Cloud Compute Infrastructure,T1578
+attack-pattern--155207c0-7f53-4f13-a06b-0a9907ef5096,attack-pattern,Malvertising,T1583.008
+attack-pattern--15dbf668-795c-41e6-8219-f0447c0e64ce,attack-pattern,Permission Groups Discovery,T1069
+attack-pattern--1608f3e1-598a-42f4-a01a-2e252e81728f,attack-pattern,Email Collection,T1114
+attack-pattern--1644e709-12d2-41e5-a60f-3470991f5011,attack-pattern,Security Account Manager,T1003.002
+attack-pattern--166de1c6-2814-4fe5-8438-4e80f76b169f,attack-pattern,WHOIS,T1596.002
+attack-pattern--16ab6452-c3c1-497c-a47d-206018ca1ada,attack-pattern,System Firmware,T1542.001
+attack-pattern--16cdd21f-da65-4e4f-bc04-dd7d198c7b26,attack-pattern,Search Victim-Owned Websites,T1594
+attack-pattern--16e94db9-b5b1-4cd0-b851-f38fbd0a70f2,attack-pattern,Cloud Groups,T1069.003
+attack-pattern--17cc750b-e95b-4d7d-9dde-49e0de24148c,attack-pattern,Services Registry Permissions Weakness,T1574.011
+attack-pattern--17fd695c-b88c-455a-a3d1-43b6cb728532,attack-pattern,DNS/Passive DNS,T1596.001
+attack-pattern--18cffc21-3260-437e-80e4-4ab8bf2ba5e9,attack-pattern,Application Exhaustion Flood,T1499.003
+attack-pattern--18d4ab39-12ed-4a16-9fdb-ae311bba4a0f,attack-pattern,Rc.common,T1163
+attack-pattern--191cc6af-1bb2-4344-ab5f-28e496638720,attack-pattern,Compromise Software Dependencies and Development Tools,T1195.001
+attack-pattern--19401639-28d0-4c3c-adcc-bc2ba22f6421,attack-pattern,Digital Certificates,T1588.004
+attack-pattern--197ef1b9-e764-46c3-b96c-23f77985dc81,attack-pattern,DNS Server,T1583.002
+attack-pattern--1988cc35-ced8-4dad-b2d1-7628488fa967,attack-pattern,Disk Wipe,T1561
+attack-pattern--1996eef1-ced3-4d7f-bf94-33298cabbf72,attack-pattern,DNS,T1071.004
+attack-pattern--19bf235b-8620-4997-b5b4-94e0659ed7c3,attack-pattern,Cloud Instance Metadata API,T1552.005
+attack-pattern--1a80d097-54df-41d8-9d33-34e755ec5e72,attack-pattern,Securityd Memory,T1555.002
+attack-pattern--1b20efbf-8063-4fc3-a07d-b575318a301b,attack-pattern,Group Policy Discovery,T1615
+attack-pattern--1b7b1806-7746-41a1-a35d-e48dae25ddba,attack-pattern,Bootkit,T1542.003
+attack-pattern--1b7ba276-eedc-4951-a762-0ceea2c030ec,attack-pattern,Data from Removable Media,T1025
+attack-pattern--1b84d551-6de8-4b96-9930-d177677c3b1d,attack-pattern,Code Signing,T1116
+attack-pattern--1bae753e-8e52-4055-a66d-2ead90303ca9,attack-pattern,Mavinject,T1218.013
+attack-pattern--1c2fd73a-e634-44ed-b1b5-9e7cf7404e9f,attack-pattern,Cloud Instance Metadata API,T1522
+attack-pattern--1c338d0f-a65e-4073-a5c1-c06878849f21,attack-pattern,Process Hollowing,T1093
+attack-pattern--1c34f7aa-9341-4a48-bfab-af22e51aca6c,attack-pattern,Local Data Staging,T1074.001
+attack-pattern--1c4e5d32-1fe9-4116-9d9d-59e3925bd6a2,attack-pattern,Match Legitimate Name or Location,T1036.005
+attack-pattern--1ce03c65-5946-4ac9-9d4d-66db87e024bd,attack-pattern,Domain Fronting,T1172
+attack-pattern--1cec9319-743b-4840-bb65-431547bce82a,attack-pattern,Digital Certificates,T1587.003
+attack-pattern--1cfcb312-b8d7-47a4-b560-4b16cc677292,attack-pattern,Stored Data Manipulation,T1565.001
+attack-pattern--1d24cdee-9ea2-4189-b08e-af110bf2435d,attack-pattern,Password Cracking,T1110.002
+attack-pattern--1df0326d-2fbc-4d08-a16b-48365f1e742d,attack-pattern,SID-History Injection,T1178
+attack-pattern--1e9eb839-294b-48cc-b0d3-c45555a2a004,attack-pattern,Local Email Collection,T1114.001
+attack-pattern--1eaebf46-e361-4437-bc23-d5d65a3b92e3,attack-pattern,Keychain,T1555.001
+attack-pattern--1ecb2399-e8ba-4f6b-8ba7-5c27d49405cf,attack-pattern,Boot or Logon Autostart Execution,T1547
+attack-pattern--1ecfdab8-7d59-4c98-95d4-dc41970f57fc,attack-pattern,LSA Secrets,T1003.004
+attack-pattern--1f47e2fd-fa77-4f2f-88ee-e85df308f125,attack-pattern,Port Monitors,T1013
+attack-pattern--1f9012ef-1e10-4e48-915e-e03563435fe8,attack-pattern,Weaken Encryption,T1600
+attack-pattern--1f9c2bae-b441-4f66-a8af-b65946ee72f2,attack-pattern,SAML Tokens,T1606.002
+attack-pattern--20138b9d-1aac-4a26-8654-a36b6bbf2bba,attack-pattern,Spearphishing Link,T1192
+attack-pattern--208884f1-7b83-4473-ac22-4e1cf6c41471,attack-pattern,Masquerade File Type,T1036.008
+attack-pattern--20fb2507-d71c-455d-9b6d-6104461cf26b,attack-pattern,Service Stop,T1489
+attack-pattern--212306d8-efa4-44c9-8c2d-ed3d2e224aa0,attack-pattern,Malware,T1587.001
+attack-pattern--215190a9-9f02-4e83-bb5f-e0589965a302,attack-pattern,Regsvcs/Regasm,T1121
+attack-pattern--215d9700-5881-48b8-8265-6449dbb7195d,attack-pattern,Device Driver Discovery,T1652
+attack-pattern--2169ba87-1146-4fc7-a118-12b72251db7e,attack-pattern,Sudo Caching,T1206
+attack-pattern--21875073-b0ee-49e3-9077-1e2a885359af,attack-pattern,Domain Account,T1087.002
+attack-pattern--22522668-ddf6-470b-a027-9d6866679f67,attack-pattern,Active Setup,T1547.014
+attack-pattern--22905430-4901-4c2a-84f6-98243cb173f8,attack-pattern,Hide Artifacts,T1564
+attack-pattern--232a7e42-cd6e-4902-8fe9-2960f529dd4d,attack-pattern,Dynamic Data Exchange,T1559.002
+attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e,attack-pattern,Malicious File,T1204.002
+attack-pattern--2339cf19-8f1e-48f7-8a91-0262ba547b6f,attack-pattern,Identify Business Tempo,T1591.003
+attack-pattern--241814ae-de3f-4656-b49e-f9a80764d4b7,attack-pattern,Security Software Discovery,T1063
+attack-pattern--24286c33-d4a4-4419-85c2-1d094a896c26,attack-pattern,Hardware,T1592.001
+attack-pattern--246fd3c7-f5e3-466d-8787-4c13d9e3b61c,attack-pattern,Taint Shared Content,T1080
+attack-pattern--24769ab5-14bd-4f4e-a752-cfb185da53ee,attack-pattern,Domain Trust Modification,T1484.002
+attack-pattern--24bfaeba-cb0d-4525-b3dc-507c77ecec41,attack-pattern,Symmetric Cryptography,T1573.001
+attack-pattern--25659dd6-ea12-45c4-97e6-381e3e4b593e,attack-pattern,Local Account,T1087.001
+attack-pattern--2715c335-1bf2-4efe-9f18-0691317ff83b,attack-pattern,Securityd Memory,T1167
+attack-pattern--274770e0-2612-4ccf-a678-ef8e7bad365d,attack-pattern,Social Media Accounts,T1586.001
+attack-pattern--27960489-4e7f-461d-a62a-f5c0cb521e4a,attack-pattern,Application Access Token,T1527
+attack-pattern--28170e17-8384-415c-8486-2e6b294cb803,attack-pattern,Safe Mode Boot,T1562.009
+attack-pattern--2892b9ee-ca9f-4723-b332-0dc6e843a8ae,attack-pattern,Screensaver,T1180
+attack-pattern--28abec6c-4443-4b03-8206-07f2e264a6b4,attack-pattern,TFTP Boot,T1542.005
+attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32,attack-pattern,Windows Service,T1543.003
+attack-pattern--29ba5a15-3b7b-4732-b817-65ea8f6468e6,attack-pattern,Fast Flux DNS,T1568.001
+attack-pattern--29be378d-262d-4e99-b00d-852d573628e6,attack-pattern,System Checks,T1497.001
+attack-pattern--2acf44aa-542f-4366-b4eb-55ef5747759c,attack-pattern,Cron,T1053.003
+attack-pattern--2aed01ad-3df3-4410-a8cb-11ea4ded587c,attack-pattern,Domain Groups,T1069.002
+attack-pattern--2b5aa86b-a0df-4382-848d-30abea443327,attack-pattern,Vulnerabilities,T1588.006
+attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7,attack-pattern,Spearphishing Link,T1566.002
+attack-pattern--2ba5aa71-9d15-4b22-b726-56af06d9ad2f,attack-pattern,Startup Items,T1165
+attack-pattern--2bce5b30-7014-4a5d-ade7-12913fe6ac36,attack-pattern,Clear Linux or Mac System Logs,T1070.002
+attack-pattern--2bee5ffb-7a7a-4119-b1f2-158151b19ac0,attack-pattern,Application or System Exploitation,T1499.004
+attack-pattern--2c4d4e92-0ccf-4a97-b54c-86d662988a53,attack-pattern,Office Application Startup,T1137
+attack-pattern--2cd950a6-16c4-404a-aa01-044322395107,attack-pattern,InstallUtil,T1218.004
+attack-pattern--2d3f5b3c-54ca-4f4d-bb1f-849346d31230,attack-pattern,Spearphishing Link,T1598.003
+attack-pattern--2db31dcd-54da-405d-acef-b9129b816ed6,attack-pattern,SSH,T1021.004
+attack-pattern--2dbbdcd5-92cf-44c0-aea2-fe24783a6bc3,attack-pattern,Additional Cloud Roles,T1098.003
+attack-pattern--2de47683-f398-448f-b947-9abcc3e32fad,attack-pattern,Print Processors,T1547.012
+attack-pattern--2e0dd10b-676d-4964-acd0-8a404c92b044,attack-pattern,Disabling Security Tools,T1089
+attack-pattern--2e114e45-2c50-404c-804a-3af9564d240e,attack-pattern,Disk Structure Wipe,T1487
+attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597,attack-pattern,Spearphishing Attachment,T1566.001
+attack-pattern--2edd9d6a-5674-4326-a600-ba56de467286,attack-pattern,Credentials in Registry,T1214
+attack-pattern--2f41939b-54c3-41d6-8f8b-35f1ec18ed97,attack-pattern,Stripped Payloads,T1027.008
+attack-pattern--2f6b4ed7-fef1-44ba-bcb8-1b4beb610b64,attack-pattern,Component Object Model,T1559.001
+attack-pattern--2fee9321-3e71-4cf4-af24-d4d40d355b34,attack-pattern,DLL Search Order Hijacking,T1574.001
+attack-pattern--30208d3e-0d6b-43c8-883e-44462a514619,attack-pattern,Automated Collection,T1119
+attack-pattern--30973a08-aed9-4edf-8604-9084ce1b5c4f,attack-pattern,Clipboard Data,T1115
+attack-pattern--3120b9fa-23b8-4500-ae73-09494f607b7d,attack-pattern,Proc Filesystem,T1003.007
+attack-pattern--31225cd3-cd46-4575-b287-c2c14011c074,attack-pattern,Botnet,T1583.005
+attack-pattern--315f51f0-6b03-4c1e-bfb2-84740afb8e21,attack-pattern,Password Managers,T1555.005
+attack-pattern--317fefa6-46c7-4062-adb6-2008cf6bcb41,attack-pattern,AppInit DLLs,T1103
+attack-pattern--31a0a2ac-c67c-4a7e-b9ed-6a96477d4e8e,attack-pattern,Gatekeeper Bypass,T1553.001
+attack-pattern--31fe0ba2-62fd-4fd9-9293-4043d84f7fe9,attack-pattern,Drive-by Target,T1608.004
+attack-pattern--322bad5a-1c49-4d23-ab79-76d641794afa,attack-pattern,System Service Discovery,T1007
+attack-pattern--3257eb21-f9a7-4430-8de1-d8b6e288f529,attack-pattern,Network Sniffing,T1040
+attack-pattern--327f3cc5-eea1-42d4-a6cd-ed34b7ce8f61,attack-pattern,Application Deployment Software,T1017
+attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082,attack-pattern,Code Signing,T1553.002
+attack-pattern--3298ce88-1628-43b1-87d9-0b5336b193d7,attack-pattern,Data from Cloud Storage,T1530
+attack-pattern--32ad5c86-2bcf-47d8-8fdc-d7f3d79a7490,attack-pattern,Runtime Data Manipulation,T1565.003
+attack-pattern--341e222a-a6e3-4f6f-b69c-831d792b1580,attack-pattern,Credentials in Registry,T1552.002
+attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f,attack-pattern,Network Share Discovery,T1135
+attack-pattern--348f1eef-964b-4eb6-bb53-69b3dcb0c643,attack-pattern,Peripheral Device Discovery,T1120
+attack-pattern--34a80bc4-80f2-46e6-94ff-f3265a4b657c,attack-pattern,Break Process Trees,T1036.009
+attack-pattern--34ab90a3-05f6-4259-8f21-621081fdaba5,attack-pattern,Network Topology,T1590.004
+attack-pattern--34b3f738-bd64-40e5-a112-29b0542bc8bf,attack-pattern,Code Signing Certificates,T1587.002
+attack-pattern--34e793de-0274-4982-9c1a-246ed1c19dee,attack-pattern,Windows File and Directory Permissions Modification,T1222.001
+attack-pattern--34f1d81d-fe88-4f97-bd3b-a3164536255d,attack-pattern,Add-ins,T1137.006
+attack-pattern--35187df2-31ed-43b6-a1f5-2f1d3d58d3f1,attack-pattern,Transport Agent,T1505.002
+attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1,attack-pattern,System Information Discovery,T1082
+attack-pattern--355be19c-ffc9-46d5-8d50-d6a036c675b6,attack-pattern,Application Layer Protocol,T1071
+attack-pattern--359b00ad-9425-420b-bba5-6de8d600cbc0,attack-pattern,Remote Data Staging,T1074.002
+attack-pattern--35d30338-5bfa-41b0-a170-ec06dfd75f64,attack-pattern,Additional Container Cluster Roles,T1098.006
+attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9,attack-pattern,Scheduled Task/Job,T1053
+attack-pattern--365be77f-fc0e-42ee-bac8-4faf806d9336,attack-pattern,Msiexec,T1218.007
+attack-pattern--36675cd3-fe00-454c-8516-aebecacbe9d9,attack-pattern,Login Item,T1162
+attack-pattern--36aa137f-5166-41f8-b2f0-a4cfa1b4133e,attack-pattern,Network Trust Dependencies,T1590.003
+attack-pattern--36b2a1d7-e09e-49bf-b45e-477076c2ec01,attack-pattern,Reflection Amplification,T1498.002
+attack-pattern--3731fbcd-0e43-47ae-ae6c-d15e510f0d42,attack-pattern,Password Filter DLL,T1556.002
+attack-pattern--379809f6-2fac-42c1-bd2e-e9dee70b27f8,attack-pattern,Terminal Services DLL,T1505.005
+attack-pattern--37b11151-1776-4f8f-b328-30939fbf2ceb,attack-pattern,AppleScript,T1059.002
+attack-pattern--389735f1-f21c-4208-b8f0-f8031e7169b8,attack-pattern,Browser Extensions,T1176
+attack-pattern--38eb0c22-6caf-46ce-8869-5964bd735858,attack-pattern,Service Exhaustion Flood,T1499.002
+attack-pattern--39131305-9282-45e4-ac3b-591d2d4fc3ef,attack-pattern,Compromise Hardware Supply Chain,T1195.003
+attack-pattern--391d824f-0ef1-47a0-b0ee-c59a75e27670,attack-pattern,Native API,T1106
+attack-pattern--3975dbb5-0e1e-4f5b-bae1-cf2ab84b46dc,attack-pattern,Clear Network Connection History and Configurations,T1070.007
+attack-pattern--3986e7fd-a8e9-4ecb-bfc6-55920855912b,attack-pattern,AS-REP Roasting,T1558.004
+attack-pattern--39a130e1-6ab7-434a-8bd2-418e7d9d6427,attack-pattern,Service Registry Permissions Weakness,T1058
+attack-pattern--39cc9f64-cf74-4a48-a4d8-fe98c54a02e0,attack-pattern,Virtual Private Server,T1584.003
+attack-pattern--3a40f208-a9c1-4efa-a598-4003c3681fb8,attack-pattern,Reduce Key Space,T1600.001
+attack-pattern--3aef9463-9a7a-43ba-8957-a867e07c1e6a,attack-pattern,Clear Command History,T1070.003
+attack-pattern--3b0e52ce-517a-4614-a523-1bd5deef6c5e,attack-pattern,Indirect Command Execution,T1202
+attack-pattern--3b3cbbe0-6ed3-4334-b543-3ddfd8c5642d,attack-pattern,Custom Cryptographic Protocol,T1024
+attack-pattern--3b4121aa-fc8b-40c8-ac4f-afcb5838b72c,attack-pattern,Revert Cloud Instance,T1536
+attack-pattern--3b744087-9945-4a6f-91e8-9dbceda417a4,attack-pattern,Replication Through Removable Media,T1091
+attack-pattern--3c4a2599-71ee-4405-ba1e-0e28414b4bc5,attack-pattern,Data from Local System,T1005
+attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c,attack-pattern,Deobfuscate/Decode Files or Information,T1140
+attack-pattern--3d1b9d7e-3921-4d25-845a-7d9f15c0da44,attack-pattern,Outlook Rules,T1137.005
+attack-pattern--3d333250-30e4-4a82-9edc-756c68afc529,attack-pattern,Impair Defenses,T1562
+attack-pattern--3d52e51e-f6db-4719-813c-48002a99f43a,attack-pattern,Cloud Accounts,T1586.003
+attack-pattern--3dc8c101-d4db-4f4d-8150-1b5a76ca5f1b,attack-pattern,Email Accounts,T1586.002
+attack-pattern--3ee16395-03f0-4690-a32e-69ce9ada0f9e,attack-pattern,Upload Malware,T1608.001
+attack-pattern--3f18edba-28f4-4bb9-82c3-8aa60dcac5f7,attack-pattern,Supply Chain Compromise,T1195
+attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c,attack-pattern,Exploit Public-Facing Application,T1190
+attack-pattern--3fc01293-ef5e-41c6-86ce-61f10706b64a,attack-pattern,Steal or Forge Kerberos Tickets,T1558
+attack-pattern--3fc9b85a-2862-4363-a64d-d692e3ffbee0,attack-pattern,Credentials from Password Stores,T1555
+attack-pattern--40597f16-0963-4249-bf4c-ac93b7fb9807,attack-pattern,Exfiltration Over Web Service,T1567
+attack-pattern--4061e78c-1284-44b4-9116-73e4ac3912f7,attack-pattern,Remote Access Software,T1219
+attack-pattern--40f5caa0-4cb7-4117-89fc-d421bb493df3,attack-pattern,Domains,T1583.001
+attack-pattern--41868330-6ee2-4d0f-b743-9f2294c3c9b6,attack-pattern,Archive via Library,T1560.002
+attack-pattern--41d9846c-f6af-4302-a654-24bba2729bc6,attack-pattern,Thread Execution Hijacking,T1055.003
+attack-pattern--428ca9f8-0e33-442a-be87-f869cb4cf73e,attack-pattern,Multilayer Encryption,T1079
+attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0,attack-pattern,Masquerading,T1036
+attack-pattern--42fe883a-21ea-4cfb-b94a-78b6476dcc83,attack-pattern,Application Shimming,T1546.011
+attack-pattern--435dfb86-2697-4867-85b5-2fef496c0517,attack-pattern,Unsecured Credentials,T1552
+attack-pattern--43881e51-ac74-445b-b4c6-f9f9e9bf23fe,attack-pattern,Port Monitors,T1547.010
+attack-pattern--438c967d-3996-4870-bfc2-3954752a1927,attack-pattern,Clear Mailbox Data,T1070.008
+attack-pattern--43ba2b05-cf72-4b6c-8243-03a4aba41ee0,attack-pattern,Login Hook,T1037.002
+attack-pattern--43c9bc06-715b-42db-972f-52d25c09a20c,attack-pattern,Content Injection,T1659
+attack-pattern--43e7dc91-05b2-474c-b9ac-2ed4fe101f4d,attack-pattern,Process Injection,T1055
+attack-pattern--43f2776f-b4bd-4118-94b8-fee47e69676d,attack-pattern,Exfiltration Over Webhook,T1567.004
+attack-pattern--44dca04b-808d-46ca-b25f-d85236d4b9f8,attack-pattern,Bash History,T1139
+attack-pattern--451a9977-d255-43c9-b431-66de80130c8c,attack-pattern,Traffic Signaling,T1205
+attack-pattern--45241b9e-9bbc-4826-a2cc-78855e51ca09,attack-pattern,Direct Cloud VM Connections,T1021.008
+attack-pattern--4579d9c9-d5b9-45e0-9848-0104637b579f,attack-pattern,Credentials from Web Browsers,T1503
+attack-pattern--457c7820-d331-465a-915e-42f85500ccc4,attack-pattern,System Binary Proxy Execution,T1218
+attack-pattern--45d84c8b-c1e2-474d-a14d-69b5de0a2bc0,attack-pattern,Source,T1153
+attack-pattern--46944654-fcc1-4f63-9dad-628102376586,attack-pattern,DLL Search Order Hijacking,T1038
+attack-pattern--478aa214-2ca7-4ec0-9978-18798e514790,attack-pattern,New Service,T1050
+attack-pattern--47f2d673-ca62-47e9-929b-1b0be9657611,attack-pattern,Timestomp,T1070.006
+attack-pattern--4933e63b-9b77-476e-ab29-761bc5b7d15a,attack-pattern,Reflective Code Loading,T1620
+attack-pattern--494ab9f0-36e0-4b06-b10d-57285b040a06,attack-pattern,Wi-Fi Discovery,T1016.002
+attack-pattern--4a2975db-414e-4c0c-bd92-775987514b4b,attack-pattern,Ignore Process Interrupts,T1564.011
+attack-pattern--4a5b7ade-8bb5-4853-84ed-23f262002665,attack-pattern,Escape to Host,T1611
+attack-pattern--4ab929c6-ee2d-4fb5-aab4-b14be2ed7179,attack-pattern,Shortcut Modification,T1547.009
+attack-pattern--4ae4f953-fe58-4cc8-a327-33257e30a830,attack-pattern,Application Window Discovery,T1010
+attack-pattern--4b74a1d4-b0e9-4ef1-93f1-14ecc6e2f5b5,attack-pattern,Standard Cryptographic Protocol,T1032
+attack-pattern--4bc31b94-045b-4752-8920-aebaebdb6470,attack-pattern,Email Account,T1087.003
+attack-pattern--4be89c7c-ace6-4876-9377-c8d54cef3d63,attack-pattern,Hypervisor,T1062
+attack-pattern--4bed873f-0b7d-41d4-b93a-b6905d1f90b0,attack-pattern,Time Based Evasion,T1497.003
+attack-pattern--4bf5845d-a814-4490-bc5c-ccdee6043025,attack-pattern,AppCert DLLs,T1182
+attack-pattern--4cbc6a62-9e34-4f94-8a19-5c1a11392a49,attack-pattern,CMSTP,T1218.003
+attack-pattern--4d2a5b3e-340d-4600-9123-309dd63c9bf8,attack-pattern,SSH Hijacking,T1563.001
+attack-pattern--4eb28bed-d11a-4641-9863-c2ac017d910a,attack-pattern,Disable Windows Event Logging,T1562.002
+attack-pattern--4eeaf8a9-c86b-4954-a663-9555fb406466,attack-pattern,Scheduled Transfer,T1029
+attack-pattern--4f9ca633-15c5-463c-9724-bdcd54fde541,attack-pattern,SMB/Windows Admin Shares,T1021.002
+attack-pattern--4fd8a28b-4b3a-4cd6-a8cf-85ba5f824a7f,attack-pattern,Implant Internal Image,T1525
+attack-pattern--4fe28b27-b13c-453e-a386-c2ef362a573b,attack-pattern,Protocol Tunneling,T1572
+attack-pattern--4ff5d6a8-c062-4c68-a778-36fc5edd564f,attack-pattern,Control Panel,T1218.002
+attack-pattern--4ffc1794-ec3b-45be-9e52-42dbcb2af2de,attack-pattern,Network Address Translation Traversal,T1599.001
+attack-pattern--506f6f49-7045-4156-9007-7474cb44ad6d,attack-pattern,Upload Tool,T1608.002
+attack-pattern--5095a853-299c-4876-abd7-ac0050fb5462,attack-pattern,Security Support Provider,T1547.005
+attack-pattern--514ede4c-78b3-4d78-a38b-daddf6217a79,attack-pattern,Winlogon Helper DLL,T1004
+attack-pattern--519630c5-f03f-4882-825c-3af924935817,attack-pattern,Binary Padding,T1009
+attack-pattern--51a14c76-dd3b-440b-9c20-2bf91d25a814,attack-pattern,Use Alternate Authentication Material,T1550
+attack-pattern--51dea151-0898-4a45-967c-3ebee0420484,attack-pattern,Remote Desktop Protocol,T1076
+attack-pattern--51e54974-a541-4fb6-a61b-0518e4c6de41,attack-pattern,Threat Intel Vendors,T1597.001
+attack-pattern--51ea26b1-ff1e-4faa-b1a0-1114cd298c87,attack-pattern,Exfiltration Over Other Network Medium,T1011
+attack-pattern--52759bf1-fe12-4052-ace6-c5b0cf7dd7fd,attack-pattern,Network Device Configuration Dump,T1602.002
+attack-pattern--5282dd9a-d26d-4e16-88b7-7c0f4553daf4,attack-pattern,Gather Victim Identity Information,T1589
+attack-pattern--52d40641-c480-4ad5-81a3-c80ccaddf82d,attack-pattern,Authentication Package,T1131
+attack-pattern--52f3d5a6-8a0f-4f82-977e-750abf90d0b0,attack-pattern,Extra Window Memory Injection,T1181
+attack-pattern--5372c5fe-f424-4def-bcd5-d3a8e770f07b,attack-pattern,Disable or Modify System Firewall,T1562.004
+attack-pattern--53ac20cd-aca3-406e-9aa0-9fc7fdc60a5a,attack-pattern,Archive Collected Data,T1560
+attack-pattern--53bfc8bf-8f76-4cd7-8958-49a884ddb3ee,attack-pattern,Launchctl,T1152
+attack-pattern--543fceb5-cb92-40cb-aacf-6913d4db58bc,attack-pattern,SIP and Trust Provider Hijacking,T1553.003
+attack-pattern--54456690-84de-4538-9101-643e26437e09,attack-pattern,Domain Generation Algorithms,T1483
+attack-pattern--544b0346-29ad-41e1-a808-501bb4193f47,attack-pattern,Browser Session Hijacking,T1185
+attack-pattern--54a649ff-439a-41a4-9856-8d144a2551ba,attack-pattern,Remote Services,T1021
+attack-pattern--54b4c251-1f0e-4eba-ba6b-dbc7a6f6f06b,attack-pattern,Mail Protocols,T1071.003
+attack-pattern--54ca26f3-c172-4231-93e5-ccebcac2161f,attack-pattern,Hybrid Identity,T1556.007
+attack-pattern--5502c4e9-24ef-4d5f-8ee9-9e906c2f82c4,attack-pattern,Vulnerability Scanning,T1595.002
+attack-pattern--55bb4471-ff1f-43b4-88c1-c9384ec47abf,attack-pattern,Cloud API,T1059.009
+attack-pattern--55fc4df0-b42c-479a-b860-7a6761bcaad0,attack-pattern,Search Open Technical Databases,T1596
+attack-pattern--562e9b64-7239-493d-80f4-2bff900d9054,attack-pattern,Disable or Modify Linux Audit System,T1562.012
+attack-pattern--564998d8-ab3e-4123-93fb-eccaa6b9714a,attack-pattern,Rogue Domain Controller,T1207
+attack-pattern--565275d5-fcc3-4b66-b4e7-928e4cac6b8c,attack-pattern,Code Signing Policy Modification,T1553.006
+attack-pattern--56e0d8b8-3e25-49dd-9050-3aa252f5aa92,attack-pattern,Deploy Container,T1610
+attack-pattern--56fca983-1cf1-4fd1-bda0-5e170a37ab59,attack-pattern,File Deletion,T1107
+attack-pattern--56ff457d-5e39-492b-974c-dfd2b8603ffe,attack-pattern,Private Keys,T1145
+attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4,attack-pattern,Modify Registry,T1112
+attack-pattern--573ad264-1371-4ae0-8482-d2673b719dba,attack-pattern,Launch Daemon,T1543.004
+attack-pattern--57a3d31a-d04f-4663-b2da-7df8ec3f8c9d,attack-pattern,Cloud Infrastructure Discovery,T1580
+attack-pattern--58a3e6aa-4453-4cc8-a51f-4befe80b31a8,attack-pattern,Credentials from Web Browsers,T1555.003
+attack-pattern--58af3705-8740-4c68-9329-ec015a7013c2,attack-pattern,Path Interception by Search Order Hijacking,T1574.008
+attack-pattern--5909f20f-3c39-4795-be06-ef1ea40d350b,attack-pattern,Defacement,T1491
+attack-pattern--59bd0dec-f8b2-4b9a-9141-37a1e6899761,attack-pattern,Unused/Unsupported Cloud Regions,T1535
+attack-pattern--59ff91cd-1430-4075-8563-e6f15f4f9ff5,attack-pattern,DHCP Spoofing,T1557.003
+attack-pattern--5ad95aaa-49c1-4784-821d-2e83f47b079b,attack-pattern,AppleScript,T1155
+attack-pattern--5b0ad6f8-6a16-4966-a4ef-d09ea6e2a9f5,attack-pattern,Remote Service Session Hijacking,T1563
+attack-pattern--5bfccc3f-2326-4112-86cc-c1ece9d8a2b5,attack-pattern,Binary Padding,T1027.001
+attack-pattern--5d0d3609-d06d-49e1-b9c9-b544e0c618cb,attack-pattern,Web Shell,T1505.003
+attack-pattern--5d2be8b9-d24c-4e98-83bf-2f5f79477163,attack-pattern,Group Policy Modification,T1484.001
+attack-pattern--5e4a2073-9643-44cb-a0b5-e7f4048446c7,attack-pattern,Browser Information Discovery,T1217
+attack-pattern--60b508a1-6a5e-46b1-821a-9f7b78752abf,attack-pattern,Private Keys,T1552.004
+attack-pattern--60c4b628-4807-4b0b-bbf5-fdac8643c337,attack-pattern,Server,T1583.004
+attack-pattern--60d0c01d-e2bf-49dd-a453-f8a9c9fa6f65,attack-pattern,Windows Remote Management,T1021.006
+attack-pattern--613d08bc-e8f4-4791-80b0-c8b974340dfd,attack-pattern,Exfiltration Over Bluetooth,T1011.001
+attack-pattern--6151cbea-819b-455a-9fa6-99a1cc58797d,attack-pattern,Default Accounts,T1078.001
+attack-pattern--61afc315-860c-4364-825d-0d62b2e91edc,attack-pattern,Time Providers,T1547.003
+attack-pattern--62166220-e498-410f-a90a-19d4339d4e99,attack-pattern,Image File Execution Options Injection,T1183
+attack-pattern--62b8c999-dcc0-4755-bd69-09442d9359f5,attack-pattern,Rundll32,T1085
+attack-pattern--62dfd1ca-52d5-483c-a84b-d6e80bf94b7b,attack-pattern,Modify Existing Service,T1031
+attack-pattern--63220765-d418-44de-8fae-694b3912317d,attack-pattern,Trap,T1546.005
+attack-pattern--633a100c-b2c9-41bf-9be5-905c1b16c825,attack-pattern,Dynamic Linker Hijacking,T1574.006
+attack-pattern--635cbe30-392d-4e27-978e-66774357c762,attack-pattern,Local Account,T1136.001
+attack-pattern--64196062-5210-42c3-9a02-563a0d1797ef,attack-pattern,Communication Through Removable Media,T1092
+attack-pattern--6495ae23-3ab4-43c5-a94f-5638a2c31fd2,attack-pattern,Clear Windows Event Logs,T1070.001
+attack-pattern--65013dd2-bc61-43e3-afb5-a14c4fa7437a,attack-pattern,Email Accounts,T1585.002
+attack-pattern--650c784b-7504-4df7-ab2c-4ea882384d1e,attack-pattern,LLMNR/NBT-NS Poisoning and SMB Relay,T1557.001
+attack-pattern--65917ae0-b854-4139-83fe-bf2441cf0196,attack-pattern,File and Directory Permissions Modification,T1222
+attack-pattern--65f2d882-3f41-4d48-8a06-29af77ec9f90,attack-pattern,LSASS Memory,T1003.001
+attack-pattern--6636bc83-0611-45a6-b74f-1f3daf635b8e,attack-pattern,At (Linux),T1053.001
+attack-pattern--66f73398-8394-4711-85e5-34c8540b22a5,attack-pattern,Hooking,T1179
+attack-pattern--67073dde-d720-45ae-83da-b12d5e73ca3b,attack-pattern,Active Scanning,T1595
+attack-pattern--6747daa2-3533-4e78-8fb8-446ebb86448a,attack-pattern,Plist Modification,T1547.011
+attack-pattern--67720091-eee3-4d2d-ae16-8264567f6f5b,attack-pattern,Abuse Elevation Control Mechanism,T1548
+attack-pattern--677569f9-a8b0-459e-ab24-7f18091fa7bf,attack-pattern,Create Process with Token,T1134.002
+attack-pattern--6831414d-bb70-42b7-8030-d4e06b2660c9,attack-pattern,Setuid and Setgid,T1548.001
+attack-pattern--6836813e-8ec8-4375-b459-abb388cb1a35,attack-pattern,Winlogon Helper DLL,T1547.004
+attack-pattern--6856ddd6-2df3-4379-8b87-284603c189c3,attack-pattern,System Firmware,T1019
+attack-pattern--68a0c5ed-bee2-4513-830d-5b0d650139bd,attack-pattern,Distributed Component Object Model,T1021.003
+attack-pattern--68c96494-1a50-403e-8844-69a6af278c68,attack-pattern,Change Default File Association,T1042
+attack-pattern--68f7e3a1-f09f-4164-9a62-16b648a0dd5a,attack-pattern,Regsvr32,T1117
+attack-pattern--692074ae-bb62-4a5e-a735-02cb6bde458c,attack-pattern,Password Spraying,T1110.003
+attack-pattern--69b8fd78-40e8-4600-ae4d-662c9d7afdb3,attack-pattern,External Proxy,T1090.002
+attack-pattern--69e5226d-05dc-4f15-95d7-44f5ed78d06e,attack-pattern,Web Portal Capture,T1056.003
+attack-pattern--69f897fd-12a9-4c89-ad6a-46d2f3c38262,attack-pattern,Email Addresses,T1589.002
+attack-pattern--6a3be63a-64c5-4678-a036-03ff8fc35300,attack-pattern,Re-opened Applications,T1164
+attack-pattern--6a5848a8-6201-4a2c-8a6a-ca5af8c6f3df,attack-pattern,Indicator Blocking,T1054
+attack-pattern--6a5d222a-a7e0-4656-b110-782c33098289,attack-pattern,Spearphishing Voice,T1598.004
+attack-pattern--6aabc5ec-eae6-422c-8311-38d45ee9838a,attack-pattern,Redundant Access,T1108
+attack-pattern--6aac77c4-eaf2-4366-8c13-ce50ab951f38,attack-pattern,Spearphishing Attachment,T1193
+attack-pattern--6add2ab5-2711-4e9d-87c8-7a0be8531530,attack-pattern,Cached Domain Credentials,T1003.005
+attack-pattern--6b57dc31-b814-4a03-8706-28bc20d739c4,attack-pattern,SSH Authorized Keys,T1098.004
+attack-pattern--6be14413-578e-46c1-8304-310762b3ecd5,attack-pattern,Kernel Modules and Extensions,T1215
+attack-pattern--6c174520-beea-43d9-aac6-28fb77f3e446,attack-pattern,Security Support Provider,T1101
+attack-pattern--6c2957f9-502a-478c-b1dd-d626c0659413,attack-pattern,Network Security Appliances,T1590.006
+attack-pattern--6d4a7fb3-5a24-42be-ae61-6728a2b581f6,attack-pattern,Image File Execution Options Injection,T1546.012
+attack-pattern--6e3bd510-6b33-41a4-af80-2d80f3ee0071,attack-pattern,Odbcconf,T1218.008
+attack-pattern--6e561441-8431-4773-a9b8-ccf28ef6a968,attack-pattern,Search Engines,T1593.002
+attack-pattern--6e6845c2-347a-4a6f-a2d1-b74a18ebd352,attack-pattern,LSASS Driver,T1177
+attack-pattern--6ee2dc99-91ad-4534-a7d8-a649358c331f,attack-pattern,Business Relationships,T1591.002
+attack-pattern--6fa224c7-5091-4595-bf15-3fc9fe2f2c7c,attack-pattern,Temporary Elevated Cloud Access,T1548.005
+attack-pattern--6faf650d-bf31-4eb4-802d-1000cf38efaf,attack-pattern,Video Capture,T1125
+attack-pattern--6fb6408c-0db3-41d9-a3a1-a32e5f16454e,attack-pattern,Gatekeeper Bypass,T1144
+attack-pattern--6ff403bc-93e3-48be-8687-e102fdba8c88,attack-pattern,Software Packing,T1045
+attack-pattern--7007935a-a8a7-4c0b-bd98-4e85be8ed197,attack-pattern,Process Doppelgänging,T1055.013
+attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0,attack-pattern,System Network Configuration Discovery,T1016
+attack-pattern--70857657-bd0b-4695-ad3e-b13f92cac1b4,attack-pattern,Delete Cloud Instance,T1578.003
+attack-pattern--70910fbd-58dc-4c1c-8c48-814d11fcd022,attack-pattern,Code Repositories,T1593.003
+attack-pattern--70d81154-b187-45f9-8ec5-295d01255979,attack-pattern,Executable Installer File Permissions Weakness,T1574.005
+attack-pattern--70e52b04-2a0c-4cea-9d18-7149f1df9dc5,attack-pattern,Accessibility Features,T1546.008
+attack-pattern--723e3a2b-ca0d-4daa-ada8-82ea35d3733a,attack-pattern,PowerShell Profile,T1504
+attack-pattern--72b5ef57-325c-411b-93ca-a3ca6fa17e31,attack-pattern,SIP and Trust Provider Hijacking,T1198
+attack-pattern--72b74d71-8169-42aa-92e0-e7b04b9f5a08,attack-pattern,Account Discovery,T1087
+attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea,attack-pattern,Proxy,T1090
+attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830,attack-pattern,Command and Scripting Interpreter,T1059
+attack-pattern--74d2a63f-3c7b-4852-92da-02d8fbab16da,attack-pattern,Indicator Blocking,T1562.006
+attack-pattern--7610cada-1499-41a4-b3dd-46467b68d177,attack-pattern,Domain Account,T1136.002
+attack-pattern--76551c52-b111-4884-bc47-ff3e728f0156,attack-pattern,Employee Names,T1589.003
+attack-pattern--767dbf9e-df3f-45cb-8998-4903ab5f80c0,attack-pattern,Domain Trust Discovery,T1482
+attack-pattern--768dce68-8d0d-477a-b01d-0eea98b963a1,attack-pattern,Golden Ticket,T1558.001
+attack-pattern--772bc7a8-a157-42cc-8728-d648e25c7fe7,attack-pattern,Component Object Model and Distributed COM,T1175
+attack-pattern--774a3188-6ba9-4dc4-879d-d54ee48a5ce9,attack-pattern,Automated Exfiltration,T1020
+attack-pattern--774ad5bb-2366-4c13-a8a9-65e50b292e7c,attack-pattern,Client Configurations,T1592.004
+attack-pattern--77532a55-c283-4cd2-bc5d-2d0b65e9d88c,attack-pattern,Disable or Modify Cloud Firewall,T1562.007
+attack-pattern--77eae145-55db-4519-8ae5-77b0c7215d69,attack-pattern,Right-to-Left Override,T1036.002
+attack-pattern--7807d3a4-a885-4639-a786-c1ed41484970,attack-pattern,Malware,T1588.001
+attack-pattern--791481f8-e96a-41be-b089-a088763083d4,attack-pattern,Component Firmware,T1542.002
+attack-pattern--799ace7f-e227-4411-baa0-8868704f2a69,attack-pattern,Indicator Removal,T1070
+attack-pattern--79a4052e-1a89-4b09-aea6-51f1d11fe19c,attack-pattern,Exfiltration Over Symmetric Encrypted Non-C2 Protocol,T1048.001
+attack-pattern--79a47ad0-fc3b-4821-9f01-a026b1ddba21,attack-pattern,Office Template Macros,T1137.001
+attack-pattern--79da0971-3147-4af6-a4f5-e8cd447cd795,attack-pattern,Virtual Private Server,T1583.003
+attack-pattern--7ad38ef1-381a-406d-872a-38b136eb5ecc,attack-pattern,Confluence,T1213.001
+attack-pattern--7b211ac6-c815-4189-93a9-ab415deca926,attack-pattern,Pass the Ticket,T1550.003
+attack-pattern--7b50a1d3-4ca7-45d1-989d-a6503f04bfe1,attack-pattern,Container Administration Command,T1609
+attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18,attack-pattern,File and Directory Discovery,T1083
+attack-pattern--7bd9c723-2f78-4309-82c5-47cad406572b,attack-pattern,Dynamic Resolution,T1568
+attack-pattern--7bdca9d5-d500-4d7d-8c52-5fd47baf4c0c,attack-pattern,Masquerade Task or Service,T1036.004
+attack-pattern--7c0f17c9-1af6-4628-9cbd-9e45482dd605,attack-pattern,Asynchronous Procedure Call,T1055.004
+attack-pattern--7c46b364-8496-4234-8a56-f7e6727e21e1,attack-pattern,Traffic Duplication,T1020.001
+attack-pattern--7c93aa74-4bc0-4a9e-90ea-f25f86301566,attack-pattern,Application Shimming,T1138
+attack-pattern--7d20fff9-8751-404e-badd-ccd71bda0236,attack-pattern,Plist File Modification,T1647
+attack-pattern--7d57b371-10c2-45e5-b3cc-83a8fb380e4c,attack-pattern,AppCert DLLs,T1546.009
+attack-pattern--7d6f590f-544b-45b4-9a42-e0805f342af3,attack-pattern,CMSTP,T1191
+attack-pattern--7d751199-05fa-4a72-920f-85df4506c76c,attack-pattern,Multi-hop Proxy,T1188
+attack-pattern--7d77a07d-02fe-4e88-8bd9-e9c008c01bf0,attack-pattern,Email Forwarding Rule,T1114.003
+attack-pattern--7dd95ff6-712e-4056-9626-312ea4ab4c5e,attack-pattern,Data Staged,T1074
+attack-pattern--7de1f7ac-5d0c-4c9c-8873-627202205331,attack-pattern,Steal or Forge Authentication Certificates,T1649
+attack-pattern--7decb26c-715c-40cf-b7e0-026f7d7cc215,attack-pattern,Device Registration,T1098.005
+attack-pattern--7e150503-88e7-4861-866b-ff1ac82c4475,attack-pattern,System Network Connections Discovery,T1049
+attack-pattern--7e3beebd-8bfe-4e7b-a892-e44ab06a75f9,attack-pattern,Compromise Infrastructure,T1584
+attack-pattern--7e7c2fba-7cca-486c-9582-4c1bb2851961,attack-pattern,Mark-of-the-Web Bypass,T1553.005
+attack-pattern--7efba77e-3bc4-4ca5-8292-d8201dcd64b5,attack-pattern,Disable Crypto Hardware,T1600.002
+attack-pattern--7f0ca133-88c4-40c6-a62f-b3083a7fbc2e,attack-pattern,Pre-OS Boot,T1542
+attack-pattern--7fd87010-3a00-4da3-b905-410525e8ec44,attack-pattern,Scripting,T1064
+attack-pattern--800f9819-7007-4540-a520-40e655876800,attack-pattern,Build Image on Host,T1612
+attack-pattern--804c042c-cfe6-449e-bc1a-ba0a998a70db,attack-pattern,Shared Webroot,T1051
+attack-pattern--806a49c4-970d-43f9-9acc-ac0ee11e6662,attack-pattern,Portable Executable Injection,T1055.002
+attack-pattern--808e6329-ca91-4b87-ac2d-8eadc5f8f327,attack-pattern,Verclsid,T1218.012
+attack-pattern--81033c3b-16a4-46e4-8fed-9b030dd03c4a,attack-pattern,Compromise Accounts,T1586
+attack-pattern--810aa4ad-61c9-49cb-993f-daa06199421d,attack-pattern,Launchctl,T1569.001
+attack-pattern--810d8072-afb6-4a56-9ee7-86379ac4a6f3,attack-pattern,Botnet,T1584.005
+attack-pattern--818302b2-d640-477b-bf88-873120ce85c4,attack-pattern,Network Device CLI,T1059.008
+attack-pattern--8187bd2a-866f-4457-9009-86b0ddedffa3,attack-pattern,Bash History,T1552.003
+attack-pattern--824add00-99a1-4b15-9a2d-6c5683b7b497,attack-pattern,Downgrade Attack,T1562.010
+attack-pattern--8252f135-ed26-4ce1-ae61-f26e94429a19,attack-pattern,XPC Services,T1559.003
+attack-pattern--82caa33e-d11a-433a-94ea-9b5a5fbef81d,attack-pattern,Virtualization/Sandbox Evasion,T1497
+attack-pattern--830c9528-df21-472c-8c14-a036bf17d665,attack-pattern,Web Service,T1102
+attack-pattern--837f9164-50af-4ac0-8219-379d8a74cefc,attack-pattern,Credentials In Files,T1552.001
+attack-pattern--83a766f8-1501-4b3a-a2de-2e2849e8dfc1,attack-pattern,DNS Calculation,T1568.003
+attack-pattern--840a987a-99bd-4a80-a5c9-0cb2baa6cade,attack-pattern,Mshta,T1218.005
+attack-pattern--84601337-6a55-4ad7-9c35-79e0d1ea2ab3,attack-pattern,Login Items,T1547.015
+attack-pattern--84771bc3-f6a0-403e-b144-01af70e5fda0,attack-pattern,Stage Capabilities,T1608
+attack-pattern--84ae8255-b4f4-4237-b5c5-e717405a9701,attack-pattern,Link Target,T1608.005
+attack-pattern--84e02621-8fdf-470f-bd58-993bb6a89d91,attack-pattern,Multi-Stage Channels,T1104
+attack-pattern--851e071f-208d-4c79-adc6-5974c85c78f3,attack-pattern,Financial Theft,T1657
+attack-pattern--853c4192-4311-43e1-bfbb-b11b14911852,attack-pattern,Execution Guardrails,T1480
+attack-pattern--8565825b-21c8-4518-b75e-cbc4c717a156,attack-pattern,Cloud Storage Object Discovery,T1619
+attack-pattern--861b8fd2-57f3-4ee1-ab5d-c19c3b8c7a4a,attack-pattern,Web Cookies,T1606.001
+attack-pattern--866d0d6d-02c6-42bd-aa2f-02907fdc0969,attack-pattern,Log Enumeration,T1654
+attack-pattern--86850eff-2729-40c3-b85e-c4af26da4a2d,attack-pattern,Token Impersonation/Theft,T1134.001
+attack-pattern--86a96bf6-cf8b-411c-aaeb-8959944d64f7,attack-pattern,Exfiltration to Code Repository,T1567.001
+attack-pattern--8861073d-d1b8-4941-82ce-dce621d398f0,attack-pattern,Cloud Services,T1021.007
+attack-pattern--8868cb5b-d575-4a60-acb2-07d37389a2fd,attack-pattern,Port Knocking,T1205.001
+attack-pattern--887274fc-2d63-4bdc-82f3-fae56d1d5fdc,attack-pattern,LNK Icon Smuggling,T1027.012
+attack-pattern--88d31120-5bc7-4ce3-a9c0-7cf147be8e54,attack-pattern,Web Services,T1583.006
+attack-pattern--890c9858-598c-401d-a4d5-c67ebcdd703a,attack-pattern,Steal Application Access Token,T1528
+attack-pattern--8982a661-d84c-48c0-b4ec-1db29c6cf3bc,attack-pattern,Spearphishing Attachment,T1598.002
+attack-pattern--8a2f40cf-8325-47f9-96e4-b1ca4c7389bd,attack-pattern,Additional Cloud Credentials,T1098.001
+attack-pattern--8c32eb4d-805f-4fc5-bf60-c4d476c131b5,attack-pattern,User Execution,T1204
+attack-pattern--8c41090b-aa47-4331-986b-8c9a51a91103,attack-pattern,Internal Defacement,T1491.001
+attack-pattern--8c4aef43-48d5-49aa-b2af-c0cd58d30c3d,attack-pattern,Hidden Users,T1564.002
+attack-pattern--8cdeb020-e31e-4f88-a582-f53dcfbda819,attack-pattern,Make and Impersonate Token,T1134.003
+attack-pattern--8d7bd4f5-3a89-4453-9c82-2c8894d5655e,attack-pattern,Group Policy Preferences,T1552.006
+attack-pattern--8df54627-376c-487c-a09c-7d2b5620f56e,attack-pattern,Control Panel Items,T1196
+attack-pattern--8e350c1d-ac79-4b5c-bd4e-7476d7e84ec5,attack-pattern,Exfiltration Over Asymmetric Encrypted Non-C2 Protocol,T1048.002
+attack-pattern--8f104855-e5b7-4077-b1f5-bc3103b41abe,attack-pattern,Cloud Account,T1087.004
+attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580,attack-pattern,Process Discovery,T1057
+attack-pattern--8f504411-cb96-4dac-a537-8d2bb7679c59,attack-pattern,Impair Command History Logging,T1562.003
+attack-pattern--8faedf87-dceb-4c35-b2a2-7286f59a3bc3,attack-pattern,Launchd,T1053.004
+attack-pattern--90c4a591-d02d-490b-92aa-619d9701ac04,attack-pattern,Network Provider DLL,T1556.008
+attack-pattern--910906dd-8c0a-475a-9cc1-5e029e2fad58,attack-pattern,Windows Management Instrumentation Event Subscription,T1546.003
+attack-pattern--91177e6d-b616-4a03-ba4b-f3b32f7dda75,attack-pattern,CDNs,T1596.004
+attack-pattern--91541e7e-b969-40c6-bbd8-1b5352ec2938,attack-pattern,User Activity Based Checks,T1497.002
+attack-pattern--91ce1ede-107f-4d8b-bf4c-735e8789c94b,attack-pattern,Input Prompt,T1141
+attack-pattern--926d8cfd-1d0d-4da2-ab49-3ca10ec3f3b5,attack-pattern,Cloud Accounts,T1585.003
+attack-pattern--92a78814-b191-47ca-909c-1ccfe3777414,attack-pattern,Software Deployment Tools,T1072
+attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d,attack-pattern,Exfiltration Over C2 Channel,T1041
+attack-pattern--93591901-3172-4e94-abf8-6034ab26f44a,attack-pattern,Parent PID Spoofing,T1134.004
+attack-pattern--937e4772-8441-4e4a-8bf0-8d447d667e23,attack-pattern,Gather Victim Org Information,T1591
+attack-pattern--9422fc14-1c43-410d-ab0f-a709b76c72dc,attack-pattern,Registry Run Keys / Startup Folder,T1060
+attack-pattern--94cb00a4-b295-4d06-aa2b-5653b9c1be9c,attack-pattern,Forge Web Credentials,T1606
+attack-pattern--954a1639-f2d6-407d-aef3-4917622ca493,attack-pattern,Multi-Factor Authentication Request Generation,T1621
+attack-pattern--960c3c86-1480-4d72-b4e0-8c242e84a5c5,attack-pattern,Compromise Client Software Binary,T1554
+attack-pattern--9664ad0e-789e-40ac-82e2-d7b17fbe8fb3,attack-pattern,Chat Messages,T1552.008
+attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736,attack-pattern,PowerShell,T1059.001
+attack-pattern--970cdb5c-02fb-4c38-b17e-d6327cf3c810,attack-pattern,Shortcut Modification,T1023
+attack-pattern--98034fef-d9fb-4667-8dc4-2eab6231724c,attack-pattern,Change Default File Association,T1546.001
+attack-pattern--98be40f2-c86b-4ade-b6fc-4964932040e5,attack-pattern,VDSO Hijacking,T1055.014
+attack-pattern--99709758-2b96-48f2-a68a-ad7fbd828091,attack-pattern,Multiband Communication,T1026
+attack-pattern--9a60a291-8960-4387-8a4a-2ab5c18bb50b,attack-pattern,File Transfer Protocols,T1071.002
+attack-pattern--9b52fca7-1a36-4da0-b62d-da5bd83b4d69,attack-pattern,Component Object Model Hijacking,T1122
+attack-pattern--9b99b83a-1aac-4e29-b975-b374950551a3,attack-pattern,Accessibility Features,T1015
+attack-pattern--9c306d8d-cde7-4b4c-b6e8-d0bb16caca36,attack-pattern,Exploitation for Credential Access,T1212
+attack-pattern--9c45eaa3-8604-4780-8988-b5074dbb9ecd,attack-pattern,Emond,T1546.014
+attack-pattern--9c99724c-a483-4d60-ad9d-7f004e42e8e8,attack-pattern,One-Way Communication,T1102.003
+attack-pattern--9d48cab2-7929-4812-ad22-f536665f0109,attack-pattern,Gather Victim Network Information,T1590
+attack-pattern--9db0cf3a-a3c9-4012-8268-123b9db6fd82,attack-pattern,Exploitation of Remote Services,T1210
+attack-pattern--9ddc2534-e91c-4dab-a8f6-43dab81e8142,attack-pattern,Parent PID Spoofing,T1502
+attack-pattern--9e09ddb2-1746-4448-9cad-7f8b41777d6d,attack-pattern,Keychain,T1142
+attack-pattern--9e7452df-5144-4b6e-b04a-b66dd4016747,attack-pattern,Internal Spearphishing,T1534
+attack-pattern--9e80ddfb-ce32-4961-a778-ca6a10cfae72,attack-pattern,Sudo,T1169
+attack-pattern--9e8b28c9-35fe-48ac-a14d-e6cc032dcbcd,attack-pattern,Services File Permissions Weakness,T1574.010
+attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279,attack-pattern,Registry Run Keys / Startup Folder,T1547.001
+attack-pattern--9fa07bef-9c81-421e-a8e5-ad4366c5a925,attack-pattern,Trusted Relationship,T1199
+attack-pattern--a009cb25-4801-4116-9105-80a91cf15c1b,attack-pattern,Cloud Account,T1136.003
+attack-pattern--a01bf75f-00b2-4568-a58f-565ff9bf202b,attack-pattern,Local Groups,T1069.001
+attack-pattern--a0a189c8-d3bd-4991-bf6f-153d185ee373,attack-pattern,LC_MAIN Hijacking,T1149
+attack-pattern--a0e6614a-7740-4b24-bd65-f1bde09fc365,attack-pattern,Search Open Websites/Domains,T1593
+attack-pattern--a10641f4-87b4-45a3-a906-92a149cb2c27,attack-pattern,Account Manipulation,T1098
+attack-pattern--a127c32c-cbb0-4f9d-be07-881a792408ec,attack-pattern,Mshta,T1170
+attack-pattern--a19e86f8-1c0a-4fea-8407-23b73d615776,attack-pattern,Exfiltration Over Alternative Protocol,T1048
+attack-pattern--a1b52199-c8c5-438a-9ded-656f1d0888c6,attack-pattern,Kernel Modules and Extensions,T1547.006
+attack-pattern--a2029942-0a85-4947-b23c-ca434698171d,attack-pattern,GUI Input Capture,T1056.002
+attack-pattern--a257ed11-ff3b-4216-8c9d-3938ef57064c,attack-pattern,Pass the Ticket,T1097
+attack-pattern--a2fdce72-04b2-409a-ac10-cc1695f4fce0,attack-pattern,Tool,T1588.002
+attack-pattern--a3e1e6c5-9c74-4fc0-a16c-a9d228c17829,attack-pattern,Exfiltration over USB,T1052.001
+attack-pattern--a4657bc9-d22f-47d2-a7b7-dd6ec33f3dde,attack-pattern,KernelCallbackTable,T1574.013
+attack-pattern--a51eb150-93b1-484b-a503-e51453b127a4,attack-pattern,Search Closed Sources,T1597
+attack-pattern--a542bac9-7bc1-4da7-9a09-96f69e23cc21,attack-pattern,Systemd Timers,T1053.006
+attack-pattern--a62a8db3-f23a-4d8f-afd6-9dbc77e7813b,attack-pattern,Phishing,T1566
+attack-pattern--a6525aec-acc4-47fe-92f9-b9b4de4b9228,attack-pattern,Graphical User Interface,T1061
+attack-pattern--a6557c75-798f-42e4-be70-ab4502e0a3bc,attack-pattern,ROMMONkit,T1542.004
+attack-pattern--a6937325-9321-4e2e-bb2b-3ed2d40b2a9d,attack-pattern,Compiled HTML File,T1218.001
+attack-pattern--a750a9f6-0bde-4bb3-9aae-1e2786e9780c,attack-pattern,Network Share Connection Removal,T1070.005
+attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d,attack-pattern,Multi-hop Proxy,T1090.003
+attack-pattern--a93494bb-4b80-4ea1-8695-3236a49916fd,attack-pattern,Brute Force,T1110
+attack-pattern--a9d4b653-6915-42af-98b2-5758c4ceee56,attack-pattern,Unix Shell,T1059.004
+attack-pattern--a9e2cea0-c805-4bf8-9e31-f5f0513a3634,attack-pattern,Outlook Forms,T1137.003
+attack-pattern--aa8bfbc9-78dc-41a4-a03b-7453e0fdccda,attack-pattern,Dylib Hijacking,T1157
+attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579,attack-pattern,Disable or Modify Tools,T1562.001
+attack-pattern--ac9e6b22-11bf-45d7-9181-c1cb08360931,attack-pattern,Data Manipulation,T1565
+attack-pattern--acd0ba37-7ba9-4cc5-ac61-796586cd856d,attack-pattern,Inter-Process Communication,T1559
+attack-pattern--ad255bfe-a9e6-4b52-a258-8d3462abe842,attack-pattern,Data Obfuscation,T1001
+attack-pattern--ae676644-d2d2-41b7-af7e-9bed1b55898c,attack-pattern,Data from Network Shared Drive,T1039
+attack-pattern--ae797531-3219-49a4-bccf-324ad7a4c7b2,attack-pattern,Web Services,T1584.006
+attack-pattern--ae7f3575-0a5e-427e-991b-fe03ad44c754,attack-pattern,Modify System Image,T1601
+attack-pattern--aedfca76-3b30-4866-b2aa-0f1d7fd1e4b6,attack-pattern,Hijack Execution Flow,T1574
+attack-pattern--b0533c6e-8fea-4788-874f-b799cacc4b92,attack-pattern,Indicator Removal from Tools,T1027.005
+attack-pattern--b0c74ef9-c61e-4986-88cb-78da98a355ec,attack-pattern,Malicious Image,T1204.003
+attack-pattern--b17a1a56-e99c-403c-8948-561df0cffe81,attack-pattern,Valid Accounts,T1078
+attack-pattern--b18eae87-b469-4e14-b454-b171b416bc18,attack-pattern,Non-Standard Port,T1571
+attack-pattern--b1ccd744-3f78-4a0e-9bb2-2002057f7928,attack-pattern,Social Media Accounts,T1585.001
+attack-pattern--b2001907-166b-4d71-bb3c-9d26c871de09,attack-pattern,DLL Side-Loading,T1073
+attack-pattern--b200542e-e877-4395-875b-cf1a44537ca4,attack-pattern,Process Hollowing,T1055.012
+attack-pattern--b21c3b2d-02e6-45b1-980b-e69051040839,attack-pattern,Exploitation for Privilege Escalation,T1068
+attack-pattern--b22e5153-ac28-4cc6-865c-2054e36285cb,attack-pattern,Resource Forking,T1564.009
+attack-pattern--b24e2a20-3b3d-4bf0-823b-1ed765398fb0,attack-pattern,Account Access Removal,T1531
+attack-pattern--b2d03cea-aec1-45ca-9744-9ee583c1e1cc,attack-pattern,Credential Stuffing,T1110.004
+attack-pattern--b39d03cb-7b98-41c4-a878-c40c1a913dc0,attack-pattern,Kerberoasting,T1208
+attack-pattern--b3d682b6-98f2-4fb0-aa3b-b4df007ca70a,attack-pattern,Obfuscated Files or Information,T1027
+attack-pattern--b4409cd8-0da9-46e1-a401-a241afd4d1cc,attack-pattern,Multi-Factor Authentication,T1556.006
+attack-pattern--b4694861-542c-48ea-9eb1-10d356e7140a,attack-pattern,Remote Email Collection,T1114.002
+attack-pattern--b46a801b-fd98-491c-a25a-bca25d6e3001,attack-pattern,IIS Components,T1505.004
+attack-pattern--b4b7458f-81f2-4d38-84be-1c5ba0167a52,attack-pattern,Invalid Code Signature,T1036.001
+attack-pattern--b5327dd1-6bf9-4785-a199-25bcbd1f4a9d,attack-pattern,Run Virtual Instance,T1564.006
+attack-pattern--b53dbcc6-147d-48bb-9df4-bcb8bb808ff6,attack-pattern,Trap,T1154
+attack-pattern--b6075259-dba3-44e9-87c7-e954f37ec0d5,attack-pattern,Password Policy Discovery,T1201
+attack-pattern--b6301b64-ef57-4cce-bb0b-77026f14a8db,attack-pattern,Event Triggered Execution,T1546
+attack-pattern--b63a34e8-0a61-4c97-a23b-bf8a2ed812e2,attack-pattern,Unix Shell Configuration Modification,T1546.004
+attack-pattern--b77cf5f3-6060-475d-bd60-40ccbf28fdc2,attack-pattern,Forced Authentication,T1187
+attack-pattern--b7dc639b-24cd-482d-a7f1-8897eda21023,attack-pattern,SID-History Injection,T1134.005
+attack-pattern--b8017880-4b1e-42de-ad10-ae7ac6705166,attack-pattern,Network Boundary Bridging,T1599
+attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0,attack-pattern,Data Encrypted for Impact,T1486
+attack-pattern--b82f7d37-b826-4ec9-9391-8e121c78aed7,attack-pattern,Disk Content Wipe,T1488
+attack-pattern--b83e166d-13d7-4b52-8677-dff90c548fd7,attack-pattern,Subvert Trust Controls,T1553
+attack-pattern--b84903f0-c7d5-435d-a69e-de47cc3578c0,attack-pattern,Elevated Execution with Prompt,T1548.004
+attack-pattern--b85f6ce5-81e8-4f36-aff2-3df9d02a9c9d,attack-pattern,Firmware,T1592.003
+attack-pattern--b8902400-e6c5-4ba2-95aa-2d35b442b118,attack-pattern,Encrypted Channel,T1573
+attack-pattern--b8c5c9dd-a662-479d-9428-ae745872537c,attack-pattern,Password Filter DLL,T1174
+attack-pattern--b8cfed42-6a8a-4989-ad72-541af74475ec,attack-pattern,Authentication Package,T1547.002
+attack-pattern--b97f1d35-4249-4486-a6b5-ee60ccf24fab,attack-pattern,Regsvr32,T1218.010
+attack-pattern--b9f5dbe2-4c55-4fc5-af2e-d42c1d182ec4,attack-pattern,Data Compressed,T1002
+attack-pattern--ba04e672-da86-4e69-aa15-0eca5db25f43,attack-pattern,Exfiltration to Text Storage Sites,T1567.003
+attack-pattern--ba8e391f-14b5-496f-81f2-2d5ecd646c1c,attack-pattern,Credentials in Files,T1081
+attack-pattern--baf60e1a-afe5-4d31-830f-1b1ba2351884,attack-pattern,Software,T1592.002
+attack-pattern--bb0e0cb5-f3e4-4118-a4cb-6bf13bfbc9f2,attack-pattern,Netsh Helper DLL,T1128
+attack-pattern--bb5a00de-e086-4859-a231-fa793f6797e2,attack-pattern,Input Capture,T1056
+attack-pattern--bb5e59c4-abe7-40c7-8196-e373cb1e5974,attack-pattern,Spearphishing Voice,T1566.004
+attack-pattern--bbc3cba7-84ae-410d-b18b-16750731dfa2,attack-pattern,Exploits,T1587.004
+attack-pattern--bbe5b322-e2af-4a5e-9625-a4e62bf84ed3,attack-pattern,Social Media,T1593.001
+attack-pattern--bc0f5e80-91c0-4e04-9fbb-e4e332c85dae,attack-pattern,Component Object Model Hijacking,T1546.015
+attack-pattern--bc76d0a4-db11-4551-9ac4-01a469cfb161,attack-pattern,Credentials,T1589.001
+attack-pattern--bd369cd9-abb8-41ce-b5bb-fff23ee86c00,attack-pattern,Compromise Software Supply Chain,T1195.002
+attack-pattern--bd5b58a4-a52d-4a29-bc0d-3f1d3968eb6b,attack-pattern,Rename System Utilities,T1036.003
+attack-pattern--be055942-6e63-49d7-9fa1-9cb7d8a8f3f4,attack-pattern,Bidirectional Communication,T1102.002
+attack-pattern--be2dcee9-a7a7-4e38-afd6-21b31ecc3d63,attack-pattern,Exploitation for Client Execution,T1203
+attack-pattern--bed04f7d-e48a-4e76-bd0f-4c57fe31fc46,attack-pattern,Wordlist Scanning,T1595.003
+attack-pattern--bef8aaee-961d-4359-a308-4c2182bcedff,attack-pattern,Spoof Security Alerting,T1562.011
+attack-pattern--bf147104-abf9-4221-95d1-e81585859441,attack-pattern,Outlook Home Page,T1137.004
+attack-pattern--bf176076-b789-408e-8cba-7275e81c0ada,attack-pattern,Asymmetric Cryptography,T1573.002
+attack-pattern--bf1b6176-597c-4600-bfcd-ac989670f96b,attack-pattern,Exfiltration to Cloud Storage,T1567.002
+attack-pattern--bf90d72c-c00b-45e3-b3aa-68560560d4c5,attack-pattern,Lateral Tool Transfer,T1570
+attack-pattern--bf96a5a3-3bce-43b7-8597-88545984c07b,attack-pattern,Path Interception by Unquoted Path,T1574.009
+attack-pattern--c071d8c1-3b3a-4f22-9407-ca4e96921069,attack-pattern,Install Digital Certificate,T1608.003
+attack-pattern--c0a384a4-9a25-40e1-97b6-458388474bc8,attack-pattern,Local Job Scheduling,T1168
+attack-pattern--c0df6533-30ee-4a4a-9c6d-17af5abdf0b2,attack-pattern,Setuid and Setgid,T1166
+attack-pattern--c0dfe7b0-b873-4618-9ff8-53e31f70907f,attack-pattern,Startup Items,T1037.005
+attack-pattern--c16e5409-ee53-4d79-afdc-4099dc9292df,attack-pattern,Web Shell,T1100
+attack-pattern--c1a452f3-6499-4c12-b7e9-a6a0a102af76,attack-pattern,Process Doppelgänging,T1186
+attack-pattern--c1b11bf7-c68e-4fbf-a95b-28efbe7953bb,attack-pattern,SSH Hijacking,T1184
+attack-pattern--c1b68a96-3c48-49ea-a6c0-9b27359f9c19,attack-pattern,System Language Discovery,T1614.001
+attack-pattern--c21d5a77-d422-4a69-acd7-2c53c1faa34b,attack-pattern,Non-Application Layer Protocol,T1095
+attack-pattern--c23b740b-a42b-47a1-aec2-9d48ddd547ff,attack-pattern,Pass the Hash,T1075
+attack-pattern--c2e147a9-d1a8-4074-811a-d8789202d916,attack-pattern,Steganography,T1027.003
+attack-pattern--c2f59d25-87fe-44aa-8f83-e8e59d077bf5,attack-pattern,DNS Server,T1584.002
+attack-pattern--c325b232-d5bc-4dde-a3ec-71f3db9e8adc,attack-pattern,Protocol Impersonation,T1001.003
+attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896,attack-pattern,Query Registry,T1012
+attack-pattern--c3888c54-775d-4b2f-b759-75a2ececcbfd,attack-pattern,Data Transfer Size Limits,T1030
+attack-pattern--c3bce4f4-9795-46c6-976e-8676300bbc39,attack-pattern,Windows Remote Management,T1028
+attack-pattern--c3c8c916-2f3c-4e71-94b2-240bdfc996f0,attack-pattern,Web Session Cookie,T1550.004
+attack-pattern--c3d4bdd9-2cfe-4a80-9d0c-07a29ecdce8f,attack-pattern,Domain Accounts,T1078.002
+attack-pattern--c48a67ee-b657-45c1-91bf-6cdbe27205f8,attack-pattern,Regsvcs/Regasm,T1218.009
+attack-pattern--c4ad009b-6e13-4419-8d21-918a1652de02,attack-pattern,Path Interception,T1034
+attack-pattern--c5e31fb5-fcbd-48a4-af8c-5a6ed5b932e5,attack-pattern,Web Session Cookie,T1506
+attack-pattern--c615231b-f253-4f58-9d47-d5b4cbdb6839,attack-pattern,Install Root Certificate,T1553.004
+attack-pattern--c63a348e-ffc2-486a-b9d9-d7f11ec54d99,attack-pattern,Network Logon Script,T1037.003
+attack-pattern--c675646d-e204-4aa8-978d-e3d6d65885c4,attack-pattern,Endpoint Denial of Service,T1499
+attack-pattern--c726e0a2-a57a-4b7b-a973-d0f013246617,attack-pattern,Compile After Delivery,T1027.004
+attack-pattern--c848fcf7-6b62-4bde-8216-b6c157d48da0,attack-pattern,Uncommonly Used Port,T1065
+attack-pattern--c877e33f-1df6-40d6-b1e7-ce70f16f4979,attack-pattern,System Location Discovery,T1614
+attack-pattern--c898c4b5-bf36-4e6e-a4ad-5b8c4c13e35b,attack-pattern,VBA Stomping,T1564.007
+attack-pattern--c8e87b83-edbb-48d4-9295-4974897525b7,attack-pattern,BITS Jobs,T1197
+attack-pattern--c92e3d68-2349-49e4-a341-7edca2deff96,attack-pattern,MSBuild,T1127.001
+attack-pattern--c9e0c59e-162e-40a4-b8b1-78fab4329ada,attack-pattern,Impersonation,T1656
+attack-pattern--ca00366b-83a1-4c7b-a0ce-8ff950a7c87f,attack-pattern,Modify Cloud Compute Configurations,T1578.005
+attack-pattern--ca1a3f50-5ebd-41f8-8320-2c7d6a6e88be,attack-pattern,Bypass User Account Control,T1088
+attack-pattern--ca205a36-c1ad-488b-aa6c-ab34bdd3a36b,attack-pattern,Runtime Data Manipulation,T1494
+attack-pattern--ca9d3402-ada3-484d-876a-d717bd6e05f2,attack-pattern,Domain Fronting,T1090.004
+attack-pattern--cabe189c-a0e3-4965-a473-dcff00f17213,attack-pattern,ARP Cache Poisoning,T1557.002
+attack-pattern--cacc40da-4c9e-462c-80d5-fd70a178b12d,attack-pattern,Disable or Modify Cloud Logs,T1562.008
+attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384,attack-pattern,Security Software Discovery,T1518.001
+attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0,attack-pattern,Hidden Window,T1564.003
+attack-pattern--cc1e737c-236c-4e3b-83ba-32039a626ef8,attack-pattern,Transmitted Data Manipulation,T1493
+attack-pattern--cc3502b5-30cc-4473-ad48-42d51a6ef6d1,attack-pattern,Python,T1059.006
+attack-pattern--cc723aff-ec88-40e3-a224-5af9fd983cc4,attack-pattern,Identify Roles,T1591.004
+attack-pattern--cc7b8c4e-9be0-47ca-b0bb-83915ec3ee2f,attack-pattern,Data Encoding,T1132
+attack-pattern--cc89ecbd-3d33-4a41-bcca-001e702d18fd,attack-pattern,AppInit DLLs,T1546.010
+attack-pattern--cca0ccb6-a068-4574-a722-b1556f86833a,attack-pattern,Phishing for Information,T1598
+attack-pattern--cd25c1b4-935c-4f0e-ba8d-552f28bc4783,attack-pattern,Resource Hijacking,T1496
+attack-pattern--cdfc5f0a-9bb9-4352-b896-553cfa2d8fd8,attack-pattern,Establish Accounts,T1585
+attack-pattern--ce0687a0-e692-4b77-964a-0784a8e54ff1,attack-pattern,Obtain Capabilities,T1588
+attack-pattern--ce4b7013-640e-48a9-b501-d0025a95f4bf,attack-pattern,Screensaver,T1546.002
+attack-pattern--ce73ea43-8e77-47ba-9c11-5e9c9c58b9ff,attack-pattern,Hidden Users,T1147
+attack-pattern--cf1c2504-433f-4c4e-a1f8-91de45a0318c,attack-pattern,Create Cloud Instance,T1578.002
+attack-pattern--cf7b3a06-8b42-4c33-bbe9-012120027925,attack-pattern,Compile After Delivery,T1500
+attack-pattern--cfb525cc-5494-401d-a82b-2539ca46a561,attack-pattern,Cloud Secrets Management Stores,T1555.006
+attack-pattern--cff94884-3b1c-4987-a70b-6d5643c621c3,attack-pattern,Code Repositories,T1213.003
+attack-pattern--d0613359-5781-4fd2-b5be-c269270be1f6,attack-pattern,Transmitted Data Manipulation,T1565.002
+attack-pattern--d0b4fcdb-d67d-4ed2-99ce-788b12f8c0f4,attack-pattern,/etc/passwd and /etc/shadow,T1003.008
+attack-pattern--d10cbd34-42e3-45c0-84d2-535a09849584,attack-pattern,Launch Agent,T1543.001
+attack-pattern--d157f9d2-d09a-4efa-bb2a-64963f94e253,attack-pattern,System Services,T1569
+attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62,attack-pattern,Windows Command Shell,T1059.003
+attack-pattern--d201d4cc-214d-4a74-a1ba-b3fa09fd4591,attack-pattern,Proc Memory,T1055.009
+attack-pattern--d21a2069-23d5-4043-ad6d-64f6b644cb1a,attack-pattern,Compiled HTML File,T1223
+attack-pattern--d21bb61f-08ad-4dc1-b001-81ca6cb79954,attack-pattern,Acquire Access,T1650
+attack-pattern--d245808a-7086-4310-984a-a84aaaa43f8f,attack-pattern,Patch System Image,T1601.001
+attack-pattern--d273434a-448e-4598-8e14-607f4a0d5e27,attack-pattern,Silver Ticket,T1558.002
+attack-pattern--d28ef391-8ed4-45dc-bc4a-2f43abf54416,attack-pattern,Data from Information Repositories,T1213
+attack-pattern--d2c4e5ea-dbdf-4113-805a-b1e2a337fb33,attack-pattern,Clear Persistence,T1070.009
+attack-pattern--d3046a90-580c-4004-8208-66915bc29830,attack-pattern,Clear Command History,T1146
+attack-pattern--d336b553-5da9-46ca-98a8-0b23f49fb447,attack-pattern,Windows Credential Manager,T1555.004
+attack-pattern--d376668f-b208-42de-b1f5-fdfe0ad4b753,attack-pattern,Emond,T1519
+attack-pattern--d3df754e-997b-4cf9-97d4-70feb3120847,attack-pattern,Spearphishing via Service,T1194
+attack-pattern--d40239b3-05ff-46d8-9bdd-b46d13463ef9,attack-pattern,Hardware Additions,T1200
+attack-pattern--d456de47-a16f-4e46-8980-e67478a12dcb,attack-pattern,Server Software Component,T1505
+attack-pattern--d45a3d09-b3cf-48f4-9f0f-f521ee5cb05c,attack-pattern,Data Destruction,T1485
+attack-pattern--d467bc38-284b-4a00-96ac-125f447799fc,attack-pattern,Non-Standard Encoding,T1132.002
+attack-pattern--d4b96d2c-1032-4b22-9235-2b5b649d0605,attack-pattern,Domain Controller Authentication,T1556.001
+attack-pattern--d4bdbdea-eaec-4071-b4f9-5105e12ea4b6,attack-pattern,Transfer Data to Cloud Account,T1537
+attack-pattern--d4dc46e3-5ba5-45b9-8204-010867cacfcb,attack-pattern,HTML Smuggling,T1027.006
+attack-pattern--d50955c2-272d-4ac8-95da-10c29dda1c48,attack-pattern,Reversible Encryption,T1556.005
+attack-pattern--d511a6f6-4a33-41d5-bc95-c343875d1377,attack-pattern,Command Obfuscation,T1027.010
+attack-pattern--d519cfd5-f3a8-43a9-a846-ed0bb40672b1,attack-pattern,Install Root Certificate,T1130
+attack-pattern--d54416bd-0803-41ca-870a-ce1af7c05638,attack-pattern,Data Encrypted,T1022
+attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c,attack-pattern,File Deletion,T1070.004
+attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6,attack-pattern,Drive-by Compromise,T1189
+attack-pattern--d74c4a7e-ffbf-432f-9365-7ebf1f787cab,attack-pattern,Network Denial of Service,T1498
+attack-pattern--d94b3ae9-8059-4989-8e9f-ea0f601f80a7,attack-pattern,Cloud Administration Command,T1651
+attack-pattern--da051493-ae9c-4b1b-9760-c009c46c9b56,attack-pattern,Installer Packages,T1546.016
+attack-pattern--db8f5003-3b20-48f0-9b76-123e44208120,attack-pattern,Scanning IP Blocks,T1595.001
+attack-pattern--dc27c2ec-c5f9-4228-ba57-d67b590bda93,attack-pattern,Hidden Files and Directories,T1158
+attack-pattern--dc31fe1e-d722-49da-8f5f-92c7b5aff534,attack-pattern,Template Injection,T1221
+attack-pattern--dca670cf-eeec-438f-8185-fd959d9ef211,attack-pattern,RC Scripts,T1037.004
+attack-pattern--dcaa092b-7de9-4a21-977f-7fcb77e89c48,attack-pattern,Access Token Manipulation,T1134
+attack-pattern--dce31a00-1e90-4655-b0f9-e2e71a748a87,attack-pattern,Time Providers,T1209
+attack-pattern--dd43c543-bb85-4a6f-aa6e-160d90d06a49,attack-pattern,Multi-Factor Authentication Interception,T1111
+attack-pattern--dd901512-6e37-4155-943b-453e3777b125,attack-pattern,Launch Agent,T1159
+attack-pattern--deb98323-e13f-4b0c-8d94-175379069062,attack-pattern,Software Packing,T1027.002
+attack-pattern--df1bc34d-1634-4c93-b89e-8120994fce77,attack-pattern,Serverless,T1584.007
+attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161,attack-pattern,Web Protocols,T1071.001
+attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67,attack-pattern,Visual Basic,T1059.005
+attack-pattern--dfebc3b7-d19d-450b-81c7-6dafe4184c04,attack-pattern,Hidden File System,T1564.005
+attack-pattern--dfefe2ed-4389-4318-8762-f0272b350a1b,attack-pattern,Systemd Service,T1543.002
+attack-pattern--e0033c16-a07e-48aa-8204-7c3ca669998c,attack-pattern,RDP Hijacking,T1563.002
+attack-pattern--e01be9c5-e763-4caf-aeb7-000b416aef67,attack-pattern,Create Account,T1136
+attack-pattern--e0232cb0-ded5-4c2e-9dc7-2893142a5c11,attack-pattern,XDG Autostart Entries,T1547.013
+attack-pattern--e196b5c5-8118-4a1c-ab8a-936586ce3db5,attack-pattern,Server,T1584.004
+attack-pattern--e24fcba8-2557-4442-a139-1ee2f2e784db,attack-pattern,Cloud Service Discovery,T1526
+attack-pattern--e2907cea-4b43-4ed7-a570-0fdf0fbeea00,attack-pattern,Space after Filename,T1151
+attack-pattern--e358d692-23c0-4a31-9eb6-ecc13a8d7735,attack-pattern,Remote System Discovery,T1018
+attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88,attack-pattern,Network Service Discovery,T1046
+attack-pattern--e3b168bd-fcd7-439e-9382-2e6c2f63514d,attack-pattern,Domain Properties,T1590.001
+attack-pattern--e3b6daca-e963-4a69-aee6-ed4fd653ad58,attack-pattern,Software Discovery,T1518
+attack-pattern--e49920b0-6c54-40c1-9571-73723653205f,attack-pattern,Cloud Service Dashboard,T1538
+attack-pattern--e49ee9d2-0d98-44ef-85e5-5d3100065744,attack-pattern,Thread Local Storage,T1055.005
+attack-pattern--e4dc8c01-417f-458d-9ee0-bb0617c1b391,attack-pattern,Debugger Evasion,T1622
+attack-pattern--e51137a5-1cdc-499e-911a-abaedaa5ac86,attack-pattern,Space after Filename,T1036.006
+attack-pattern--e5cc9e7a-e61a-46a1-b869-55fb6eab058e,attack-pattern,Re-opened Applications,T1547.007
+attack-pattern--e5d550f3-2202-4634-85f2-4a200a1d49b3,attack-pattern,SEO Poisoning,T1608.006
+attack-pattern--e624264c-033a-424d-9fd7-fc9c3bbdb03e,attack-pattern,Pass the Hash,T1550.002
+attack-pattern--e6415f09-df0e-48de-9aba-928c902b7549,attack-pattern,Exfiltration Over Physical Medium,T1052
+attack-pattern--e64c62cf-9cd7-4a14-94ec-cdaac43ab44b,attack-pattern,DLL Side-Loading,T1574.002
+attack-pattern--e6919abc-99f9-4c6c-95a5-14761e7b2add,attack-pattern,Ingress Tool Transfer,T1105
+attack-pattern--e74de37c-a829-446c-937d-56a44f0e9306,attack-pattern,Additional Email Delegate Permissions,T1098.002
+attack-pattern--e7cbc1de-1f79-48ee-abfd-da1241c65a15,attack-pattern,Code Signing Certificates,T1588.003
+attack-pattern--e7eab98d-ae11-4491-bd28-a53ba875865a,attack-pattern,Network Share Connection Removal,T1126
+attack-pattern--e848506b-8484-4410-8017-3d235a52f5b3,attack-pattern,Serverless Execution,T1648
+attack-pattern--e906ae4d-1d3a-4675-be23-22f7311c0da4,attack-pattern,Windows Management Instrumentation Event Subscription,T1084
+attack-pattern--e99ec083-abdd-48de-ad87-4dbf6f8ba2a4,attack-pattern,Launch Daemon,T1160
+attack-pattern--ea016b56-ae0e-47fe-967a-cc0ad51af67f,attack-pattern,Ptrace System Calls,T1055.008
+attack-pattern--ea071aa0-8f17-416f-ab0d-2bab7e79003d,attack-pattern,Power Settings,T1653
+attack-pattern--ea4c2f9c-9df1-477c-8c42-6da1118f2ac4,attack-pattern,Dynamic API Resolution,T1027.007
+attack-pattern--eb062747-2193-45de-8fa2-e62549c37ddf,attack-pattern,Remote Desktop Protocol,T1021.001
+attack-pattern--eb125d40-0b2d-41ac-a71a-3229241c2cd3,attack-pattern,Logon Script (Windows),T1037.001
+attack-pattern--eb2cb5cb-ae87-4de0-8c35-da2a17aafb99,attack-pattern,ListPlanting,T1055.015
+attack-pattern--ebb42bbe-62d7-47d7-a55f-3b08b61d792d,attack-pattern,Domain Policy Modification,T1484
+attack-pattern--ebbe170d-aa74-4946-8511-9921243415a3,attack-pattern,XSL Script Processing,T1220
+attack-pattern--ec4be82f-940c-4dcb-87fe-2bbdd17c692f,attack-pattern,Scan Databases,T1596.005
+attack-pattern--ec8fc7e2-b356-455c-8db5-2e37be158e7d,attack-pattern,Hidden Files and Directories,T1564.001
+attack-pattern--ed2e45f9-d338-4eb2-8ce5-3a2e03323bc1,attack-pattern,Create Snapshot,T1578.001
+attack-pattern--ed730f20-0e44-48b9-85f8-0e2adeb76867,attack-pattern,Determine Physical Locations,T1591.001
+attack-pattern--ed7efd4d-ce28-4a19-a8e6-c58011eb2c7a,attack-pattern,Office Test,T1137.002
+attack-pattern--edadea33-549c-4ed1-9783-8f5a5853cbdf,attack-pattern,Develop Capabilities,T1587
+attack-pattern--edbe24e9-aec4-4994-ac75-6a6bc7f1ddd0,attack-pattern,Dynamic Data Exchange,T1173
+attack-pattern--edf91964-b26e-4b4a-9600-ccacd7d7df24,attack-pattern,NTDS,T1003.003
+attack-pattern--ee7ff928-801c-4f34-8a99-3df965e581a5,attack-pattern,SNMP (MIB Dump),T1602.001
+attack-pattern--eec23884-3fa1-4d8a-ac50-6f104d51e235,attack-pattern,Steganography,T1001.002
+attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9,attack-pattern,Malicious Link,T1204.001
+attack-pattern--f005e783-57d4-4837-88ad-dbe7faee1c51,attack-pattern,Application Access Token,T1550.001
+attack-pattern--f0589bc3-a6ae-425a-a3d5-5659bfee07f4,attack-pattern,LSASS Driver,T1547.008
+attack-pattern--f1951e8a-500e-4a26-8803-76d95c4554b4,attack-pattern,Service Execution,T1569.002
+attack-pattern--f232fa7a-025c-4d43-abc7-318e81a73d65,attack-pattern,Cloud Accounts,T1078.004
+attack-pattern--f244b8dd-af6c-4391-a497-fc03627ce995,attack-pattern,Environmental Keying,T1480.001
+attack-pattern--f24faf46-3b26-4dbb-98f2-63460498e433,attack-pattern,Fallback Channels,T1008
+attack-pattern--f2857333-11d4-45bf-b064-2c28d8525be5,attack-pattern,NTFS File Attributes,T1564.004
+attack-pattern--f2877f7f-9a4c-4251-879f-1224e3006bee,attack-pattern,Kerberoasting,T1558.003
+attack-pattern--f2d44246-91f1-478a-b6c8-1227e0ca109d,attack-pattern,NTFS File Attributes,T1096
+attack-pattern--f303a39a-6255-4b89-aecc-18c4d8ca7163,attack-pattern,DCSync,T1003.006
+attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077,attack-pattern,System Time Discovery,T1124
+attack-pattern--f3d95a1f-bba2-44ce-9af7-37866cd63fd0,attack-pattern,At,T1053.002
+attack-pattern--f44731de-ea9f-406d-9b83-30ecbb9b4392,attack-pattern,Service Execution,T1035
+attack-pattern--f4599aa0-4f85-4a32-80ea-fc39dc965945,attack-pattern,Dynamic-link Library Injection,T1055.001
+attack-pattern--f4882e23-8aa7-4b12-b28a-b349c12ee9e0,attack-pattern,PowerShell,T1086
+attack-pattern--f4b843c1-7e92-4701-8fed-ce82f8be2636,attack-pattern,Exploits,T1588.005
+attack-pattern--f4c1826f-a322-41cd-9557-562100848c84,attack-pattern,Modify Authentication Process,T1556
+attack-pattern--f5946b5e-9408-485f-a7f7-b5efc88909b6,attack-pattern,Credential API Hooking,T1056.004
+attack-pattern--f5bb433e-bdf6-4781-84bc-35e97e43be89,attack-pattern,Firmware Corruption,T1495
+attack-pattern--f5d8eed6-48a9-4cdf-a3d7-d1ffa99c3d2a,attack-pattern,Inhibit System Recovery,T1490
+attack-pattern--f63fe421-b1d1-45c0-b8a7-02cd16ff2bed,attack-pattern,Netsh Helper DLL,T1546.007
+attack-pattern--f6ad61ee-65f3-4bd0-a3f5-2f0accb36317,attack-pattern,Spearphishing via Service,T1566.003
+attack-pattern--f6dacc85-b37d-458e-b58d-74fc4bbf5755,attack-pattern,Internal Proxy,T1090.001
+attack-pattern--f6fe9070-7a65-49ea-ae72-76292f42cebe,attack-pattern,System Script Proxy Execution,T1216
+attack-pattern--f72eb8a8-cd4c-461d-a814-3f862befbf00,attack-pattern,Custom Command and Control Protocol,T1094
+attack-pattern--f7827069-0bf2-4764-af4f-23fae0d181b7,attack-pattern,Dead Drop Resolver,T1102.001
+attack-pattern--f792d02f-813d-402b-86a5-ab98cb391d3b,attack-pattern,InstallUtil,T1118
+attack-pattern--f7c0689c-4dbd-489b-81be-7cb7c7079ade,attack-pattern,Junk Data,T1001.001
+attack-pattern--f870408c-b1cd-49c7-a5c7-0ef0fc496cc6,attack-pattern,Spearphishing Service,T1598.001
+attack-pattern--f879d51c-5476-431c-aedf-f14d207e4d1e,attack-pattern,Commonly Used Port,T1043
+attack-pattern--f8ef3a62-3f44-40a4-abca-761ab235c436,attack-pattern,Container API,T1552.007
+attack-pattern--f9cc4d06-775f-4ee1-b401-4e2cc0da30ba,attack-pattern,Domains,T1584.001
+attack-pattern--f9e9365a-9ca2-4d9c-8e7c-050d73d1101a,attack-pattern,SQL Stored Procedures,T1505.001
+attack-pattern--fa44a152-ac48-441e-a524-dd7b04b8adcd,attack-pattern,Network Device Authentication,T1556.004
+attack-pattern--fb640c43-aa6b-431e-a961-a279010424ac,attack-pattern,Disk Content Wipe,T1561.001
+attack-pattern--fb8d023d-45be-47e9-bc51-f56bcae6435b,attack-pattern,Exfiltration Over Unencrypted Non-C2 Protocol,T1048.003
+attack-pattern--fc742192-19e3-466c-9eb5-964a97b29490,attack-pattern,Dylib Hijacking,T1574.004
+attack-pattern--fc74ba38-dc98-461f-8611-b3dbf9978e3d,attack-pattern,Downgrade System Image,T1601.002
+attack-pattern--fdc47f44-dd32-4b99-af5f-209f556f63c2,attack-pattern,Local Accounts,T1078.003
+attack-pattern--fe926152-f431-4baf-956c-4ad3cb0bf23b,attack-pattern,Exploitation for Defense Evasion,T1211
+attack-pattern--ff25900d-76d5-449b-a351-8824e62fc81b,attack-pattern,Trusted Developer Utilities Proxy Execution,T1127
+attack-pattern--ff73aa03-0090-4464-83ac-f89e233c02bc,attack-pattern,System Shutdown/Reboot,T1529
+attack-pattern--ffbcfdb0-de22-4106-9ed3-fc23c8a01407,attack-pattern,MMC,T1218.014
+attack-pattern--ffe59ad3-ad9b-4b9f-b74f-5beb3c309dc1,attack-pattern,Process Argument Spoofing,T1564.010
+attack-pattern--ffe742ed-9100-4686-9e00-c331da544787,attack-pattern,Windows Admin Shares,T1077
+attack-pattern--ffeb0780-356e-4261-b036-cfb6bd234335,attack-pattern,COR_PROFILER,T1574.012
+campaign--0257b35b-93ef-4a70-80dd-ad5258e6045b,campaign,Operation Dream Job,C0022
+campaign--26d9ebae-de59-427f-ae9a-349456bae4b1,campaign,Frankenstein,C0001
+campaign--37764c78-2a99-46d1-a7ea-6454b9bf93a0,campaign,Operation Sharpshooter,C0013
+campaign--4553292d-12c6-4a93-934d-12160370d4e0,campaign,Operation Honeybee,C0006
+campaign--4603cf2f-06d0-4970-9c5d-5071b08c817f,campaign,Operation Dust Storm,C0016
+campaign--46421788-b6e1-4256-b351-f8beffd1afba,campaign,2015 Ukraine Electric Power Attack,C0028
+campaign--4c840263-bbda-440d-a22b-674679ddebf1,campaign,Operation Spalax,C0005
+campaign--519ee082-8ab6-439b-988f-a8a3f02c8d30,campaign,C0018,C0018
+campaign--712e38c3-a656-426a-9b3b-a6bfb63294c6,campaign,C0021,C0021
+campaign--78068e68-4124-4243-b6f4-76e4e5be8a06,campaign,C0015,C0015
+campaign--7854c1a0-f06c-4876-98a4-4bbd34751b05,campaign,Operation Ghost,C0023
+campaign--808d6b30-df4e-4341-8248-724da4bac650,campaign,SolarWinds Compromise,C0024
+campaign--8d2bc130-89fe-466e-a4f9-6bce6129c2b8,campaign,FunnyDream,C0007
+campaign--93c23946-49af-41f4-ac03-40f9ffc7419b,campaign,Operation CuckooBees,C0012
+campaign--aa73efef-1418-4dbe-b43c-87a498e97234,campaign,2016 Ukraine Electric Power Attack,C0025
+campaign--ab747e62-1bcb-479f-a26b-1cd39d413d81,campaign,C0010,C0010
+campaign--ae407e32-87e0-4d92-8705-3ae25d504d8a,campaign,Night Dragon,C0002
+campaign--b03d5112-e23a-4ac8-add0-be7502d24eff,campaign,Operation Wocao,C0014
+campaign--b4e5a4a9-f3be-4631-ba8f-da6ebb067fac,campaign,C0011,C0011
+campaign--ba6dfa37-f401-4140-88b0-8938f2895e61,campaign,C0017,C0017
+campaign--c89fa3ff-4773-4daf-8aec-d8f43f10116e,campaign,C0026,C0026
+campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa,campaign,C0027,C0027
+campaign--f9cc545e-b0ef-4b92-8884-a3a4427609f6,campaign,CostaRicto,C0004
+course-of-action--00d7d21b-69d6-4797-88a2-c86f3fc97651,course-of-action,Password Filter DLL Mitigation,T1174
+course-of-action--02f0f92a-0a51-4c94-9bda-6437b9a93f22,course-of-action,Space after Filename Mitigation,T1151
+course-of-action--03c0c586-50ed-45a7-95f4-f496d7eb5330,course-of-action,HISTCONTROL Mitigation,T1148
+course-of-action--0472af99-f25c-4abe-9fce-010fa3450e72,course-of-action,Credentials in Files Mitigation,T1081
+course-of-action--06160d81-62be-46e5-aa37-4b9c645ffa31,course-of-action,Exploitation for Credential Access Mitigation,T1212
+course-of-action--0640214c-95af-4c04-a574-2a1ba6dda00b,course-of-action,Query Registry Mitigation,T1012
+course-of-action--06824aa2-94a5-474c-97f6-57c2e983d885,course-of-action,Login Item Mitigation,T1162
+course-of-action--073cc04d-ac46-4f5a-85d7-83a91ecd6a19,course-of-action,Setuid and Setgid Mitigation,T1166
+course-of-action--08e02f67-ea09-4f77-a70b-414963c29fc2,course-of-action,Compiled HTML File Mitigation,T1223
+course-of-action--0b3ee33e-430b-476f-9525-72d120c90f8d,course-of-action,Data Destruction Mitigation,T1488
+course-of-action--0bc3ce00-83bc-4a92-a042-79ffbc6af259,course-of-action,Windows Management Instrumentation Event Subscription Mitigation,T1084
+course-of-action--1022138b-497c-40e6-b53a-13351cbd4090,course-of-action,File System Permissions Weakness Mitigation,T1044
+course-of-action--10571bf2-8073-4edf-a71c-23bad225532e,course-of-action,AppInit DLLs Mitigation,T1103
+course-of-action--121b2863-5b97-4538-acb3-f8aae070ec13,course-of-action,Launch Agent Mitigation,T1159
+course-of-action--12241367-a8b7-49b4-b86e-2236901ba50c,course-of-action,Network Intrusion Prevention,M1031
+course-of-action--12c13879-b7bd-4bc5-8def-aacec386d432,course-of-action,Regsvr32 Mitigation,T1117
+course-of-action--12cba7de-0a22-4a56-b51e-c514c67c3b43,course-of-action,Hidden Users Mitigation,T1147
+course-of-action--13cad982-35e3-4340-9095-7124b653df4b,course-of-action,Data from Information Repositories Mitigation,T1213
+course-of-action--14b63e6b-7531-4476-9e60-02cc5db48b62,course-of-action,Exploitation of Remote Services Mitigation,T1210
+course-of-action--15437c6d-b998-4a36-be41-4ace3d54d266,course-of-action,Vulnerability Scanning,M1016
+course-of-action--159b4ee4-8fa1-44a5-b095-2973f3c7e25e,course-of-action,Domain Trust Discovery Mitigation,T1482
+course-of-action--160af6af-e733-4b6a-a04a-71c620ac0930,course-of-action,Third-party Software Mitigation,T1072
+course-of-action--16a8ac85-a06f-460f-ad22-910167bd7332,course-of-action,Binary Padding Mitigation,T1009
+course-of-action--16dd03c6-0dfb-4d77-89cd-9ff3ee6e533d,course-of-action,Audio Capture Mitigation,T1123
+course-of-action--16f144e4-c780-4ed2-98b4-55d14e2dfa44,course-of-action,System Owner/User Discovery Mitigation,T1033
+course-of-action--1881da33-fdf2-4eea-afd0-e04caf9c000f,course-of-action,Peripheral Device Discovery Mitigation,T1120
+course-of-action--19edfa02-1a5f-47e4-ad82-3288f57f64cf,course-of-action,Clipboard Data Mitigation,T1115
+course-of-action--1a7f5bd3-f6ee-4bd7-b949-2f3632ad6158,course-of-action,Gatekeeper Bypass Mitigation,T1144
+course-of-action--1c0711c8-2a73-48a1-893d-ff88bcd23824,course-of-action,Scheduled Transfer Mitigation,T1029
+course-of-action--1c0b39f9-a0c5-42b2-abd8-dc8f1eb74e67,course-of-action,Browser Bookmark Discovery Mitigation,T1217
+course-of-action--1c6bc7f3-d517-4971-aed4-8f939090846b,course-of-action,Port Monitors Mitigation,T1013
+course-of-action--1dcaeb21-9348-42ea-950a-f842aaf1ae1f,course-of-action,Limit Access to Resource Over Network,M1035
+course-of-action--1e4ef2c7-ee96-4484-9baa-3b5777561301,course-of-action,AppleScript Mitigation,T1155
+course-of-action--1e614ba5-2fc5-4464-b512-2ceafb14d76d,course-of-action,Indirect Command Execution Mitigation,T1202
+course-of-action--1f34230d-b6ae-4dc7-8599-78c18820bd21,course-of-action,Network Share Discovery Mitigation,T1135
+course-of-action--20a2baeb-98c2-4901-bad7-dc62d0a03dea,course-of-action,Remote Data Storage,M1029
+course-of-action--20f6a9df-37c4-4e20-9e47-025983b1b39d,course-of-action,Filter Network Traffic,M1037
+course-of-action--21da4fd4-27ad-4e9c-b93d-0b9b14d02c96,course-of-action,Restrict Web-Based Content,M1021
+course-of-action--23061b40-a7b6-454f-8950-95d5ff80331c,course-of-action,Install Root Certificate Mitigation,T1130
+course-of-action--23843cff-f7b9-4659-a7b7-713ef347f547,course-of-action,Limit Software Installation,M1033
+course-of-action--23bff3ce-021c-4e7a-9aee-60fd40bc7c6c,course-of-action,Sudo Mitigation,T1169
+course-of-action--24478001-2eb3-4b06-a02e-96b3d61d27ec,course-of-action,Multilayer Encryption Mitigation,T1079
+course-of-action--245075bc-f992-4d89-af8c-834c53d403f4,course-of-action,Transmitted Data Manipulation Mitigation,T1493
+course-of-action--2497ac92-e751-4391-82c6-1b86e34d0294,course-of-action,Automated Exfiltration Mitigation,T1020
+course-of-action--25d5e1d8-c6fb-4735-bc57-115a21222f4b,course-of-action,Application Window Discovery Mitigation,T1010
+course-of-action--25dc1ce8-eb55-4333-ae30-a7cb4f5894a1,course-of-action,Application Developer Guidance,M1013
+course-of-action--25e53928-6f33-49b7-baee-8180578286f6,course-of-action,System Firmware Mitigation,T1019
+course-of-action--28adf6fd-ab6c-4553-9aa7-cef18a191f33,course-of-action,Data Compressed Mitigation,T1002
+course-of-action--2995bc22-2851-4345-ad19-4e7e295be264,course-of-action,Limit Hardware Installation,M1034
+course-of-action--2a4f6c11-a4a7-4cb9-b0ef-6ae1bb3a718a,course-of-action,User Training,M1017
+course-of-action--2a8de25c-f743-4348-b101-3ee33ab5871b,course-of-action,Data Encrypted Mitigation,T1022
+course-of-action--2ace01f8-67c8-43eb-b7b1-a7b9f1fe67e1,course-of-action,File and Directory Discovery Mitigation,T1083
+course-of-action--2c2ad92a-d710-41ab-a996-1db143bb4808,course-of-action,User Account Control,M1052
+course-of-action--2c3ce852-06a2-40ee-8fe6-086f6402a739,course-of-action,Hypervisor Mitigation,T1062
+course-of-action--2d704e56-e689-4011-b989-bf4e025a8727,course-of-action,Plist Modification Mitigation,T1150
+course-of-action--2f316f6c-ae42-44fe-adf8-150989e0f6d3,course-of-action,Operating System Configuration,M1028
+course-of-action--308855d1-078b-47ad-8d2a-8f9b2713ffb5,course-of-action,Windows Admin Shares Mitigation,T1077
+course-of-action--313c8b20-4d49-40c1-9ac0-4c573aca28f3,course-of-action,Winlogon Helper DLL Mitigation,T1004
+course-of-action--337172b1-b003-4034-8a3f-1d89a71da628,course-of-action,Runtime Data Manipulation Mitigation,T1494
+course-of-action--33f76731-b840-446f-bee0-53687dad24d9,course-of-action,Image File Execution Options Injection Mitigation,T1183
+course-of-action--34d6a2ef-370e-4d21-a34b-6208b7c78f31,course-of-action,Process Doppelgänging Mitigation,T1186
+course-of-action--34efb2fd-4dc2-40d4-a564-0c147c85034d,course-of-action,File Deletion Mitigation,T1107
+course-of-action--37a3f3f5-76e6-43fe-b935-f1f494c95725,course-of-action,Exploitation for Defense Evasion Mitigation,T1211
+course-of-action--383caaa3-c46a-4f61-b2e3-653eb132f0e7,course-of-action,Email Collection Mitigation,T1114
+course-of-action--388606d3-f38f-45bf-885d-a9dc9df3c8a8,course-of-action,Disabling Security Tools Mitigation,T1089
+course-of-action--39706d54-0d06-4a25-816a-78cc43455100,course-of-action,Data from Removable Media Mitigation,T1025
+course-of-action--399d9038-b100-43ef-b28d-a5065106b935,course-of-action,Standard Non-Application Layer Protocol Mitigation,T1095
+course-of-action--3a41b366-cfd6-4af2-a6e7-3c6e3c4ebcef,course-of-action,Control Panel Items Mitigation,T1196
+course-of-action--3a476d83-43eb-4fad-9b75-b1febd834e3d,course-of-action,Pass the Ticket Mitigation,T1097
+course-of-action--3bd2cf87-1ceb-4317-9aee-3e7dc713261b,course-of-action,Domain Generation Algorithms Mitigation,T1483
+course-of-action--3e7018e9-7389-48e7-9208-0bdbcbba9483,course-of-action,Clear Command History Mitigation,T1146
+course-of-action--3e9f8875-d2f7-4380-a578-84393bd3b025,course-of-action,Windows Remote Management Mitigation,T1028
+course-of-action--3efe43d1-6f3f-4fcb-ab39-4a730971f70b,course-of-action,Data Backup,M1053
+course-of-action--402e92cd-5608-4f4b-9a34-a2c962e4bcd7,course-of-action,Launch Daemon Mitigation,T1160
+course-of-action--417fed8c-bd76-48b5-90a2-a88882a95241,course-of-action,Service Stop Mitigation,T1489
+course-of-action--41cff8e9-fd05-408e-b3d5-d98c54c20bcf,course-of-action,SSH Hijacking Mitigation,T1184
+course-of-action--429a5c0c-e132-45c0-a4aa-c1f736c92a1c,course-of-action,Data Encrypted for Impact Mitigation,T1486
+course-of-action--4320b080-9ae9-4541-9b8b-bcd0961dbbbd,course-of-action,Data Staged Mitigation,T1074
+course-of-action--43b366a4-b5ff-4d4e-8a3b-f09a9d2faff5,course-of-action,Shared Webroot Mitigation,T1051
+course-of-action--44155d14-ca75-4fdf-b033-ab3d732e2884,course-of-action,Kernel Modules and Extensions Mitigation,T1215
+course-of-action--4490fee2-5c70-4db3-8db5-8d88767dbd55,course-of-action,Credentials in Registry Mitigation,T1214
+course-of-action--45e7f570-6a0b-4095-bf02-4bca05da6bae,course-of-action,Masquerading Mitigation,T1036
+course-of-action--4689b9fb-dca4-473e-831b-34717ad50c97,course-of-action,Web Service Mitigation,T1102
+course-of-action--46acc565-11aa-40ba-b629-33ba0ab9b07b,course-of-action,Resource Hijacking Mitigation,T1496
+course-of-action--46b7ef91-4e1d-43c5-a2eb-00fa9444f6f4,course-of-action,Network Sniffing Mitigation,T1040
+course-of-action--47e0e9fe-96ce-4f65-8bb1-8be1feacb5db,course-of-action,Execution Prevention,M1038
+course-of-action--49961e75-b493-423a-9ec7-ac2d6f55384a,course-of-action,Password Policy Discovery Mitigation,T1201
+course-of-action--49c06d54-9002-491d-9147-8efb537fbd26,course-of-action,Credential Access Protection,M1043
+course-of-action--4a99fecc-680b-448e-8fe7-8144c60d272c,course-of-action,Brute Force Mitigation,T1110
+course-of-action--4b998a71-7b8f-4dcc-8f3f-277f2e740271,course-of-action,Indicator Removal from Tools Mitigation,T1066
+course-of-action--4f170666-7edb-4489-85c2-9affa28a72e0,course-of-action,.bash_profile and .bashrc Mitigation,T1156
+course-of-action--51048ba0-a5aa-41e7-bf5d-993cd217dfb2,course-of-action,Signed Script Proxy Execution Mitigation,T1216
+course-of-action--514e7371-a344-4de7-8ec3-3aa42b801d52,course-of-action,Multi-Stage Channels Mitigation,T1104
+course-of-action--515f6584-fa98-44fe-a4e8-e428c7188514,course-of-action,Fallback Channels Mitigation,T1008
+course-of-action--51b37302-b844-4c08-ac98-ae6955ed1f55,course-of-action,Screen Capture Mitigation,T1113
+course-of-action--5391ece4-8866-415d-9b5e-8dc5944f612a,course-of-action,Source Mitigation,T1153
+course-of-action--53b3b027-bed3-480c-9101-1247047d0fe6,course-of-action,Remote Desktop Protocol Mitigation,T1076
+course-of-action--54246e2e-683f-4bf2-be4c-d7d5a60e7d22,course-of-action,LLMNR/NBT-NS Poisoning Mitigation,T1171
+course-of-action--548bf7ad-e19c-4d74-84bf-84ac4e57f505,course-of-action,User Execution Mitigation,T1204
+course-of-action--54e8722d-2faf-4b1b-93b6-6cbf9551669f,course-of-action,Hardware Additions Mitigation,T1200
+course-of-action--56648de3-8947-4559-90c4-eda10acc0f5a,course-of-action,Keychain Mitigation,T1142
+course-of-action--57019a80-8523-46b6-be7d-f763a15a2cc6,course-of-action,Scripting Mitigation,T1064
+course-of-action--590777b3-b475-4c7c-aaf8-f4a73b140312,course-of-action,Code Signing,M1045
+course-of-action--5c167af7-c2cb-42c8-ae67-3fb275bf8488,course-of-action,Timestomp Mitigation,T1099
+course-of-action--5c49bc54-9929-48ca-b581-7018219b5a97,course-of-action,Account Discovery Mitigation,T1087
+course-of-action--5d8507c4-603e-4fe1-8a4a-b8241f58734b,course-of-action,Defacement Mitigation,T1491
+course-of-action--609191bf-7d06-40e4-b1f8-9e11eb3ff8a6,course-of-action,Environment Variable Permissions,M1039
+course-of-action--61d02387-351a-453e-a575-160a9abc3e04,course-of-action,Re-opened Applications Mitigation,T1164
+course-of-action--624d063d-cda8-4616-b4e4-54c04e427aec,course-of-action,Netsh Helper DLL Mitigation,T1128
+course-of-action--62ae52c9-7197-4f5b-be1d-10d2e1df2c96,course-of-action,Domain Fronting Mitigation,T1172
+course-of-action--65401701-019d-44ff-b223-08d520bb0e7b,course-of-action,Data Loss Prevention,M1057
+course-of-action--654addf1-47ab-410a-8578-e1a0dc2a49b8,course-of-action,Network Denial of Service Mitigation,T1498
+course-of-action--65da1eb6-d35d-4853-b280-98a76c0aef53,course-of-action,Exploit Public-Facing Application Mitigation,T1190
+course-of-action--676975b9-7e8e-463d-a31e-4ed2ecbfed81,course-of-action,Component Firmware Mitigation,T1109
+course-of-action--684feec3-f9ba-4049-9d8f-52d52f3e0e40,course-of-action,System Network Configuration Discovery Mitigation,T1016
+course-of-action--6cac62ce-550b-4793-8ee6-6a1b8836edb0,course-of-action,Indicator Removal on Host Mitigation,T1070
+course-of-action--6e7db820-9735-4545-bc64-039bc4ce354b,course-of-action,LC_MAIN Hijacking Mitigation,T1149
+course-of-action--7009ba4d-83d4-4851-9fbb-e09e28497765,course-of-action,Forced Authentication Mitigation,T1187
+course-of-action--70886857-0f19-4caa-b081-548354a8a994,course-of-action,Firmware Corruption Mitigation,T1495
+course-of-action--72dade3e-1cba-4182-b3b3-a77ca52f02a1,course-of-action,Privileged Process Integrity,M1025
+course-of-action--752db800-ea54-4e7a-b4c1-2a0292350ea7,course-of-action,Multi-hop Proxy Mitigation,T1188
+course-of-action--7708ac15-4beb-4863-a1a5-da2d63fb8a3c,course-of-action,XSL Script Processing Mitigation,T1220
+course-of-action--77fd4d73-6b79-4593-82e7-e4a439cc7604,course-of-action,LC_LOAD_DYLIB Addition Mitigation,T1161
+course-of-action--787fb64d-c87b-4ee5-a341-0ef17ec4c15c,course-of-action,Do Not Mitigate,M1055
+course-of-action--78bb71be-92b4-46de-acd6-5f998fedf1cc,course-of-action,Pre-compromise,M1056
+course-of-action--797312d4-8a84-4daf-9c56-57da4133c322,course-of-action,Trusted Relationship Mitigation,T1199
+course-of-action--7a14d974-f3d9-4e4e-9b7d-980385762908,course-of-action,DLL Side-Loading Mitigation,T1073
+course-of-action--7a4d0054-53cd-476f-88af-955dddc80ee0,course-of-action,Drive-by Compromise Mitigation,T1189
+course-of-action--7a6e5ca3-562f-4185-a323-f3b62b5b2e6b,course-of-action,LSASS Driver Mitigation,T1177
+course-of-action--7aee8ea0-0baa-4232-b379-5d9ce98352cf,course-of-action,Hooking Mitigation,T1179
+course-of-action--7bb5fae9-53ad-4424-866b-f0ea2a8b731d,course-of-action,SSL/TLS Inspection,M1020
+course-of-action--7c1796c7-9fc3-4c3e-9416-527295bf5d95,course-of-action,Commonly Used Port Mitigation,T1043
+course-of-action--7c39ebbf-244e-4d1c-b0ac-b282453ece43,course-of-action,Process Hollowing Mitigation,T1093
+course-of-action--7da0387c-ba92-4553-b291-b636ee42b2eb,course-of-action,Boot Integrity,M1046
+course-of-action--7ee0879d-ce4f-4f54-a96b-c532dfb98ffd,course-of-action,Data from Local System Mitigation,T1005
+course-of-action--809b79cd-be78-4597-88d1-5496d1d9993a,course-of-action,Trap Mitigation,T1154
+course-of-action--80c91478-ac87-434f-bee7-11f37aec4d74,course-of-action,Dynamic Data Exchange Mitigation,T1173
+course-of-action--82c21600-ccb6-4232-8c04-ef3792b56628,course-of-action,Endpoint Denial of Service Mitigation,T1499
+course-of-action--82d8e990-c901-4aed-8596-cc002e7eb307,course-of-action,System Time Discovery Mitigation,T1124
+course-of-action--82fbc58b-171d-4a2d-9a20-c6b2a716bd08,course-of-action,Code Signing Mitigation,T1116
+course-of-action--83130e62-bca6-4a81-bd4b-8e233bd49db6,course-of-action,Systemd Service Mitigation,T1501
+course-of-action--84d633a4-dd93-40ca-8510-40238c021931,course-of-action,Hidden Files and Directories Mitigation,T1158
+course-of-action--86598de0-b347-4928-9eb0-0acbfc21908c,course-of-action,Network Segmentation,M1030
+course-of-action--874c0166-e407-45c2-a1d9-e4e3a6570fd8,course-of-action,Threat Intelligence Program,M1019
+course-of-action--8a61f6b9-6b7a-4cf2-8e08-f1e26434f6df,course-of-action,Input Prompt Mitigation,T1141
+course-of-action--8b36d944-f274-4d46-9acd-dbba6927ce7a,course-of-action,Registry Run Keys / Startup Folder Mitigation,T1060
+course-of-action--8bd1ae32-a686-48f4-a6f8-470287f76152,course-of-action,Automated Collection Mitigation,T1119
+course-of-action--8c918d8a-11c5-4ffd-af10-e74bc06bdfae,course-of-action,Rundll32 Mitigation,T1085
+course-of-action--8f6b5ca6-263a-4ea9-98f3-afd2a3cd8119,course-of-action,Spearphishing Attachment Mitigation,T1193
+course-of-action--902286b2-96cc-4dd7-931f-e7340c9961da,course-of-action,File System Logical Offsets Mitigation,T1006
+course-of-action--90c218c3-fbf8-4830-98a7-e8cfb7eaa485,course-of-action,Password Policies,M1027
+course-of-action--90f39ee1-d5a3-4aaa-9f28-3b42815b0d46,course-of-action,Behavior Prevention on Endpoint,M1040
+course-of-action--910482b1-6749-4934-abcb-3e34d58294fc,course-of-action,Distributed Component Object Model Mitigation,T1175
+course-of-action--91816292-3686-4a6e-83c4-4c08513b9b57,course-of-action,CMSTP Mitigation,T1191
+course-of-action--92c28497-2820-445e-9f3e-a03dd77dc0c8,course-of-action,Exfiltration Over Command and Control Channel Mitigation,T1041
+course-of-action--92e6d080-ca3f-4f95-bc45-172a32c4e502,course-of-action,Exploitation for Privilege Escalation Mitigation,T1068
+course-of-action--9378f139-10ef-4e4b-b679-2255a0818902,course-of-action,Service Registry Permissions Weakness Mitigation,T1058
+course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317,course-of-action,User Account Management,M1018
+course-of-action--943d370b-2054-44df-8be2-ab4139bde1c5,course-of-action,Authentication Package Mitigation,T1131
+course-of-action--94927849-03e3-4a07-8f4c-9ee21b626719,course-of-action,Startup Items Mitigation,T1165
+course-of-action--94e95eeb-7cdb-4bd7-afba-f32fda303dbb,course-of-action,Network Share Connection Removal Mitigation,T1126
+course-of-action--94f6b4f5-b528-4f50-91d5-f66457c2f8f7,course-of-action,Man in the Browser Mitigation,T1185
+course-of-action--95c29444-49f9-49f7-8b20-bcd68d8fcaa6,course-of-action,AppCert DLLs Mitigation,T1182
+course-of-action--95ddb356-7ba0-4bd9-a889-247262b8946f,course-of-action,Rootkit Mitigation,T1014
+course-of-action--96150c35-466f-4f0a-97a9-ae87ee27f751,course-of-action,Bootkit Mitigation,T1067
+course-of-action--96913243-2b5e-4483-a65c-bb152ddd2f04,course-of-action,DLL Search Order Hijacking Mitigation,T1038
+course-of-action--97d8eadb-0459-4c1d-bf1a-e053bd75df61,course-of-action,Supply Chain Compromise Mitigation,T1195
+course-of-action--987988f0-cf86-4680-a875-2f6456ab2448,course-of-action,Restrict File and Directory Permissions,M1022
+course-of-action--9a5b7194-88e0-4579-b82f-e3c27b8cca80,course-of-action,Create Account Mitigation,T1136
+course-of-action--9a902722-cecd-4fbe-a6c9-49333aa0f8c2,course-of-action,Remote System Discovery Mitigation,T1018
+course-of-action--9ab7de33-99b2-4d8d-8cf3-182fa0015cc2,course-of-action,Logon Scripts Mitigation,T1037
+course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f,course-of-action,Privileged Account Management,M1026
+course-of-action--9da16278-c6c5-4410-8a6b-9c16ce8005b3,course-of-action,Screensaver Mitigation,T1180
+course-of-action--9e57c770-5a39-49a2-bb91-253ba629e3ac,course-of-action,Security Support Provider Mitigation,T1101
+course-of-action--a0d8db1d-a731-4428-8209-c07175f4b1fe,course-of-action,Uncommonly Used Port Mitigation,T1065
+course-of-action--a13e35cc-8c90-4d77-a965-5461042c1612,course-of-action,Shortcut Modification Mitigation,T1023
+course-of-action--a1482e43-f3ff-4fbd-94de-ad1244738166,course-of-action,Time Providers Mitigation,T1209
+course-of-action--a2c36a5d-4058-475e-8e77-fff75e50d3b9,course-of-action,Restrict Registry Permissions,M1024
+course-of-action--a3e12b04-8598-4909-8855-2c97c1e7d549,course-of-action,Kerberoasting Mitigation,T1208
+course-of-action--a569295c-a093-4db4-9fb4-7105edef85ad,course-of-action,Custom Cryptographic Protocol Mitigation,T1024
+course-of-action--a6a47a06-08fc-4ec4-bdc3-20373375ebb9,course-of-action,Antivirus/Antimalware,M1049
+course-of-action--a766ce73-5583-48f3-b7c0-0bb43c6ef8c7,course-of-action,Standard Cryptographic Protocol Mitigation,T1032
+course-of-action--a90da496-b460-47e8-92e7-cc36eb00bd9a,course-of-action,Regsvcs/Regasm Mitigation,T1121
+course-of-action--a98be93b-a75b-4dd4-8a72-4dfd0b5e25bb,course-of-action,Exfiltration Over Other Network Medium Mitigation,T1011
+course-of-action--aaa92b37-f96c-4a0a-859c-b1cb6faeb13d,course-of-action,Graphical User Interface Mitigation,T1061
+course-of-action--ac008435-af58-4f77-988a-c9b96c5920f5,course-of-action,NTFS File Attributes Mitigation,T1096
+course-of-action--ace4daee-f914-4707-be75-843f16da2edf,course-of-action,Bash History Mitigation,T1139
+course-of-action--ad7f983d-d5a8-4fce-a38c-b68eda61bf4e,course-of-action,Spearphishing Link Mitigation,T1192
+course-of-action--ae56a49d-5281-45c5-ab95-70a1439c338e,course-of-action,Compile After Delivery Mitigation,T1500
+course-of-action--aeff5887-8f9e-48d5-a523-9b395e2ce80a,course-of-action,Credential Dumping Mitigation,T1003
+course-of-action--af093bc8-7b59-4e2a-9da8-8e839b4c50c6,course-of-action,Remote Access Tools Mitigation,T1219
+course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0,course-of-action,Multi-factor Authentication,M1032
+course-of-action--b52f41b9-ccf6-4da7-a6c0-167eeb71fbd8,course-of-action,Browser Extensions Mitigation,T1176
+course-of-action--b5dbb4c5-b0b1-40b1-80b6-e9e84ab90067,course-of-action,Software Configuration,M1054
+course-of-action--b70627f7-3b43-4c6f-8fc0-c918c41f8f72,course-of-action,DCShadow Mitigation,T1207
+course-of-action--b7b2c89c-09c1-4b71-ae7c-000ec2893aab,course-of-action,New Service Mitigation,T1050
+course-of-action--b8d57b16-d8e2-428c-a645-1083795b3445,course-of-action,Communication Through Removable Media Mitigation,T1092
+course-of-action--b91c2f9e-c1a0-44df-95f0-9e7c9d1d5e55,course-of-action,SID-History Injection Mitigation,T1178
+course-of-action--b9f0c069-abbe-4a07-a245-2481219a1463,course-of-action,Application Isolation and Sandboxing,M1048
+course-of-action--ba06d68a-4891-4eb5-b634-152e05ec60ee,course-of-action,Data Transfer Size Limits Mitigation,T1030
+course-of-action--bb25b897-bfc7-4128-839d-52e9764dbfa6,course-of-action,Inhibit System Recovery Mitigation,T1490
+course-of-action--bcc91b8c-f104-4710-964e-1d5409666736,course-of-action,Web Shell Mitigation,T1100
+course-of-action--bcee7b05-89a6-41a5-b7aa-fce4da7ede9e,course-of-action,Pass the Hash Mitigation,T1075
+course-of-action--bd2554b8-634f-4434-a986-9b49c29da2ae,course-of-action,Security Software Discovery Mitigation,T1063
+course-of-action--beb45abb-11e8-4aef-9778-1f9ac249784f,course-of-action,Bypass User Account Control Mitigation,T1088
+course-of-action--c085476e-1964-4d7f-86e1-d8657a7741e8,course-of-action,Accessibility Features Mitigation,T1015
+course-of-action--c1676218-c16a-41c9-8f7a-023779916e39,course-of-action,System Network Connections Discovery Mitigation,T1049
+course-of-action--c3cf2312-3aab-4aaf-86e6-ab3505430482,course-of-action,Rc.common Mitigation,T1163
+course-of-action--c47a9b55-8f61-4b82-b833-1db6242c754e,course-of-action,Local Job Scheduling Mitigation,T1168
+course-of-action--c61e2da1-f51f-424c-b152-dc930d4f2e70,course-of-action,Environmental Keying Mitigation,T1480
+course-of-action--c61fee9f-16fb-4f8c-bbf0-869093fcd4a6,course-of-action,Access Token Manipulation Mitigation,T1134
+course-of-action--c620e3a1-fff5-424f-abea-d2b0f3616f67,course-of-action,System Information Discovery Mitigation,T1082
+course-of-action--c7e49501-6021-414f-bfa1-94519d8ec314,course-of-action,Template Injection Mitigation,T1221
+course-of-action--c861bcb1-946f-450d-ab75-d4e3c1103a56,course-of-action,Spearphishing via Service Mitigation,T1194
+course-of-action--c88151a5-fe3f-4773-8147-d801587065a4,course-of-action,Application Deployment Software Mitigation,T1017
+course-of-action--c95c8b5c-b431-43c9-9557-f494805e2502,course-of-action,Software Packing Mitigation,T1045
+course-of-action--cb825b86-3f3b-4686-ba99-44878f5d3173,course-of-action,BITS Jobs Mitigation,T1197
+course-of-action--cba5667e-e3c6-44a4-811c-266dbc00e440,course-of-action,Extra Window Memory Injection Mitigation,T1181
+course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8,course-of-action,Audit,M1047
+course-of-action--cdecc44a-1dbf-4c1f-881c-f21e3f47272a,course-of-action,Remote File Copy Mitigation,T1105
+course-of-action--cfc2d2fc-14ff-495f-bd99-585be47b804f,course-of-action,Application Shimming Mitigation,T1138
+course-of-action--cfd2cd3b-93e7-4b3e-ab46-f8bcafdbdfcf,course-of-action,Execution through Module Load Mitigation,T1129
+course-of-action--d01f473f-3cdc-4867-9e55-1de9cf1986f0,course-of-action,Deobfuscate/Decode Files or Information Mitigation,T1140
+course-of-action--d0415180-51e9-40ce-b57c-c332b0b441f2,course-of-action,PowerShell Mitigation,T1086
+course-of-action--d0fcf37a-b6c4-4745-9c43-4fcdb8bfc88e,course-of-action,Data Obfuscation Mitigation,T1001
+course-of-action--d256cb63-b021-4b4a-bb6d-1b42eea179a3,course-of-action,Network Service Scanning Mitigation,T1046
+course-of-action--d2a24649-9694-4c97-9c62-ce7b270bf6a3,course-of-action,Exploit Protection,M1050
+course-of-action--d2dce10b-3562-4d61-b2f5-7c6384b038e2,course-of-action,Mshta Mitigation,T1170
+course-of-action--d45f03a8-790a-4f90-b956-cd7e5b8886bf,course-of-action,Valid Accounts Mitigation,T1078
+course-of-action--d4fd04e0-d1a4-4b5a-a5bb-16683cdbcce2,course-of-action,External Remote Services Mitigation,T1133
+course-of-action--d5dce4b9-f1fa-4c03-aff9-ce177246cb64,course-of-action,Service Execution Mitigation,T1035
+course-of-action--d7c49196-b40e-42bc-8eed-b803113692ed,course-of-action,Change Default File Association Mitigation,T1042
+course-of-action--d8787791-d22e-45bb-a9a8-251d8d0a1ff2,course-of-action,System Service Discovery Mitigation,T1007
+course-of-action--d9727aee-48b8-4fdb-89e2-4c49746ba4dd,course-of-action,Data from Network Shared Drive Mitigation,T1039
+course-of-action--d9f4b5fa-2a39-4bdf-b40a-ea998933cd6d,course-of-action,Video Capture Mitigation,T1125
+course-of-action--da987565-27b6-4b31-bbcd-74b909847116,course-of-action,Multiband Communication Mitigation,T1026
+course-of-action--dbf0186e-722d-4a0a-af6a-b3460f162f84,course-of-action,Sudo Caching Mitigation,T1206
+course-of-action--dc43c2fe-355e-4a79-9570-3267b0992784,course-of-action,Dylib Hijacking Mitigation,T1157
+course-of-action--dd9a85ad-6a92-4986-a215-b01d0ce7b987,course-of-action,Permission Groups Discovery Mitigation,T1069
+course-of-action--e0703d4f-3972-424a-8277-84004817e024,course-of-action,Path Interception Mitigation,T1034
+course-of-action--e333cf16-5bfa-453e-8e6a-3a4c63d6bfcc,course-of-action,Launchctl Mitigation,T1152
+course-of-action--e3388c78-2a8d-47c2-8422-c1398b324462,course-of-action,Active Directory Configuration,M1015
+course-of-action--e547ed6a-f1ca-40df-8613-2ce27927f145,course-of-action,Exfiltration Over Physical Medium Mitigation,T1052
+course-of-action--e5d930e9-775a-40ad-9bdb-b941d8dfe86b,course-of-action,Update Software,M1051
+course-of-action--e8242a33-481c-4891-af63-4cf3e4cf6aff,course-of-action,Restrict Library Loading,M1044
+course-of-action--e8d22ec6-2236-48de-954b-974d17492782,course-of-action,Two-Factor Authentication Interception Mitigation,T1111
+course-of-action--e9362d25-4427-446b-99e8-b8f0c3b86615,course-of-action,Stored Data Manipulation Mitigation,T1492
+course-of-action--eb88d97c-32f1-40be-80f0-d61a4b0b4b31,course-of-action,Disable or Remove Feature or Program,M1042
+course-of-action--ec418d1b-4963-439f-b055-f914737ef362,course-of-action,InstallUtil Mitigation,T1118
+course-of-action--ec42d8be-f762-4127-80f4-f079ea6d7135,course-of-action,Indicator Blocking Mitigation,T1054
+course-of-action--ed202147-4026-4330-b5bd-1e8dfa8cf7cc,course-of-action,Modify Registry Mitigation,T1112
+course-of-action--ef273807-c465-4728-9cee-5823422f42ee,course-of-action,SIP and Trust Provider Hijacking Mitigation,T1198
+course-of-action--effb83a0-ead1-4b36-b7f6-b7bdf9c4616e,course-of-action,Replication Through Removable Media Mitigation,T1091
+course-of-action--f0a42cad-9b1f-44da-a672-718f18381018,course-of-action,Taint Shared Content Mitigation,T1080
+course-of-action--f27ef4f2-71fe-48b6-b7f4-02dcac14320e,course-of-action,Private Keys Mitigation,T1145
+course-of-action--f2cb6ce2-188d-4162-8feb-594f949b13dd,course-of-action,Scheduled Task Mitigation,T1053
+course-of-action--f2dcee22-c275-405e-87fd-48630a19dfba,course-of-action,Exploitation for Client Execution Mitigation,T1203
+course-of-action--f3d0c735-330f-43c2-8e8e-51bcfa51e8c3,course-of-action,Custom Command and Control Protocol Mitigation,T1094
+course-of-action--f6469191-1814-4dbe-a081-2a6daf83a10b,course-of-action,Process Discovery Mitigation,T1057
+course-of-action--f6b7c116-0821-4eb7-9b24-62bd09b3e575,course-of-action,Port Knocking Mitigation,T1205
+course-of-action--f9b3e5d9-7454-4b7d-bce6-27620e19924e,course-of-action,Redundant Access Mitigation,T1108
+course-of-action--f9f9e6ef-bc0a-41ad-ba11-0924e5e84c4c,course-of-action,Account Use Policies,M1036
+course-of-action--fae44eea-caa7-42b7-a2e2-0c815ba81b9a,course-of-action,Hidden Window Mitigation,T1143
+course-of-action--fcbe8424-eb3e-4794-b76d-e743f5a49b8b,course-of-action,Data Encoding Mitigation,T1132
+course-of-action--fe0aeb41-1a51-4152-8467-628256ea6adf,course-of-action,Modify Existing Service Mitigation,T1031
+course-of-action--feff9142-e8c2-46f4-842b-bd6fb3d41157,course-of-action,Encrypt Sensitive Information,M1041
+course-of-action--ff5d862a-ae6b-4833-8c15-e235d654d28e,course-of-action,Component Object Model Hijacking Mitigation,T1122
+identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5,identity,The MITRE Corporation,
+intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340,intrusion-set,APT38,G0082
+intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07,intrusion-set,Indrik Spider,G0119
+intrusion-set--025bdaa9-897d-4bad-afa6-013ba5734653,intrusion-set,NEODYMIUM,G0055
+intrusion-set--03506554-5f37-4f8f-9ce4-0e9f01a1b484,intrusion-set,Elderwood,G0066
+intrusion-set--03be849d-b5a2-4766-9dda-48976bae5710,intrusion-set,SideCopy,G1008
+intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258,intrusion-set,GALLIUM,G0093
+intrusion-set--090242d7-73fc-4738-af68-20162f7a5aae,intrusion-set,APT17,G0025
+intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9,intrusion-set,APT3,G0022
+intrusion-set--0ea72cd5-ca30-46ba-bc04-378f701c658f,intrusion-set,GCMAN,G0036
+intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f,intrusion-set,Kimsuky,G0094
+intrusion-set--129f2f77-1ab2-4c35-bd5e-21260cee92af,intrusion-set,EXOTIC LILY,G1011
+intrusion-set--16ade1aa-0ea1-4bb7-88cc-9079df2ae756,intrusion-set,admin@338,G0018
+intrusion-set--174279b4-399f-4ddb-966e-5efedd1dd5f2,intrusion-set,Volt Typhoon,G1017
+intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0,intrusion-set,Patchwork,G0040
+intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7,intrusion-set,APT41,G0096
+intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1,intrusion-set,Dragonfly,G0035
+intrusion-set--1f0f9a14-11aa-49aa-9174-bcd0eaa979de,intrusion-set,Evilnum,G0120
+intrusion-set--1f21da59-6a13-455b-afd0-d58d0a5a7d27,intrusion-set,Gorgon Group,G0078
+intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f,intrusion-set,menuPass,G0045
+intrusion-set--23b6a0f5-fa95-46f9-a6f3-4549c5e45ec8,intrusion-set,Night Dragon,G0014
+intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e,intrusion-set,APT32,G0050
+intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87,intrusion-set,HAFNIUM,G0125
+intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2,intrusion-set,MuddyWater,G0069
+intrusion-set--277d2f87-2ae5-4730-a3aa-50c1fdff9656,intrusion-set,Strider,G0041
+intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871,intrusion-set,Operation Wocao,G0116
+intrusion-set--2a158b0a-7ef8-43cb-9985-bf34d1e12050,intrusion-set,Naikon,G0019
+intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb,intrusion-set,FIN6,G0037
+intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf,intrusion-set,Gamaredon Group,G0047
+intrusion-set--2e5d3a83-fe00-41a5-9b60-237efc84832f,intrusion-set,Moafee,G0002
+intrusion-set--2fd2be6a-d3a2-4a65-b499-05ea2693abee,intrusion-set,Gallmaker,G0084
+intrusion-set--32bca8ff-d900-4877-aa65-d70baa041b74,intrusion-set,Leafminer,G0077
+intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca,intrusion-set,TeamTNT,G0139
+intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc,intrusion-set,FIN7,G0046
+intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192,intrusion-set,Sandworm Team,G0034
+intrusion-set--38863958-a201-4ce1-9dbe-539b0b6804e0,intrusion-set,Machete,G0095
+intrusion-set--38fd6a28-3353-4f2b-bb2b-459fecd5c648,intrusion-set,APT18,G0026
+intrusion-set--39d6890e-7f23-4474-b8ef-e7b0343c5fc8,intrusion-set,Andariel,G0138
+intrusion-set--3ea7add5-5b8f-45d8-b1f1-905d2729d62a,intrusion-set,CURIUM,G1012
+intrusion-set--3fc023b2-c5cc-481d-9c3e-70141ae1a87e,intrusion-set,Sidewinder,G0121
+intrusion-set--420ac20b-f2b9-42b8-aa1a-6d4b72895ca4,intrusion-set,Mustang Panda,G0129
+intrusion-set--4283ae19-69c7-4347-a35e-b56f08eb660b,intrusion-set,ZIRCONIUM,G0128
+intrusion-set--44102191-3a31-45f8-acbe-34bdb441d5ad,intrusion-set,Rocke,G0106
+intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b,intrusion-set,Scattered Spider,G1015
+intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80,intrusion-set,APT39,G0087
+intrusion-set--467271fd-47c0-4e90-a3f9-d84f5cf790d0,intrusion-set,TA2541,G1018
+intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c,intrusion-set,APT37,G0067
+intrusion-set--4c4a7846-45d5-4761-8eea-725fa989914c,intrusion-set,Moses Staff,G1009
+intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d,intrusion-set,OilRig,G0049
+intrusion-set--4e868dad-682d-4897-b8df-2dc98f46c68a,intrusion-set,Windigo,G0124
+intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3,intrusion-set,Higaisa,G0126
+intrusion-set--55033a4d-3ffe-46b2-99b4-2c1541e9ce1c,intrusion-set,Carbanak,G0008
+intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924,intrusion-set,Tropic Trooper,G0081
+intrusion-set--5636b7b3-d99b-4edd-aa05-ee649c1d4ef1,intrusion-set,Orangeworm,G0071
+intrusion-set--59140a2e-d117-4206-9b2c-2a8662bd9d46,intrusion-set,Taidoor,G0015
+intrusion-set--5cbe0d3b-6fb1-471f-b591-4b192915116d,intrusion-set,Suckfly,G0039
+intrusion-set--5ce5392a-3a6c-4e07-9df3-9b6a9159ac45,intrusion-set,Putter Panda,G0024
+intrusion-set--5e78ae92-3ffd-4b16-bf62-e798529d73f1,intrusion-set,Sharpshooter,G0104
+intrusion-set--5f3d0238-d058-44a9-8812-3dd1b6741a8c,intrusion-set,POLONIUM,G1005
+intrusion-set--62a64fd3-aaf7-4d09-a375-d6f8bb118481,intrusion-set,TA459,G0062
+intrusion-set--64b52e7d-b2c4-4a02-9372-08a463f5dc11,intrusion-set,Aquatic Panda,G0143
+intrusion-set--64d5f96a-f121-4d19-89f6-6709f5c49faa,intrusion-set,Aoqin Dragon,G1007
+intrusion-set--6566aac9-dad8-4332-ae73-20c23bad7f02,intrusion-set,Ferocious Kitten,G0137
+intrusion-set--6688d679-ccdb-4f12-abf6-c7545dd767a4,intrusion-set,The White Company,G0089
+intrusion-set--6713ab67-e25b-49cc-808d-2b36d4fbc35c,intrusion-set,Ke3chang,G0004
+intrusion-set--68ba94ab-78b8-43e7-83e2-aed3466882c6,intrusion-set,APT34,G0057
+intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662,intrusion-set,APT1,G0006
+intrusion-set--6b1b551c-d770-4f95-8cfc-3cd253c4c04e,intrusion-set,Frankenstein,G0101
+intrusion-set--6b9ebeb5-20bf-48b0-afb7-988d769a2f01,intrusion-set,DarkHydrus,G0079
+intrusion-set--6eded342-33e5-4451-b6b2-e1c62863129f,intrusion-set,Confucius,G0142
+intrusion-set--6fe8a2a1-a1b0-4af8-953d-4babd329f8f8,intrusion-set,BlackTech,G0098
+intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e,intrusion-set,Leviathan,G0065
+intrusion-set--7251b44b-6072-476c-b8d9-a6e32c355b28,intrusion-set,MoustachedBouncer,G1019
+intrusion-set--7331c66a-5601-4d3f-acf6-ad9e3035eb40,intrusion-set,Group5,G0043
+intrusion-set--73a80fab-2aa3-48e0-a4d0-3a4828200aee,intrusion-set,Blue Mockingbird,G0108
+intrusion-set--76565741-3452-4069-ab08-80c0ea95bbeb,intrusion-set,SilverTerrier,G0083
+intrusion-set--76d59913-1d24-4992-a8ac-05a3eb093f71,intrusion-set,Dragonfly 2.0,G0074
+intrusion-set--7a0d4c09-dfe7-4fa2-965a-1a0e42fedd70,intrusion-set,Stolen Pencil,G0086
+intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6,intrusion-set,Turla,G0010
+intrusion-set--7ecc3b4f-5cdb-457e-b55a-df376b359446,intrusion-set,Poseidon Group,G0033
+intrusion-set--7eda3dd8-b09b-4705-8090-c2ad9fb8c14d,intrusion-set,TA505,G0092
+intrusion-set--7f848c02-4d1e-4808-a4ae-4670681370a9,intrusion-set,BITTER,G1002
+intrusion-set--813636db-3939-4a45-bea9-6113e970c029,intrusion-set,DarkVishnya,G0105
+intrusion-set--85403903-15e0-4f9f-9be4-a259ecad4022,intrusion-set,FIN5,G0053
+intrusion-set--88489675-d216-4884-a98f-49a89fcc1643,intrusion-set,Mofang,G0103
+intrusion-set--88b7dbc2-32d3-4e31-af2f-3fc24e1582d7,intrusion-set,Lotus Blossom,G0030
+intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8,intrusion-set,Stealth Falcon,G0038
+intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542,intrusion-set,APT29,G0016
+intrusion-set--8a831aaa-f3e0-47a3-bed8-a9ced744dd12,intrusion-set,Dark Caracal,G0070
+intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c,intrusion-set,Chimera,G0114
+intrusion-set--8f5e8dc7-739d-4f5e-a8a1-a66e004d7063,intrusion-set,Cleaver,G0003
+intrusion-set--90784c1e-4aba-40eb-9adf-7556235e6384,intrusion-set,Silent Librarian,G0122
+intrusion-set--92d5b3fd-3b39-438e-af68-770e447beada,intrusion-set,Charming Kitten,G0058
+intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90,intrusion-set,BRONZE BUTLER,G0060
+intrusion-set--94873029-f950-4268-9cfd-5032e15cb182,intrusion-set,TA551,G0127
+intrusion-set--9538b1a4-4120-4e2d-bf59-3b11fcab05a4,intrusion-set,TEMP.Veles,G0088
+intrusion-set--9559ecaf-2e75-48a7-aee8-9974020bc772,intrusion-set,MONSOON,G0042
+intrusion-set--96e239be-ad99-49eb-b127-3007b8c1bec9,intrusion-set,Equation,G0020
+intrusion-set--9735c036-8ebe-47e9-9c77-b0ae656dab93,intrusion-set,BackdoorDiplomacy,G0135
+intrusion-set--99910207-1741-4da1-9b5d-537410186b51,intrusion-set,Gelsemium,G0141
+intrusion-set--9e729a7e-0dd6-4097-95bf-db8d64911383,intrusion-set,Darkhotel,G0012
+intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973,intrusion-set,Axiom,G0001
+intrusion-set--a653431d-6a5e-4600-8ad3-609b5af57064,intrusion-set,Deep Panda,G0009
+intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9,intrusion-set,Ember Bear,G1003
+intrusion-set--abc5a1d4-f0dc-49d1-88a1-4a80e478bb03,intrusion-set,LazyScripter,G0140
+intrusion-set--ae41895a-243f-4a65-b99b-d85022326c31,intrusion-set,Dust Storm,G0031
+intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1,intrusion-set,Windshift,G0112
+intrusion-set--b2e34388-6938-4c59-a702-80dc219e15e3,intrusion-set,Volatile Cedar,G0123
+intrusion-set--b74f909f-8e52-4b69-b770-162bf59a1b4e,intrusion-set,Whitefly,G0107
+intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6,intrusion-set,LuminousMoth,G1014
+intrusion-set--bb82e0b0-6e9c-439f-970a-4c917a74c5f2,intrusion-set,CostaRicto,G0132
+intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c,intrusion-set,APT28,G0007
+intrusion-set--bfc5ddb3-4dfb-4278-8928-020e1b3feddd,intrusion-set,Metador,G1013
+intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee,intrusion-set,Fox Kitten,G0117
+intrusion-set--c416b28c-103b-4df1-909e-78089a7e0e5f,intrusion-set,RTM,G0048
+intrusion-set--c47f937f-1022-4f42-8525-e7a4779a14cb,intrusion-set,APT12,G0005
+intrusion-set--c4d50cdf-87ce-407d-86d8-862883485842,intrusion-set,APT-C-36,G0099
+intrusion-set--c5574ca0-d5a4-490a-b207-e4658e5fd1d7,intrusion-set,Scarlet Mimic,G0029
+intrusion-set--c5947e1c-1cbc-434c-94b8-27c7e3be0fff,intrusion-set,Winnti Group,G0044
+intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960,intrusion-set,Tonto Team,G0131
+intrusion-set--c77c5576-ca19-42ed-a36f-4b4486a84133,intrusion-set,GOLD SOUTHFIELD,G0115
+intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a,intrusion-set,Lazarus Group,G0032
+intrusion-set--cc613a49-9bfa-4e22-98d1-15ffbb03f034,intrusion-set,Earth Lusca,G1006
+intrusion-set--d0b3393b-3bec-4ba3-bda9-199d30db47b6,intrusion-set,FIN4,G0085
+intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321,intrusion-set,Silence,G0091
+intrusion-set--d1acfbb3-647b-4723-9154-800ec119006e,intrusion-set,Sowbug,G0054
+intrusion-set--d519164e-f5fa-4b8c-a1fb-cf0172ad0983,intrusion-set,Threat Group-1314,G0028
+intrusion-set--d69e568e-9ac8-4c08-b32c-d93b43ba9172,intrusion-set,Thrip,G0076
+intrusion-set--d6e88e18-81e8-4709-82d8-973095da1e70,intrusion-set,APT16,G0023
+intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7,intrusion-set,LAPSUS$,G1004
+intrusion-set--da49b9f1-ca99-443f-9728-0a074db66850,intrusion-set,BlackOasis,G0063
+intrusion-set--dc5e2999-ca1a-47d4-8d12-a6984b138a1b,intrusion-set,UNC2452,G0118
+intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a,intrusion-set,Cobalt Group,G0080
+intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a,intrusion-set,CopyKittens,G0052
+intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7,intrusion-set,Wizard Spider,G0102
+intrusion-set--df71bb3b-813c-45eb-a8bc-f2a419837411,intrusion-set,Molerats,G0021
+intrusion-set--e44e0985-bc65-4a8f-b578-211c858128e3,intrusion-set,Transparent Tribe,G0134
+intrusion-set--e5603ea8-4c36-40e7-b7af-a077d24fedc1,intrusion-set,IndigoZebra,G0136
+intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd,intrusion-set,Inception,G0100
+intrusion-set--ebb73863-fa44-4617-b4cb-b9ed3414eb87,intrusion-set,Honeybee,G0072
+intrusion-set--efed95ba-d7e8-47ff-8c53-99c42426ee7c,intrusion-set,PROMETHIUM,G0056
+intrusion-set--f047ee18-7985-4946-8bfb-4ed754d3a0dd,intrusion-set,APT30,G0013
+intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3,intrusion-set,HEXANE,G1001
+intrusion-set--f3bdec95-3d62-42d9-a840-29630f6cdc1a,intrusion-set,DragonOK,G0017
+intrusion-set--f40eb8ce-2a74-4e56-89a1-227021410142,intrusion-set,Rancor,G0075
+intrusion-set--f8cb7b36-62ef-4488-8a6d-a7033e3271c1,intrusion-set,WIRTE,G0090
+intrusion-set--f9c06633-dcff-48a1-8588-759e7cec5694,intrusion-set,PLATINUM,G0068
+intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13,intrusion-set,Magic Hound,G0059
+intrusion-set--fa19de15-6169-428d-9cd6-3ca3d56075b7,intrusion-set,Ajax Security Team,G0130
+intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c,intrusion-set,Threat Group-3390,G0027
+intrusion-set--fbd29c89-18ba-4c2d-b792-51c0adee049f,intrusion-set,APT33,G0064
+intrusion-set--fbe9387f-34e6-4828-ac28-3080020c597b,intrusion-set,FIN10,G0051
+intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826,intrusion-set,FIN8,G0061
+intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4,intrusion-set,FIN13,G1016
+intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6,intrusion-set,APT19,G0073
+intrusion-set--fe98767f-9df8-42b9-83c9-004b1dec8647,intrusion-set,PittyTiger,G0011
+intrusion-set--fed4f0a2-4347-4530-b0f5-6dfd49b29172,intrusion-set,Nomadic Octopus,G0133
+malware--007b44b6-e4c5-480b-b5b9-56f2081b1b7b,malware,HDoor,S0061
+malware--00806466-754d-44ea-ad6f-0caf59cb8556,malware,TrickBot,S0266
+malware--00c3bfcb-99bd-4767-8c03-b08f585f5c8a,malware,PowerDuke,S0139
+malware--00e7d565-9883-4ee5-b642-8fd17fd6a3f5,malware,EKANS,S0605
+malware--01dbc71d-0ee8-420d-abb4-3dfb6a4bf725,malware,BLINDINGCAN,S0520
+malware--039814a0-88de-46c5-a4fb-b293db21880a,malware,Wiarp,S0206
+malware--03acae53-9b98-46f6-b204-16b930839055,malware,RCSession,S0662
+malware--03ea629c-517a-41e3-94f8-c7e5368cf8f4,malware,Spark,S0543
+malware--03eb4a05-6a02-43f6-afb7-3c7835501828,malware,QuietSieve,S0686
+malware--04227b24-7817-4de1-9050-b7b1b57f5866,malware,SynAck,S0242
+malware--04378e79-4387-468a-a8f7-f974b8254e44,malware,Bumblebee,S1039
+malware--049ff071-0b3c-4712-95d2-d21c6aa54501,malware,MURKYTOP,S0233
+malware--04fc1842-f9e4-47cf-8cb8-5c61becad142,malware,GRIFFON,S0417
+malware--051eaca1-958f-4091-9e5f-a9acd8f820b5,malware,Exaramel for Windows,S0343
+malware--05318127-5962-444b-b900-a9dcfe0ff6e9,malware,Amadey,S1025
+malware--065196de-d7e8-4888-acfb-b2134022ba1b,malware,RDFSNIFFER,S0416
+malware--069af411-9b24-4e85-b26c-623d035bbe84,malware,Proxysvc,S0238
+malware--06d735e7-1db1-4dbe-ab4b-acbe419f902b,malware,Orz,S0229
+malware--0715560d-4299-4e84-9e20-6e80ab57e4f2,malware,Torisma,S0678
+malware--071d5d65-83ec-4a55-acfa-be7d5f28ba9a,malware,NOKKI,S0353
+malware--0817aaf2-afea-4c32-9285-4dcd1df5bf14,malware,yty,S0248
+malware--083bb47b-02c8-4423-81a2-f9ef58572974,malware,Backdoor.Oldrea,S0093
+malware--0852567d-7958-4f4b-8947-4f840ec8d57d,malware,DOGCALL,S0213
+malware--088f1d6e-0783-47c6-9923-9c79b2af43d4,malware,Stuxnet,S0603
+malware--08d20cd2-f084-45ee-8558-fa6ef5a18519,malware,Downdelph,S0134
+malware--08e844a8-371f-4fe3-9d1f-e056e64a7fde,malware,RotaJakiro,S1078
+malware--0945a1a5-a79a-47c8-9079-10c16cdfcb5d,malware,AvosLocker,S1053
+malware--0998045d-f96e-4284-95ce-3c8219707486,malware,SEASHARPEE,S0185
+malware--099ecff2-41b8-436d-843c-038a9aa9aa69,malware,Get2,S0460
+malware--09b2cd76-c674-47cc-9f57-d2f2ad150a46,malware,POWRUNER,S0184
+malware--09fcc02f-f9d4-43fa-8609-5e5e186b7103,malware,KOPILUWAK,S1075
+malware--0a607c53-df52-45da-a75d-0e53df4dad5f,malware,RobbinHood,S0400
+malware--0a9c51e0-825d-4b9b-969d-ce86ed8ce3c3,malware,Power Loader,S0177
+malware--0b32ec39-ba61-4864-9ebe-b4b0b73caf9a,malware,TDTESS,S0164
+malware--0b639373-5f03-430e-b8f9-2fe8c8faad8e,malware,Chinoxy,S1041
+malware--0ba9281c-93fa-4b29-8e9e-7ef918c7b13a,malware,SharpStage,S0546
+malware--0c52f5bc-557d-4083-bd27-66d7cdb794bb,malware,Sardonic,S1085
+malware--0c824410-58ff-49b2-9cf2-1c96b182bdf0,malware,Smoke Loader,S0226
+malware--0ced8926-914e-4c78-bc93-356fb90dbd1f,malware,HALFBAKED,S0151
+malware--0d1f9f5b-11ea-42c3-b5f4-63cce0122541,malware,WindTail,S0466
+malware--0db09158-6e48-4e7c-8ce7-2b10b9c0c039,malware,Misdat,S0083
+malware--0e18b800-906c-4e44-a143-b11c72b3448b,malware,FLIPSIDE,S0173
+malware--0efefea5-78da-4022-92bc-d726139e8883,malware,Linux Rabbit,S0362
+malware--0f1ad2ef-41d4-4b7a-9304-ddae68ea3005,malware,adbupd,S0202
+malware--0f862b01-99da-47cc-9bdb-db4a86a95bb1,malware,Emissary,S0082
+malware--11194d8b-fdce-45d2-8047-df15bb8f16bd,malware,Exaramel for Linux,S0401
+malware--11e36d5b-6a92-4bf9-8eb7-85eb24f59e22,malware,KEYMARBLE,S0271
+malware--123bd7b3-675c-4b1a-8482-c55782b20e2b,malware,BUBBLEWRAP,S0043
+malware--12a7450d-b03e-4990-a5b8-b405ab9c803b,malware,HAWKBALL,S0391
+malware--13183cdf-280b-46be-913a-5c6df47831e7,malware,PS1,S0613
+malware--1492d0f8-7e14-4af3-9239-bc3fe10d3407,malware,Ursnif,S0386
+malware--16040b1c-ed28-4850-9d8f-bb8b81c42092,malware,ThreatNeedle,S0665
+malware--166c0eca-02fd-424a-92c0-6b5106994d31,malware,ZLib,S0086
+malware--17b40f60-729f-4fe8-8aea-cc9ee44a95d5,malware,RedLeaves,S0153
+malware--17dec760-9c8f-4f1b-9b4b-0ac47a453234,malware,Miner-C,S0133
+malware--17e919aa-4a49-445c-b103-dbb8df9e7351,malware,POWERSOURCE,S0145
+malware--196f1f32-e0c2-4d46-99cd-234d4b6befe1,malware,Felismus,S0171
+malware--198db886-47af-4f4c-bff5-11b891f85946,malware,Zeus Panda,S0330
+malware--199463de-d9be-46d6-bb41-07234c1dd5a6,malware,GeminiDuke,S0049
+malware--1b9f0800-035e-4ed1-9648-b18294cc5bc8,malware,CARROTBAT,S0462
+malware--1cc934e4-b01d-4543-a011-b988dfc1a458,malware,Matryoshka,S0167
+malware--1cdbbcab-903a-414d-8eb0-439a97343737,malware,FrameworkPOS,S0503
+malware--1d1fce2f-0db5-402b-9843-4278a0694637,malware,GravityRAT,S0237
+malware--1d808f62-cf63-4063-9727-ff6132514c22,malware,WEBC2,S0109
+malware--1da748a5-875d-4212-9222-b4c23ab861be,malware,Prestige,S1058
+malware--1f6e3702-7ca1-4582-b2e7-4591297d05a8,malware,Bankshot,S0239
+malware--1fefb062-feda-484a-8f10-0cebf65e20e3,malware,SharpDisco,S1089
+malware--20945359-3b39-4542-85ef-08ecb4e1c174,malware,StrongPity,S0491
+malware--211cfe9f-2676-4e1c-a5f5-2c8091da2a68,malware,HAPPYWORK,S0214
+malware--21583311-6321-4891-8a37-3eb4e57b0fb1,malware,xCaon,S0653
+malware--21c0b55b-5ff3-4654-a05e-e3fc1ee1ce1b,malware,PLAINTEE,S0254
+malware--222ba512-32d9-49ac-aefd-50ce981ce2ce,malware,Pony,S0453
+malware--22addc7b-b39f-483d-979a-1b35147da5de,malware,WinMM,S0059
+malware--22b17791-45bf-45c0-9322-ff1a0af5cf2b,malware,Nebulae,S0630
+malware--234e7770-99b0-4f65-b983-d3230f76a60b,malware,Janicab,S0163
+malware--24b4ce59-eaac-4c8b-8634-9b093b7ccd92,malware,AuditCred,S0347
+malware--251fbae2-78f6-4de7-84f6-194c727a64ad,malware,Lurid,S0010
+malware--26fed817-e7bf-41f9-829a-9075ffac45c2,malware,Kasidet,S0088
+malware--288fa242-e894-4c7e-ac86-856deedf5cea,malware,OceanSalt,S0346
+malware--28b97733-ef07-4414-aaa5-df50b2d30cc5,malware,Brave Prince,S0252
+malware--29231689-5837-4a7a-aafc-1b65b3f50cc7,malware,RainyDay,S0629
+malware--292eb0c5-b8e8-4af6-9e8f-0fda6b4528d3,malware,Ecipekac,S0624
+malware--295721d2-ee20-4fa3-ade3-37f4146b4570,malware,AppleSeed,S0622
+malware--2a59a237-1530-4d55-91f9-2aebf961cc37,malware,macOS.OSAMiner,S1048
+malware--2a6f4c7b-e690-4cc7-ab6b-1f821fb6b80b,malware,LOWBALL,S0042
+malware--2a70812b-f1ef-44db-8578-a496a227aef2,malware,NETWIRE,S0198
+malware--2a7c1bb7-cd12-456e-810d-ab3bf8457bab,malware,TinyTurla,S0668
+malware--2ac41e8b-4865-4ced-839d-78e7852c47f3,malware,PyDCrypt,S1032
+malware--2cf7dec3-66fc-423f-b2c7-58f1de243b4e,malware,HyperStack,S0537
+malware--2cfe8a26-5be7-4a09-8915-ea3d9e787513,malware,iKitten,S0278
+malware--2daa14d6-cbf3-4308-bb8e-213c324a08e4,malware,HAMMERTOSS,S0037
+malware--2dd34b01-6110-4aac-835d-b5e7b936b0be,malware,OLDBAIT,S0138
+malware--2eaa5319-5e1e-4dd7-bbc4-566fced3964a,malware,Bad Rabbit,S0606
+malware--2eb9b131-d333-4a48-9eb4-d8dec46c19ee,malware,CosmicDuke,S0050
+malware--2f1a9fd0-3b7c-4d77-a358-78db13adbe78,malware,EvilGrab,S0152
+malware--2f8229dc-da94-41c6-89ba-b5b6c32f6b7d,malware,EnvyScout,S0634
+malware--2fb26586-2b53-4b9a-ad4f-2b3bcb9a2421,malware,SslMM,S0058
+malware--308b3d68-a084-4dfb-885a-3125e1a9c1e8,malware,GreyEnergy,S0342
+malware--310f437b-29e7-4844-848c-7220868d074a,malware,Darkmoon,S0209
+malware--3161d76a-e2b2-4b97-9906-24909b735386,malware,Aria-body,S0456
+malware--32066e94-3112-48ca-b9eb-ba2b59d2f023,malware,Emotet,S0367
+malware--3240cbe4-c550-443b-aa76-cc2a7058b870,malware,SNUGRIDE,S0159
+malware--3249e92a-870b-426d-8790-ba311c1abfb4,malware,Olympic Destroyer,S0365
+malware--326af1cd-78e7-45b7-a326-125d2f7ef8f2,malware,Crimson,S0115
+malware--327b3a25-9e60-4431-b3b6-93b9c64eacbc,malware,Tomiris,S0671
+malware--32f49626-87f4-4d6c-8f59-a0dca953fe26,malware,TEARDROP,S0560
+malware--350f12cf-fd3b-4dad-b323-14b943090df4,malware,Turian,S0647
+malware--3553b49d-d4ae-4fb6-ab17-0adbc520c888,malware,BADHATCH,S1081
+malware--35cd1d01-1ede-44d2-b073-a264d727bc04,malware,Machete,S0409
+malware--35ee9bf3-264b-4411-8a8f-b58cec8f35e4,malware,PowerLess,S1012
+malware--36801ffb-5c85-4c50-9121-6122e389366d,malware,Action RAT,S1028
+malware--36ede314-7db4-4d09-b53d-81bbfbe5f6f8,malware,Avenger,S0473
+malware--37cc7eb6-12e3-467b-82e8-f20f2cc73c69,malware,Prikormka,S0113
+malware--3a0f6128-0a01-421d-8eca-e57d8671b1f1,malware,PingPull,S1031
+malware--3a4197ae-ec63-4162-907b-9a073d1157e4,malware,WellMess,S0514
+malware--3aa169f8-bbf6-44bb-b57d-7f6ada5c2128,malware,Dacls,S0497
+malware--3ae6097d-d700-46c6-8b21-42fc0bcb48fa,malware,DropBook,S0547
+malware--3bc7e862-5610-4c02-9c48-15b2e2dc1ddb,malware,Woody RAT,S1065
+malware--3be1fb7a-0f7e-415e-8e3a-74a80d596e68,malware,Mafalda,S1060
+malware--3c02fb1f-cbdb-48f5-abaf-8c81d6e0c322,malware,KARAE,S0215
+malware--3c18ad16-9eaf-4649-984e-68551bff0d47,malware,Squirrelwaffle,S1030
+malware--3cab1b76-2f40-4cd0-8d2c-7ed16eeb909c,malware,ELMER,S0064
+malware--3d57dcc4-be99-4613-9482-d5218f5ec13e,malware,PolyglotDuke,S0518
+malware--3d8e547d-9456-4f32-a895-dc86134e282f,malware,Umbreon,S0221
+malware--3e4e2c79-2b27-4245-a5c1-5586a3cbd8f5,malware,AuTo Stealer,S1029
+malware--40a1b8ec-7295-416c-a6b1-68181d86f120,malware,Hildegard,S0601
+malware--40d3e230-ed32-469f-ba89-be70cc08ab39,malware,Agent.btz,S0092
+malware--414dc555-c79e-4b24-a2da-9b607f7eaf16,malware,SLOWDRIFT,S0218
+malware--4189a679-72ed-4a89-a57c-7f689712ecf8,malware,SHUTTERSPEED,S0217
+malware--425771c5-48b4-4ecd-9f95-74ed3fc9da59,malware,SombRAT,S0615
+malware--43155329-3edf-47a6-9a14-7dac899b01e4,malware,FlawedGrace,S0383
+malware--43213480-78f7-4fb3-976f-d48f5f6a4c2a,malware,FLASHFLOOD,S0036
+malware--432555de-63bf-4f2a-a3fa-f720a4561078,malware,FlawedAmmyy,S0381
+malware--4327aff5-f194-440c-b499-4d9730cc1eab,malware,Snip3,S1086
+malware--434ba392-ebdc-488b-b1ef-518deea65774,malware,FYAnti,S0628
+malware--44c75271-0e4d-496f-ae0a-a6d883a42a65,malware,Rifdoor,S0433
+malware--44e2a842-415b-47f4-8549-83fbdb8a5674,malware,SUGARUSH,S1049
+malware--454fe82d-6fd2-4ac6-91ab-28a33fe01369,malware,HOPLIGHT,S0376
+malware--45c759ac-b490-48bb-80d4-c8eee3431027,malware,GuLoader,S0561
+malware--463f68f1-5cde-4dc2-a831-68b73488f8f4,malware,MobileOrder,S0079
+malware--46cbafbc-8907-42d3-9002-5327c26f8927,malware,WastedLocker,S0612
+malware--47124daf-44be-4530-9c63-038bc64318dd,malware,RegDuke,S0511
+malware--471d0e9f-2c8a-4e4b-8f3b-f85d2407806e,malware,ProLock,S0654
+malware--47afe41c-4c08-485e-b062-c3bd209a1cce,malware,InvisiMole,S0260
+malware--4800d0f9-00aa-47cd-a4d2-92198585b8fd,malware,P.A.S. Webshell,S0598
+malware--4816d361-f82b-4a18-aa05-b215e7cf9200,malware,QUIETEXIT,S1084
+malware--48523614-309e-43bf-a2b8-705c2b45d7b2,malware,Naid,S0205
+malware--495b6cdb-7b5a-4fbc-8d33-e7ef68806d08,malware,Volgmer,S0180
+malware--49abab73-3c5c-476e-afd5-69b5c732d845,malware,WINERACK,S0219
+malware--49fee0b0-390e-4bde-97f8-97ed46bd19b7,malware,WhisperGate,S0689
+malware--4a98e44a-bd52-461e-af1e-a4457de87a36,malware,FruitFly,S0277
+malware--4ab44516-ad75-4e43-a280-705dc0420e2f,malware,ZeroT,S0230
+malware--4b072c90-bc7a-432b-940e-016fc1c01761,malware,Keydnap,S0276
+malware--4b346d12-7f91-48d2-8f06-b26ffa0d825b,malware,RDAT,S0495
+malware--4b62ab58-c23b-4704-9c15-edd568cd59f8,malware,Hacking Team UEFI Rootkit,S0047
+malware--4b68b5ea-2e1b-4225-845b-8632f702b9a0,malware,Skidmap,S0468
+malware--4b6ec280-7bbb-48ff-ae59-b189520ebe83,malware,Okrum,S0439
+malware--4c59cce8-cb48-4141-b9f1-f646edfaadb0,malware,Regin,S0019
+malware--4c6d62c2-89f5-4159-8fab-0190b1f9d328,malware,Bonadan,S0486
+malware--4d56e6e9-1a6d-46e3-896c-dfdf3cc96e62,malware,SamSam,S0370
+malware--4d7bf2ac-f953-4907-b114-be44dc174d67,malware,Neoichor,S0691
+malware--4dea7d8e-af94-4bfb-afe4-7ff54f59308b,malware,Conti,S0575
+malware--4e6b9625-bbda-4d96-a652-b3bb45453f26,malware,RemoteCMD,S0166
+malware--4e9bdf9a-4957-47f6-87b3-c76898d3f623,malware,Diavol,S0659
+malware--4efc3e00-72f2-466a-ab7c-8a7dc6603b19,malware,Raindrop,S0565
+malware--4f1c389e-a80e-4a3e-9b0e-9be8c91df64f,malware,Doki,S0600
+malware--4f6aa78c-c3d4-4883-9840-96ca2f5d6d47,malware,TEXTMATE,S0146
+malware--4fbd565b-bf55-4ac7-80b4-b183a7b64b9c,malware,Siloscape,S0623
+malware--50c44c34-3abb-48ae-9433-a2337de5b0bc,malware,BlackCat,S1068
+malware--50d6688b-0985-4f3d-8cbe-0c796b30703b,malware,Fysbis,S0410
+malware--5147ef15-1cae-4707-8ea1-bee8d98b7f1d,malware,IcedID,S0483
+malware--5189f018-fea2-45d7-b0ed-23f9ee0a46f3,malware,VERMIN,S0257
+malware--518bb5f1-91f4-4ff2-b09d-5a94e1ebe95f,malware,UBoatRAT,S0333
+malware--532c6004-b1e8-415b-9516-f7c14ba783b1,malware,MarkiRAT,S0652
+malware--53486bc7-7748-4716-8190-e4f1fde04c53,malware,PowerShower,S0441
+malware--536be338-e2ef-4a6b-afb6-8d5568b91eb2,malware,Kazuar,S0265
+malware--53a42597-1974-4b8e-84fd-3675e8992053,malware,NavRAT,S0247
+malware--53ab35c2-d00e-491a-8753-41d35ae7e547,malware,DarkComet,S0334
+malware--53cf6cc4-65aa-445a-bcf8-c3d296f8a7a2,malware,NETEAGLE,S0034
+malware--53d47b09-09c2-4015-8d37-6633ecd53f79,malware,POORAIM,S0216
+malware--54895630-efd2-4608-9c24-319de972a9eb,malware,Ragnar Locker,S0481
+malware--54a01db0-9fab-4d5f-8209-53cef8425f4a,malware,FatDuke,S0512
+malware--54a73038-1937-4d71-a253-316e76d5413c,malware,Lucifer,S0532
+malware--54cc1d4f-5c53-4f0e-9ef5-11b4998e82e4,malware,BlackEnergy,S0089
+malware--54e8672d-5338-4ad1-954a-a7c986bee530,malware,zwShell,S0350
+malware--552462b9-ae79-49dd-855c-5973014e157f,malware,Zeroaccess,S0027
+malware--5633ffd3-81ef-4f98-8f93-4896b03998f0,malware,DCSrv,S1033
+malware--56aa3c82-ed40-4b5a-84bf-7231356d9e96,malware,DRATzarus,S0694
+malware--56d10a7f-bb42-4267-9b4c-63abb9c06010,malware,BOOSTWRITE,S0415
+malware--56e6b6c2-e573-4969-8bab-783205cebbbf,malware,Rising Sun,S0448
+malware--56f46b17-8cfa-46c0-b501-dd52fef394e2,malware,ASPXSpy,S0073
+malware--5719af9d-6b16-46f9-9b28-fb019541ddbb,malware,NotPetya,S0368
+malware--5763217a-05b6-4edd-9bca-057e47b5e403,malware,ShimRat,S0444
+malware--579607c2-d046-40df-99ab-beb479c37a2a,malware,Chrommme,S0667
+malware--57d83eac-a2ea-42b0-a7b2-c80c55157790,malware,BADFLICK,S0642
+malware--5864e59f-eb4c-43ad-83b2-b5e4fae056c9,malware,ObliqueRAT,S0644
+malware--58adaaa8-f1e8-4606-9a08-422e568461eb,malware,SHOTPUT,S0063
+malware--58c5a3a1-928f-4094-9e98-a5a4e56dd5f3,malware,Avaddon,S0640
+malware--58eddbaf-7416-419a-ad7b-e65b9d4c3b55,malware,Conficker,S0608
+malware--592260fb-dd5c-4a30-8d99-106a0485be0d,malware,Flagpro,S0696
+malware--5967cc93-57c9-404a-8ffd-097edfa7bdfc,malware,Hi-Zor,S0087
+malware--599cd7b5-37b5-4cdd-8174-2811531ce9d0,malware,SpicyOmelette,S0646
+malware--59a97b15-8189-4d51-9404-e1ce8ea4a069,malware,XAgentOSX,S0161
+malware--59c8a28c-200c-4565-9af1-cbdb24870ba0,malware,Green Lambert,S0690
+malware--5a3a31fe-5a8f-48e1-bff0-a753e5b1be70,malware,China Chopper,S0020
+malware--5a84dc36-df0d-4053-9b7c-f0c388a57283,malware,CALENDAR,S0025
+malware--5af7a825-2d9f-400d-931a-e00eb9e27f48,malware,LockerGoga,S0372
+malware--5bcd5511-6756-4824-a692-e8bb109364af,malware,Chaos,S0220
+malware--5be33fef-39c0-4532-84ee-bea31e1b5324,malware,ISMInjector,S0189
+malware--5c6ed2dc-37f4-40ea-b2e1-4c76140a388c,malware,PUNCHBUGGY,S0196
+malware--5c747acd-47f0-4c5a-b9e5-213541fc01e0,malware,GoldMax,S0588
+malware--5d11d418-95dd-4377-b782-23160dfa17b4,malware,HELLOKITTY,S0617
+malware--5d342981-5194-41e7-b33f-8e91998d7d88,malware,CostaBricks,S0614
+malware--5dd649c0-bca4-488b-bd85-b180474ec62e,malware,KeyBoy,S0387
+malware--5e595477-2e78-4ce7-ae42-e0b059b17808,malware,POSHSPY,S0150
+malware--5e7ef1dc-7fb6-4913-ac75-e06113b59e0c,malware,MiniDuke,S0051
+malware--5e814485-012d-423d-b769-026bfed0f451,malware,HyperBro,S0398
+malware--5f1d4579-4e8f-48e7-860e-2da773ae432e,malware,Anchor,S0504
+malware--5f9f7648-04ba-4a9f-bb4c-2a13e74572bd,malware,Pteranodon,S0147
+malware--5faaf81a-aa5b-4a4b-bae5-522439e068f8,malware,DarkTortilla,S1066
+malware--60a9c2f0-b7a5-4e8e-959c-e1a3ff314a5f,malware,ROKRAT,S0240
+malware--60c18d06-7b91-4742-bae3-647845cd9d81,malware,CORESHELL,S0137
+malware--60d50676-459a-47dd-92e9-a827a9fe9c58,malware,RunningRAT,S0253
+malware--61c7a91a-0b83-461d-ad32-75d96eed4a09,malware,Babuk,S0638
+malware--63686509-069b-4143-99ea-4e59cad6cb2a,malware,DarkWatchman,S0673
+malware--63c2a130-8a5b-452f-ad96-07cf0af12ffe,malware,Dyre,S0024
+malware--63c4511b-2d6e-4bb2-b582-e2e99a8a467d,malware,BlackMould,S0564
+malware--64122557-5940-4271-9123-25bfc0c693db,malware,Javali,S0528
+malware--64d76fa5-cf8f-469c-b78c-1a4f7c5bad80,malware,BBSRAT,S0127
+malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd,malware,PlugX,S0013
+malware--65341f30-bec6-4b1d-8abf-1a5620446c29,malware,Reaver,S0172
+malware--65ffc206-d7c1-45b3-b543-f6b726e7840d,malware,Bisonal,S0268
+malware--66b1dcde-17a0-4c7b-95fa-b08d430c2131,malware,S-Type,S0085
+malware--67e6d66b-1b82-4699-b47a-e2efb6268d14,malware,SeaDuke,S0053
+malware--67fc172a-36fa-4a35-88eb-4ba730ed52a6,malware,BS2005,S0014
+malware--687c23e4-4e25-4ee7-a870-c5e002511f54,malware,DustySky,S0062
+malware--68dca94f-c11d-421e-9287-7c501108e18c,malware,Duqu,S0038
+malware--691c60e2-273d-4d56-9ce6-b67e0f8719ad,malware,Truvasys,S0178
+malware--69d6f4a9-fcf0-4f51-bca7-597c51ad0bb8,malware,Remsec,S0125
+malware--6a0d0ea9-b2c4-43fe-a552-ac41a3009dc5,malware,Industroyer2,S1072
+malware--6a0ef5d4-fc7c-4dda-85d7-592e4dbdc5d9,malware,Sykipot,S0018
+malware--6a21e3a4-5ffe-4581-af9a-6a54c7536f44,malware,Explosive,S0569
+malware--6a92d80f-cc65-45f6-aa66-3cdea6786b3c,malware,Xbash,S0341
+malware--6b616fc1-1505-48e3-8b2c-0d19337bff38,malware,Rover,S0090
+malware--6b62e336-176f-417b-856a-8552dd8c44e1,malware,Epic,S0091
+malware--6ba1d7ae-d60b-43e6-9f08-a8b787e9d9cb,malware,LightNeuron,S0395
+malware--6c2550d5-a01a-4bbb-a004-6ead348ba623,malware,Peppy,S0643
+malware--6c575670-d14c-4c7f-9b9d-fd1b363e255d,malware,KEYPLUG,S1051
+malware--6cd07296-14aa-403d-9229-6343d03d4752,malware,Cuba,S0625
+malware--6de9cad1-eed2-4e27-b0b5-39fa29349ea0,malware,DEATHRANSOM,S0616
+malware--6e95feb1-78ee-48d3-b421-4d76663b5c49,malware,Clambling,S0660
+malware--6fb36c6f-bb3d-4ed6-9471-cb9933e5c154,malware,Mongall,S1026
+malware--705f0783-5f7d-4491-b6b7-9628e6e006d2,malware,NanHaiShu,S0228
+malware--7230ded7-3b1a-4d6e-9735-d0ffd47af9f6,malware,SVCReady,S1064
+malware--727afb95-3d0f-4451-b297-362a43909923,malware,ThiefQuest,S0595
+malware--72911fe3-f085-40f7-b4f2-f25a4221fe44,malware,FoggyWeb,S0661
+malware--72f54d66-675d-4587-9bd3-4ed09f9522e4,malware,Carbanak,S0030
+malware--7343e208-7cab-45f2-a47b-41ba5e2f0fab,malware,XTunnel,S0117
+malware--73a4793a-ce55-4159-b2a6-208ef29b326f,malware,Hydraq,S0203
+malware--73c4711b-407a-449d-b269-e3b1531fe7a9,malware,SHARPSTATS,S0450
+malware--73d08401-005f-4e1f-90b9-8f45d120879f,malware,Ferocious,S0679
+malware--7451bcf9-e6e6-4a70-bc3d-1599173d0035,malware,HOMEFRY,S0232
+malware--750eb92a-7fdf-451e-9592-1d42357018f1,malware,CreepyDrive,S1023
+malware--751b77e6-af1f-483b-93fe-eddf17f92a64,malware,Caterpillar WebShell,S0572
+malware--754effde-613c-4244-a83e-fb659b2a4d06,malware,Netwalker,S0457
+malware--7551188b-8f91-4d34-8350-0d0c57b2b913,malware,Elise,S0081
+malware--75bba379-4ba1-467e-8c60-ec2b269ee984,malware,USBferry,S0452
+malware--75ecdbf1-c2bb-4afc-a3f9-c8da4de8c661,malware,WannaCry,S0366
+malware--76abb3ef-dafd-4762-97cb-a35379429db4,malware,Gazer,S0168
+malware--76ac7989-c5cc-42e2-93e3-d6c476f01ace,malware,TSCookie,S0436
+malware--7724581b-06ff-4d2b-b77c-80dc8d53070b,malware,Saint Bot,S1018
+malware--77ca1aa3-280c-4b67-abaa-e8fb891a8f83,malware,Pay2Key,S0556
+malware--77e0ecf7-ca91-4c06-8012-8e728986a87a,malware,Chaes,S0631
+malware--79499993-a8d6-45eb-b343-bf58dea5bdde,malware,Briba,S0204
+malware--7acb15b6-fe2c-4319-b136-6ab36ff0b2d4,malware,CharmPower,S0674
+malware--7ba0fc46-197d-466d-8b9f-f1c64d5d81e5,malware,TYPEFRAME,S0263
+malware--7bec698a-7e20-4fd3-bb6a-12787770fb1a,malware,3PARA RAT,S0066
+malware--7bef1b56-4870-4e74-b32a-7dd88c390c44,malware,Bundlore,S0482
+malware--7c58fff0-d206-4db1-96b1-e3a9e0e320b9,malware,P8RAT,S0626
+malware--7cdfccda-2950-4167-981a-60872ff5d0db,malware,EVILNUM,S0568
+malware--7dbb67c7-270a-40ad-836e-c45f8948aa5a,malware,KOMPROGO,S0156
+malware--7e0f8b0f-716e-494d-827e-310bd6ed709e,malware,SMOKEDHAM,S0649
+malware--7e100ca4-e639-48d9-9a9d-8ad84aa7b448,malware,Mori,S1047
+malware--7e6c2a9d-9dc1-4eb0-b27c-91e8076a9d77,malware,QUADAGENT,S0269
+malware--7f4bbe05-1674-4087-8a16-8f1ad61b6152,malware,TAINTEDSCRIBE,S0586
+malware--7f8730af-f683-423f-9ee1-5f6875a80481,malware,Sys10,S0060
+malware--800bdfba-6d66-480f-9f45-15845c05cb5d,malware,pngdowner,S0067
+malware--802a874d-7463-4f2a-99e3-6a1f5a919a21,malware,Royal,S1073
+malware--805480f1-6caa-4a67-8ca9-b2b39650d986,malware,BendyBear,S0574
+malware--80a014ba-3fef-4768-990b-37d8bd10d7f4,malware,Uroburos,S0022
+malware--81c57a96-fc8c-4f91-af8e-63e24c2927c2,malware,Metamorfo,S0455
+malware--82cb34ba-02b5-432b-b2d2-07f55cbf674d,malware,Trojan.Karagany,S0094
+malware--835a79f1-842d-472d-b8f4-d54b545c341b,malware,Bandook,S0234
+malware--8393dac0-0583-456a-9372-fd81691bca20,malware,PipeMon,S0501
+malware--84c1ecc6-e5a2-4e8a-bf4b-651a618e0053,malware,SYNful Knock,S0519
+malware--85b39628-204a-48d2-b377-ec368cbcb7ca,malware,TINYTYPHON,S0131
+malware--86b92f6c-9c05-4c51-b361-4c7bb13e21a1,malware,KONNI,S0356
+malware--876f6a77-fbc5-4e13-ab1a-5611986730a3,malware,T9000,S0098
+malware--8787e86d-8475-4f13-acea-d33eb83b6105,malware,Winnti for Linux,S0430
+malware--88c621a7-aef9-4ae0-94e3-1fc87123eb24,malware,gh0st RAT,S0032
+malware--8901ac23-6b50-410c-b0dd-d8174a86f9b3,malware,Shamoon,S0140
+malware--89f63ae4-f229-4a5c-95ad-6f22ed2b5c49,malware,Skeleton Key,S0007
+malware--8a2867f9-e8fc-4bf1-a860-ef6e46311900,malware,DnsSystem,S1021
+malware--8a59f456-79a0-4151-9f56-9b1a67332af2,malware,MoleNet,S0553
+malware--8ab98e25-1672-4b5f-a2fb-e60f08a5ea9e,malware,CORALDECK,S0212
+malware--8ae43c46-57ef-47d5-a77a-eebb35628db2,malware,JHUHUGIT,S0044
+malware--8b880b41-5139-4807-baa9-309690218719,malware,SPACESHIP,S0035
+malware--8bd47506-29ae-44ea-a5c1-c57e8a1ab6b0,malware,BLUELIGHT,S0657
+malware--8bdfe255-e658-4ddd-a11c-b854762e451d,malware,KGH_SPY,S0526
+malware--8be7c69e-d8e3-4970-9668-61de08e508cc,malware,down_new,S0472
+malware--8beac7c2-48d2-4cd9-9b15-6c452f38ac06,malware,Ixeshe,S0015
+malware--8c050cea-86e1-4b63-bf21-7af4fa483349,malware,Micropsia,S0339
+malware--8c1d01ff-fdc0-4586-99bd-c248e0761af5,malware,Kerrdown,S0585
+malware--8c553311-0baa-4146-997a-f79acef3d831,malware,RARSTONE,S0055
+malware--8caa18af-4758-4fd3-9600-e8af579e89ed,malware,VBShower,S0442
+malware--8d242fb4-9033-4f13-8a88-4b9b4bcd9a53,malware,Black Basta,S1070
+malware--8d9e758b-735f-4cbc-ba7c-32cd15138b2a,malware,Catchamas,S0261
+malware--8dbadf80-468c-4a62-b817-4e4d8b606887,malware,StoneDrill,S0380
+malware--8e101fdd-9f7f-4916-bb04-6bd9e94c129c,malware,OopsIE,S0264
+malware--8e461ca3-0996-4e6e-a0df-e2a5bbc51ebc,malware,4H RAT,S0065
+malware--8ec6e3b4-b06d-4805-b6aa-af916acc2122,malware,RogueRobin,S0270
+malware--8f423bd7-6ca7-4303-9e85-008c7ad5fdaa,malware,Attor,S0438
+malware--8f460983-1bbb-4e7e-8094-f0b5e720f658,malware,DealersChoice,S0243
+malware--8fc6c9e7-a162-4ca4-a488-f1819e9a7b06,malware,SQLRat,S0390
+malware--9020f5c7-efde-4125-a4f1-1b70f1274ddd,malware,LitePower,S0680
+malware--909617c3-6d87-4330-8f32-bd3af38c3b92,malware,MegaCortex,S0576
+malware--91000a8a-58cc-4aba-9ad0-993ad6302b86,malware,StreamEx,S0142
+malware--911fe4c3-444d-4e92-83b8-cc761ac5fd3b,malware,Ngrok,S9000
+malware--919a056e-5104-43b9-ad55-2ac929108b71,malware,BoxCaon,S0651
+malware--91c57ed3-7c32-4c68-b388-7db00cb8dac6,malware,NightClub,S1090
+malware--925a6c52-5cf0-4fec-99de-b0d6917d8593,malware,Crutch,S0538
+malware--92b03a94-7147-4952-9d5a-b4d24da7487c,malware,SDBbot,S0461
+malware--92b55426-109f-4d93-899f-1833ce91ff90,malware,Mosquito,S0256
+malware--92ec0cbd-2c30-44a2-b270-73f4ec949841,malware,RTM,S0148
+malware--93289ecf-4d15-4d6b-a9c3-4ab27e145ef4,malware,QUIETCANARY,S1076
+malware--93ae2edf-a598-4d2d-acd7-bcae0c021923,malware,TRITON,S0609
+malware--94379dec-5c87-49db-b36e-66abc0b81344,malware,Derusbi,S0021
+malware--94d6d788-07bb-4dcc-b62f-e02626b00108,malware,SodaMaster,S0627
+malware--95047f03-4811-4300-922e-1ba937d53a61,malware,Hikit,S0009
+malware--958b5d06-8bb0-4c5b-a2e7-0130fe654ac7,malware,Grandoreiro,S0531
+malware--959f3b19-2dc8-48d5-8942-c66813a5101a,malware,WellMail,S0515
+malware--95e2cbae-d82c-4f7b-b63c-16462015d35d,malware,LiteDuke,S0513
+malware--96566860-9f11-4b6f-964d-1c924e4f24a4,malware,Starloader,S0188
+malware--96b08451-b27a-4ff6-893f-790e26393a8e,malware,Sakula,S0074
+malware--96eca9b9-b37f-42f1-96dc-a2c441403194,malware,VaporRage,S0636
+malware--9752aef4-a1f3-4328-929f-b64eb0536090,malware,RawPOS,S0169
+malware--979adb5a-dc30-48f0-9e3d-9a26d866928c,malware,Sibot,S0589
+malware--97cfbdc6-504d-41e9-a46c-78a9f806ff0d,malware,ZxxZ,S1013
+malware--988976ff-beeb-4fb5-b07d-ca7437ea66e8,malware,Tarrask,S1011
+malware--98e8a977-3416-43aa-87fa-33e287e9c14c,malware,WINDSHIELD,S0155
+malware--99164b38-1775-40bc-b77b-a2373b14540a,malware,Drovorub,S0502
+malware--99854cc8-f202-4e03-aa0a-4f8a4af93229,malware,Shark,S1019
+malware--99fdf3b4-96ef-4ab9-b191-fc683441cad0,malware,Bazar,S0534
+malware--9abdda30-08e0-4ab1-9cf0-d447654c6de9,malware,Kobalos,S0641
+malware--9af05de0-bc09-4511-a350-5eb8b06185c1,malware,BadPatch,S0337
+malware--9b19d6b4-cfcb-492f-8ca8-8449e7331573,malware,MESSAGETAP,S0443
+malware--9b325b06-35a1-457d-be46-a4ecc0b7ff0c,malware,RATANKBA,S0241
+malware--9c10cede-c0bb-4c5c-91c0-8baec30abaf6,malware,SUGARDUMP,S1042
+malware--9ca488bd-9587-48ef-b923-1743523e63b2,malware,SOUNDBITE,S0157
+malware--9dbdadb6-fdbf-490f-a35f-38762d06a0d2,malware,BADCALL,S0245
+malware--9e2bba94-950b-4fcf-8070-cb3f816c5f4e,malware,hcdLoader,S0071
+malware--9e9b9415-a7df-406b-b14d-92bfe6809fbe,malware,Nidiran,S0118
+malware--9ea525fa-b0a9-4dde-84f2-bcea0137b3c1,malware,MoonWind,S0149
+malware--a020a61c-423f-4195-8c46-ba1d21abba37,malware,Ryuk,S0446
+malware--a04d9a4c-bb52-40bf-98ec-e350c2d6a862,malware,Cryptoistic,S0498
+malware--a0ab8a96-40c9-4483-8a54-3fafa6d6007a,malware,HermeticWiper,S0697
+malware--a0ebedca-d558-4e48-8ff7-4bf76208d90c,malware,ABK,S0469
+malware--a19c1197-9414-46e3-986f-0f609ff4a46b,malware,Pysa,S0583
+malware--a19c49aa-36fe-4c05-b817-23e1c7a7d085,malware,Wiper,S0041
+malware--a2282af0-f9dd-4373-9b92-eaf9e11e0c71,malware,Final1stspy,S0355
+malware--a394448a-4576-41b8-81cc-9b61abad94ab,malware,ccf32,S1043
+malware--a4f57468-fbd5-49e4-8476-52088220b92d,malware,Zebrocy,S0251
+malware--a545456a-f9a7-47ad-9ea6-8b017def38d1,malware,Pandora,S0664
+malware--a5528622-3a8a-4633-86ce-8cdaf8423858,malware,FinFisher,S0182
+malware--a5575606-9b85-4e3d-9cd2-40ef30e3672d,malware,SpeakUp,S0374
+malware--a5e91d50-24fa-44ec-9894-39a88f658cea,malware,CrossRAT,S0235
+malware--a60657fa-e2e7-4f8f-8128-a882534ae8c5,malware,OwaAuth,S0072
+malware--a705b085-1eae-455e-8f4d-842483d814eb,malware,Cadelspy,S0454
+malware--a7881f21-e978-4fe4-af56-92c9416a2616,malware,Cobalt Strike,S0154
+malware--a8839c95-029f-44cf-8f3d-a3cf2039e927,malware,SUNBURST,S0559
+malware--a8a778f5-0035-4870-bb25-53dc05029586,malware,EvilBunny,S0396
+malware--a8d3d497-2da9-4797-8e0b-ed176be08654,malware,Wingbird,S0176
+malware--aa1462a1-d065-416c-b354-bedd04998c7f,malware,Cobian RAT,S0338
+malware--aad11e34-02ca-4220-91cd-2ed420af4db3,malware,HotCroissant,S0431
+malware--aae22730-e571-4d17-b037-65f2a3e26213,malware,ServHelper,S0382
+malware--aaf3fa65-8b27-4e68-91de-2b7738fe4c82,malware,JCry,S0389
+malware--ab3580c8-8435-4117-aace-3d9fbe46aa56,malware,Unknown Logger,S0130
+malware--ac61f1f9-7bb1-465e-9b8a-c2ce8e88baf5,malware,REvil,S0496
+malware--ad4f146f-e3ec-444a-ba71-24bffd7f0f8e,malware,RIPTIDE,S0003
+malware--ade37ada-14af-4b44-b36c-210eec255d53,malware,Valak,S0476
+malware--ae9d818d-95d0-41da-b045-9cabea1ca164,malware,PinchDuke,S0048
+malware--aea6d6b8-d832-4c90-a1bb-f52c6684db6c,malware,Milan,S1015
+malware--af2ad3b7-ab6a-4807-91fd-51bcaff9acbb,malware,USBStealer,S0136
+malware--b00f90b6-c75c-4bfd-b813-ca9e6c9ebf29,malware,OSX_OCEANLOTUS.D,S0352
+malware--b0f13390-cec7-4814-b37c-ccec01887faa,malware,CCBkdr,S0222
+malware--b136d088-a829-432c-ac26-5529c26d4c7e,malware,OnionDuke,S0052
+malware--b143dfa4-e944-43ff-8429-bfffc308c517,malware,Taidoor,S0011
+malware--b1de6916-7a22-4460-8d26-6b5483ffaa2a,malware,SHIPSHAPE,S0028
+malware--b2203c59-4089-4ee4-bfe1-28fa25f0dbfe,malware,Cherry Picker,S0107
+malware--b2b0b946-be0a-4a7f-9c32-a2e5211d1cd9,malware,SUPERNOVA,S0578
+malware--b2c5d3ca-b43a-4888-ad8d-e2d43497bf85,malware,P2P ZeuS,S0016
+malware--b2d134a1-7bd5-4293-94d4-8fc978cb1cd7,malware,Kivars,S0437
+malware--b30d999d-64e0-4e35-9856-884e4b83d611,malware,CaddyWiper,S0693
+malware--b350b47f-88fe-4921-8538-6d9c59bac84e,malware,Cyclops Blink,S0687
+malware--b42378e0-f147-496f-992a-26a49705395b,malware,PoisonIvy,S0012
+malware--b45747dc-87ca-4597-a245-7e16a61bc491,malware,Seasalt,S0345
+malware--b4783be3-35d9-4a56-ac8d-1f3e1c9d9a84,malware,NativeZone,S0637
+malware--b4d80f8b-d2b9-4448-8844-4bef777ed676,malware,NanoCore,S0336
+malware--b51797f7-57da-4210-b8ac-b8632ee75d70,malware,TajMahal,S0467
+malware--b57f419e-8b12-49d3-886b-145383725dcd,malware,PLEAD,S0435
+malware--b6b3dfc7-9a81-43ff-ac04-698bad48973a,malware,Daserf,S0187
+malware--b7010785-699f-412f-ba49-524da6033c76,malware,GoldFinder,S0597
+malware--b7e9880a-7a7c-4162-bddb-e28e8ef2bf1f,malware,Carbon,S0335
+malware--b865dded-0553-4962-a44b-6fe7863effed,malware,LoJax,S0397
+malware--b879758f-bbc4-4cab-b5ba-177ac9b009b4,malware,Cardinal RAT,S0348
+malware--b8d48deb-450c-44f6-a934-ac8765aa89cb,malware,DanBot,S1014
+malware--b8eb28e4-48a6-40ae-951a-328714f75eda,malware,BISCUIT,S0017
+malware--b8fdef82-d2cf-4948-8949-6466357b1be1,malware,Calisto,S0274
+malware--b96680d1-5eb3-4f07-b95c-00ab904ac236,malware,Pisloader,S0124
+malware--b9704a7d-feef-4af9-8898-5280f1686326,malware,GoldenSpy,S0493
+malware--b9799466-9dd7-4098-b2d6-f999ce50b9a8,malware,Gold Dragon,S0249
+malware--b9eec47e-98f4-4b3c-b574-3fa8a87ebe05,malware,RGDoor,S0258
+malware--ba09b86c-1c40-4ff1-bda0-0d8c4ca35997,malware,Ramsay,S0458
+malware--bb3c1098-d654-4620-bf40-694386d28921,malware,FakeM,S0076
+malware--bbcd7a02-ef24-4171-ac94-a93540173b94,malware,Carberp,S0484
+malware--bd0536d7-b081-43ae-a773-cfb057c5b988,malware,HARDRAIN,S0246
+malware--bd7a9e13-69fa-4243-a5e5-04326a63f9f2,malware,Pillowmint,S0517
+malware--bdad6f3b-de88-42fa-9295-d29b5271808e,malware,TrailBlazer,S0682
+malware--bdb27a1d-1844-42f1-a0c0-826027ae0326,malware,Revenge RAT,S0379
+malware--bdee9574-7479-4073-a7dc-e86d8acd073a,malware,MacMa,S1016
+malware--be25c1c0-1590-4219-a3d5-6f31799d1d1b,malware,FunnyDream,S1044
+malware--bf48e7f8-752c-4ce8-bf8f-748edacd8fa6,malware,SUNSPOT,S0562
+malware--bfd2738c-8b43-43c3-bc9f-d523c8e88bf4,malware,More_eggs,S0284
+malware--c009560a-f097-45a3-8f9f-78ec1440a783,malware,SysUpdate,S0663
+malware--c0c45d38-fe57-4cd4-b2b2-9ecd0ddd4ca9,malware,TinyZBot,S0004
+malware--c113230f-f044-423b-af63-9b63c802f5ae,malware,OutSteel,S1017
+malware--c13d9621-aca7-436b-ab3d-3a95badb3d00,malware,BackConfig,S0475
+malware--c19d19ae-dd58-4584-8469-966bbeaa80e3,malware,PowGoop,S1046
+malware--c2417bab-3189-4d4d-9d60-96de2cdaf0ab,malware,Kwampirs,S0236
+malware--c251e4a5-9a2e-4166-8e42-442af75c3b9a,malware,Nerex,S0210
+malware--c26f1c05-b861-4970-94dc-2f7f921a3074,malware,BoomBox,S0635
+malware--c46eb8e6-bf29-4696-8008-3ddb0b4ca470,malware,DEADEYE,S1052
+malware--c4de7d83-e875-4c88-8b5d-06c41e5b7e79,malware,PUNCHTRACK,S0197
+malware--c541efb4-e7b1-4ad6-9da8-b4e113f5dd42,malware,Proton,S0279
+malware--c5e9cb46-aced-466c-85ea-7db5572ad9ec,malware,Trojan.Mebromi,S0001
+malware--c8b6cc43-ce61-42ae-87f3-a5f10526f952,malware,InnaputRAT,S0259
+malware--c984b414-b766-44c5-814a-2fe96c913c12,malware,Kessel,S0487
+malware--c9b99d03-ff11-4a48-95f0-82660d582c25,malware,GrimAgent,S0632
+malware--c9ccc4df-1f56-49e7-ad57-b383e1451688,malware,LookBack,S0582
+malware--cad3ba95-8c89-4146-ab10-08daa813f9de,malware,Clop,S0611
+malware--cafd0bf8-2b9c-46c7-ae3c-3e0f42c5062e,malware,NetTraveler,S0033
+malware--cb444a16-3ea5-4a91-88c6-f329adcb8af3,malware,YAHOYAH,S0388
+malware--cb741463-f0fe-42e0-8d45-bc7e8335f5ae,malware,Lokibot,S0447
+malware--cb7bcf6f-085f-41db-81ee-4b68481661b5,malware,CallMe,S0077
+malware--cba78a1c-186f-4112-9e6a-be1839f030f7,malware,ROCKBOOT,S0112
+malware--cbf646f1-7db5-4dc6-808b-0094313949df,malware,CloudDuke,S0054
+malware--cc4c1287-9c86-4447-810c-744f3880ec37,malware,Egregor,S0554
+malware--cc5497f7-a9e8-436f-94da-b2b4a9b9ad3c,malware,PoetRAT,S0428
+malware--ccd61dfc-b03f-4689-8c18-7c97eab08472,malware,CHOPSTICK,S0023
+malware--cf8df906-179c-4a78-bd6e-6605e30f6624,malware,FELIXROOT,S0267
+malware--cfc75b0d-e579-40ae-ad07-a1ce00d49a6c,malware,ZxShell,S0412
+malware--d1183cb9-258e-4f2f-8415-50ac8252c49e,malware,NDiskMonitor,S0272
+malware--d1531eaa-9e17-473e-a680-3298469662c3,malware,CoinTicker,S0369
+malware--d186c1d6-e3ac-4c3d-a534-9ddfeb8c57bb,malware,DDKONG,S0255
+malware--d18cb958-f4ad-4fb3-bb4f-e8994d206550,malware,Penquin,S0587
+malware--d1b7830a-fced-4be3-a99c-f495af9d9e1b,malware,BabyShark,S0414
+malware--d20b397a-ea47-48a9-b503-2e2a3551e11d,malware,Cannon,S0351
+malware--d23de441-f9cf-4802-b1ff-f588a11a896b,malware,CreepySnail,S1024
+malware--d2c7f8ad-3b50-4cfa-bbb1-799eff06fb40,malware,build_downer,S0471
+malware--d3105fb5-c494-4fd1-a7be-414eab9e0c96,malware,Melcoz,S0530
+malware--d3afa961-a80c-4043-9509-282cdf69ab21,malware,Winnti for Windows,S0141
+malware--d52291b4-bb23-45a8-aef0-3dc7e986ba15,malware,PowerPunch,S0685
+malware--d5268dfb-ae2b-4e0e-ac07-02a460613d8a,malware,BONDUPDATER,S0360
+malware--d69c8146-ab35-4d50-8382-6fc80e641d43,malware,BLACKCOFFEE,S0069
+malware--d6b3fcd0-1c86-4350-96f0-965ed02fcc51,malware,Ebury,S0377
+malware--d6e55656-e43f-411f-a7af-45df650471c5,malware,Kinsing,S0599
+malware--d79e7a60-5de9-448e-a074-f95d2d80f8d0,malware,Meteor,S0688
+malware--d906e6f7-434c-44c0-b51a-ed50af8f7945,malware,njRAT,S0385
+malware--d9f7383c-95ec-4080-bbce-121c9384457b,malware,Maze,S0449
+malware--da2ef4a9-7cbe-400a-a379-e2f230f28db3,malware,BOOTRASH,S0114
+malware--da5880b4-f7da-4869-85f2-e0aba84b8565,malware,ComRAT,S0126
+malware--db1355a7-e5c9-4e2c-8da7-eccf2ae9bf5c,malware,TURNEDUP,S0199
+malware--dc5d1a33-62aa-4a0c-aa8c-589b87beb11e,malware,ChChes,S0144
+malware--dcac85c1-6485-4790-84f6-de5e6f6b91dd,malware,PowerStallion,S0393
+malware--dcd9548e-df9e-47c2-81f3-bc084289959d,malware,ANDROMEDA,S1074
+malware--dd889a55-fb2c-4ec7-8e9f-c399939a49e1,malware,IceApple,S1022
+malware--de6cb631-52f6-4169-a73b-7965390b0c30,malware,JPIN,S0201
+malware--df350889-4de9-44e5-8cb3-888b8343e97c,malware,metaMain,S1059
+malware--df4cd566-ff2f-4d08-976d-8c86e95782de,malware,SideTwist,S0610
+malware--df9b350b-d4f9-4e79-a826-75cc75fbc1eb,malware,KOCTOPUS,S0669
+malware--dfa03c7d-79ed-4ce2-b9d1-ddc9dbf56ad2,malware,MechaFlounder,S0459
+malware--dfb5fa9b-3051-4b97-8035-08f80aef945b,malware,Psylo,S0078
+malware--dff90475-9f72-41a6-84ed-1fbefd3874c0,malware,Heyoka Backdoor,S1027
+malware--e066bf86-9cfb-407a-9d25-26fd5d91e360,malware,HTTPBrowser,S0070
+malware--e1161124-f22e-487f-9d5f-ed8efc8dcd61,malware,Mis-Type,S0084
+malware--e14085cb-0e8d-4be6-92ba-e3b93ee5978f,malware,XCSSET,S0658
+malware--e1445afd-c359-45ed-8f27-626dc4d5e157,malware,Disco,S1088
+malware--e170995d-4f61-4f17-b60e-04f9a06ee517,malware,Dipsind,S0200
+malware--e2031fd5-02c2-43d4-85e2-b64f474530c2,malware,Octopus,S0340
+malware--e221eb77-1502-4129-af1d-fe1ad55e7ec6,malware,KillDisk,S0607
+malware--e2d34c63-6f5a-41f5-86a2-e2380f27f858,malware,AppleJeus,S0584
+malware--e33e4603-afab-402d-b2a1-248d435b5fe0,malware,SoreFang,S0516
+malware--e355fc84-6f3c-4888-8e0a-d7fa9c378532,malware,STARWHALE,S1037
+malware--e3cedcfe-6515-4348-af65-7f2c4157bf0d,malware,MirageFox,S0280
+malware--e401d4fe-f0c9-44f0-98e6-f93487678808,malware,Industroyer,S0604
+malware--e48df773-7c95-4a4c-ba70-ea3d15900148,malware,DownPaper,S0186
+malware--e494ad79-37ee-4cd0-866b-299c521d8b94,malware,Socksbot,S0273
+malware--e669bb87-f773-4c7b-bfcc-a9ffebfdd8d4,malware,HIDEDRV,S0135
+malware--e6ef745b-077f-42e1-a37d-29eecff9c754,malware,CozyCar,S0046
+malware--e7863f5d-cb6a-4f81-8804-0a635eec160a,malware,Kevin,S1020
+malware--e7a5229f-05eb-440e-b982-9a6d2b2b87c8,malware,Agent Tesla,S0331
+malware--e811ff6a-4cef-4856-a6ae-a7daf9ed39ae,malware,Pasam,S0208
+malware--e8268361-a599-4e45-bd3f-71c8c7e700c0,malware,httpclient,S0068
+malware--e8545794-b98c-492b-a5b3-4b5a02682e37,malware,POWERSTATS,S0223
+malware--e85cae1a-bce3-4ac4-b36b-b00acac0567b,malware,POWERTON,S0371
+malware--e928333f-f3df-4039-9b8b-556c2add0e42,malware,ECCENTRICBANDWAGON,S0593
+malware--e9595678-d269-469e-ae6b-75e49259de63,malware,BADNEWS,S0128
+malware--e9e9bfe2-76f4-4870-a2a1-b7af89808613,malware,Linfo,S0211
+malware--eac3d77f-2b7b-4599-ba74-948dc16633ad,malware,Goopy,S0477
+malware--ec9e00dd-0313-4d5b-8105-c20aa47abffc,malware,ShadowPad,S0596
+malware--ecc2f65a-b452-4eaf-9689-7e181f17f7a5,malware,Remexi,S0375
+malware--edb24a93-1f7a-4bbf-a738-1397a14662c6,malware,Astaroth,S0373
+malware--edc5e045-5401-42bb-ad92-52b5b2ee0de9,malware,QakBot,S0650
+malware--edf5aee2-9b1c-4252-8e64-25b12f14c8b3,malware,SYSCON,S0464
+malware--eedc01d5-95e6-4d21-bcd4-1121b1df4586,malware,CookieMiner,S0492
+malware--ef2247bf-8062-404b-894f-d65d00564817,malware,Hancitor,S0499
+malware--efa7c4d6-8e30-41d9-a8fd-26dc337f4a1b,malware,Gelsemium,S0666
+malware--efece7e8-e40b-49c2-9f84-c55c5c93d05c,malware,jRAT,S0283
+malware--eff1a885-6f90-42a1-901f-eef6e7a1905e,malware,Helminth,S0170
+malware--f01e2711-4b48-4192-a2e8-5f56c945ca19,malware,Dridex,S0384
+malware--f0fc920e-57a3-4af5-89be-9ea594c8b1ea,malware,BBK,S0470
+malware--f108215f-3487-489d-be8b-80e346d32518,malware,Komplex,S0162
+malware--f1314e75-ada8-49f4-b281-b1fb8b48f2a7,malware,OSX/Shlayer,S0402
+malware--f25aab1a-0cef-4910-a85d-bb38b32ea41a,malware,Denis,S0354
+malware--f2e8c7a1-cae1-45c4-baf0-6f21bdcbb2c2,malware,GLOOXMAIL,S0026
+malware--f36b2598-515f-4345-84e5-5ccde253edbe,malware,Dok,S0281
+malware--f3f1fbed-7e29-49cb-8579-4a378f858deb,malware,Waterbear,S0579
+malware--f464354c-7103-47c6-969b-8766f0157ed2,malware,FIVEHANDS,S0618
+malware--f4c80d39-ce10-4f74-9b50-a7e3f5df1f2e,malware,Comnie,S0244
+malware--f4d8a2d6-c684-453a-8a14-cf4a94f755c5,malware,Vasport,S0207
+malware--f5352566-1a64-49ac-8f7f-97e1d1a03300,malware,AutoIt backdoor,S0129
+malware--f559f945-eb8b-48b1-904c-68568deebed3,malware,JSS Loader,S0648
+malware--f6ae7a52-f3b6-4525-9daf-640c083f006e,malware,PHOREAL,S0158
+malware--f6d1d2cb-12f5-4221-9636-44606ea1f3f8,malware,OSInfo,S0165
+malware--f72251cb-2be5-421f-a081-99c29a1209e7,malware,MacSpy,S0282
+malware--f74a5069-015d-4404-83ad-5ca01056c0dc,malware,Lizar,S0681
+malware--f8774023-8021-4ece-9aca-383ac89d2759,malware,Dtrack,S0567
+malware--f8dfbc54-b070-4224-b560-79aaa5f835bd,malware,H1N1,S0132
+malware--f931a0b9-0361-4b1b-bacf-955062c35746,malware,Seth-Locker,S0639
+malware--f99f3dcc-683f-4936-8791-075ac5e58f10,malware,LoudMiner,S0451
+malware--f9b05f33-d45d-4e4d-aafe-c208d38a0080,malware,Azorult,S0344
+malware--fa766a65-5136-4ff3-8429-36d08eaa0100,malware,BitPaymer,S0570
+malware--fb261c56-b80e-43a9-8351-c84081e7213d,malware,BACKSPACE,S0031
+malware--fb28627c-d6ea-4c35-b138-ab5e96ae5445,malware,Zox,S0672
+malware--fb4e3792-e915-4fdd-a9cd-92dfa2ace7aa,malware,UPPERCUT,S0275
+malware--fb575479-14ef-41e9-bfab-0b7cf10bec73,malware,ADVSTORESHELL,S0045
+malware--fb78294a-7d7a-4d38-8ad0-92e67fddc9f0,malware,StrifeWater,S1034
+malware--fbb470da-1d44-4f29-bbb3-9efbe20f94a3,malware,Mivast,S0080
+malware--fc774af4-533b-4724-96d2-ac1026316794,malware,HiddenWasp,S0394
+malware--fde19a18-e502-467f-be14-58c71b4e7f4b,malware,WarzoneRAT,S0670
+malware--fde50aaa-f5de-4cb8-989a-babb57d6a704,malware,Net Crawler,S0056
+malware--feb2d7bb-aacb-48df-ad04-ccf41a30cd90,malware,SLOTHFULMEDIA,S0533
+malware--fece06b7-d4b1-42cf-b81a-5323c917546e,malware,FALLCHILL,S0181
+malware--ff41b9b6-4c1d-407b-a7e2-835109c8dbc5,malware,Small Sieve,S1035
+malware--ff6840c9-4c87-4d07-bbb6-9f50aa33d498,malware,Flame,S0143
+malware--ff7ed9c1-dca3-4e62-9da6-72c5d388b8fa,malware,HermeticWizard,S0698
+marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168,marking-definition,,
+tool--03342581-f790-4f03-ba41-e82e67392e23,tool,Net,S0039
+tool--03c6e0ea-96d3-4b23-9afb-05055663cf4b,tool,RemoteUtilities,S0592
+tool--066b057c-944e-4cfc-b654-e3dfba04b926,tool,BloodHound,S0521
+tool--0a68f1f1-da74-4d28-8d9a-696c082706cc,tool,certutil,S0160
+tool--0c8465c0-d0b4-4670-992e-4eee8d7ff952,tool,at,S0110
+tool--102c3898-85e0-43ee-ae28-62a0a3ed9507,tool,UACMe,S0116
+tool--115f88dd-0618-4389-83cb-98d33ae81848,tool,ShimRatReporter,S0445
+tool--11f8d7eb-1927-4806-9267-3a11d4d4d6be,tool,Sliver,S0633
+tool--1244e058-fa10-48cb-b484-0bcf671107ae,tool,SILENTTRINITY,S0692
+tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d,tool,PowerSploit,S0194
+tool--1b3b8f96-43b1-4460-8e02-1f53d7802fb9,tool,Pacu,S1091
+tool--242f3da3-4425-4d11-8f5c-b842886da966,tool,Windows Credential Editor,S0005
+tool--26c87906-d750-42c5-946c-d4162c73fc7b,tool,Impacket,S0357
+tool--294e2560-bd48-44b2-9da2-833b5588ad11,tool,ipconfig,S0100
+tool--2c5281dd-b5fd-4531-8aea-c1bf8a0f8756,tool,AADInternals,S0677
+tool--2e45723a-31da-4a7e-aaa6-e01998a6788f,tool,Tasklist,S0057
+tool--2f7f03bb-f367-4a5a-ad9b-310a12a48906,tool,ngrok,S0508
+tool--2fab555f-7664-4623-b4e0-1675ae38190b,tool,Lslsass,S0121
+tool--30489451-5886-4c46-90c9-0dff9adc5252,tool,Arp,S0099
+tool--33b9e38f-103c-412d-bdcf-904a91fff1e4,tool,spwebmember,S0227
+tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3,tool,Empire,S0363
+tool--362dc67f-4e85-4562-9dac-1b6b7f3ec4b5,tool,ifconfig,S0101
+tool--38952eac-cb1b-4a71-bad2-ee8223a1c8fe,tool,dsquery,S0105
+tool--3a53b207-aba2-4a2b-9cdb-273d633669e7,tool,PcShare,S1050
+tool--3ffbdc1f-d2bf-41ab-91a2-c7b857e98079,tool,RawDisk,S0364
+tool--4664b683-f578-434f-919b-1c1aad2a1111,tool,netstat,S0104
+tool--4b57c098-f043-4da2-83ef-7588a6d426bc,tool,PoshC2,S0378
+tool--4f45dfeb-fe51-4df0-8db3-edf7dd0513fe,tool,Fgdump,S0120
+tool--4fa49fc0-9162-4bdb-a37e-7aa3dcb6d38b,tool,xCmd,S0123
+tool--5256c0f8-9108-4c92-8b09-482dfacdcd94,tool,CSPY Downloader,S0527
+tool--59096109-a1dd-463b-87e7-a8d110fe3a79,tool,Rclone,S1040
+tool--5a33468d-844d-4b1f-98c9-0e786c556b27,tool,MimiPenguin,S0179
+tool--5a63f900-5e7e-4928-a746-dd4558e1df71,tool,netsh,S0108
+tool--5fc81b43-62b5-41b1-9113-c79ae5f030c4,tool,CARROTBALL,S0465
+tool--64764dc6-a032-495f-8250-1e4c06bdc163,tool,BITSAdmin,S0190
+tool--65370d0b-3bd4-4653-8cf9-daf56f6be830,tool,meek,S0175
+tool--6a5947f3-1a36-4653-8734-526df3e1d28d,tool,AsyncRAT,S1087
+tool--6dbdc657-d8e0-4f2f-909b-7251b3e72c6d,tool,ROADTools,S0684
+tool--75d8b521-6b6a-42ff-8af3-d97e20ce12a5,tool,Brute Ratel C4,S1063
+tool--79dd477a-8226-4b3d-ad15-28623675f221,tool,Peirates,S0683
+tool--7cd0bc75-055b-4098-a00e-83dc8beaff14,tool,Remcos,S0332
+tool--7fcbc4e8-1989-441f-9ac5-e7b6ff5806f1,tool,Systeminfo,S0096
+tool--80c815bb-b24a-4b9c-9d73-ff4c075a278d,tool,Out1,S0594
+tool--842976c7-f9c8-41b2-8371-41dc64fbe261,tool,ConnectWise,S0591
+tool--8f8cd191-902c-4e83-bf20-b57c8c4640e9,tool,Imminent Monitor,S0434
+tool--90ac9266-68ce-46f2-b24f-5eb3b2a8ea38,tool,Ruler,S0358
+tool--90ec2b22-7061-4469-b539-0989ec4f96c2,tool,Forfiles,S0193
+tool--96fd6cc4-a693-4118-83ec-619e5352d07d,tool,Winexe,S0191
+tool--975737f1-b10d-476f-8bda-3ec26ea57172,tool,MCMD,S0500
+tool--981acc4c-2ede-4b56-be6e-fa1a75f37acf,tool,Nltest,S0359
+tool--999c4e6e-b8dc-4b4f-8d6e-1b829f29997e,tool,MailSniper,S0413
+tool--9a2640c2-9f43-46fe-b13f-bde881e55555,tool,sqlmap,S0225
+tool--9de2308e-7bed-43a3-8e58-f194b3586700,tool,pwdump,S0006
+tool--a1dd2dbd-1550-44bf-abcc-1a4c52e97719,tool,Responder,S0174
+tool--a52edc76-328d-4596-85e7-d56ef5a9eb69,tool,Pass-The-Hash Toolkit,S0122
+tool--a7b5df47-73bb-4d47-b701-869f185633a6,tool,Donut,S0695
+tool--afc079f3-c0ea-4096-b75d-3f05338b7f60,tool,Mimikatz,S0002
+tool--b07c2c47-fefb-4d7c-a69e-6a3296171f54,tool,gsecdump,S0008
+tool--b1595ddd-a783-482a-90e1-8afc8d48467e,tool,IronNetInjector,S0581
+tool--b35068ec-107a-4266-bda8-eb7036267aea,tool,nbtstat,S0102
+tool--b52d6583-14a2-4ddc-8527-87fd2142558f,tool,Invoke-PSImage,S0231
+tool--b63970b7-ddfb-4aee-97b1-80d335e033a8,tool,NBTscan,S0590
+tool--b76b2d94-60e4-4107-a903-4a3a7622fb3b,tool,LaZagne,S0349
+tool--b77b563c-34bb-4fb8-86a3-3694338f7b47,tool,Ping,S0097
+tool--bba595da-b73a-4354-aa6c-224d4de7cb4e,tool,cmd,S0106
+tool--c11ac61d-50f4-444f-85d8-6f006067f0de,tool,route,S0103
+tool--c256da91-6dd5-40b2-beeb-ee3b22ab3d27,tool,esentutl,S0404
+tool--c4810609-7da6-48ec-8057-1b70a7814db0,tool,CrackMapExec,S0488
+tool--c8655260-9f4b-44e3-85e1-6538a5f6e4f4,tool,Koadic,S0250
+tool--c9703cd3-141c-43a0-a926-380082be5d04,tool,schtasks,S0111
+tool--c9cd7ec9-40b7-49db-80be-1399eddd9c52,tool,Cachedump,S0119
+tool--ca656c25-44f1-471b-9d9f-e2a3bbb84973,tool,Expand,S0361
+tool--cb69b20d-56d0-41ab-8440-4a4b251614d4,tool,Pupy,S0192
+tool--cde2d700-9ed1-46cf-9bce-07364fe8b24f,tool,Reg,S0075
+tool--cf23bf4a-e003-4116-bbae-1ea6c558d565,tool,ftp,S0095
+tool--d505fc8b-2e64-46eb-96d6-9ef7ffca5b66,tool,Mythic,S0699
+tool--d5e96a35-7b0b-4c6a-9533-d63ecbda563e,tool,HTRAN,S0040
+tool--d8d19e33-94fd-4aa3-b94a-08ee801a2153,tool,SDelete,S0195
+tool--da04ac30-27da-4959-a67d-450ce47d9470,tool,QuasarRAT,S0262
+tool--e33267fe-099f-4af2-8730-63d49f8813b2,tool,Rubeus,S1071
+tool--ed7d0cb1-87a6-43b4-9f46-ef1bc56d6c68,tool,Tor,S0183
+tool--f59508a6-3615-47c3-b493-6676e1a39a87,tool,AdFind,S0552
+tool--f91162cc-1686-4ff8-8115-bf3f61a4cc7a,tool,Wevtutil,S0645
+tool--fbd727ea-c0dc-42a9-8448-9e12962d1ab5,tool,Havij,S0224
+tool--ff6caf67-ea1f-4895-b80e-4bb0fc31c6db,tool,PsExec,S0029
+x-mitre-data-component--02d090b6-8157-48da-98a2-517f7edd49fc,x-mitre-data-component,Active Directory Credential Request,
+x-mitre-data-component--05645013-2fed-4066-8bdc-626b2e201dd4,x-mitre-data-component,WMI Creation,
+x-mitre-data-component--05d5b5b4-ef93-4807-b05f-33d8c5a35bc5,x-mitre-data-component,Group Modification,
+x-mitre-data-component--071a09b1-8945-46fd-8bb7-6bcc89400963,x-mitre-data-component,Image Modification,
+x-mitre-data-component--07688e40-a7fa-4436-937f-1216674341a0,x-mitre-data-component,Pod Enumeration,
+x-mitre-data-component--0dcbbf4f-929c-489a-b66b-9b820d3f7f0e,x-mitre-data-component,Response Content,
+x-mitre-data-component--0f72bf50-35b3-419d-ab95-70f9b6a818dd,x-mitre-data-component,Volume Metadata,
+x-mitre-data-component--1067aa74-5796-4d9b-b4f1-a4c9eb6fd9da,x-mitre-data-component,Response Metadata,
+x-mitre-data-component--1177a4c5-31c8-400c-8544-9071166afa0e,x-mitre-data-component,Windows Registry Key Deletion,
+x-mitre-data-component--1361e324-b594-4c0e-a517-20cee32b8d7f,x-mitre-data-component,Instance Stop,
+x-mitre-data-component--167b48f7-76e9-4fcb-9e8d-7121f7bf56c3,x-mitre-data-component,Malware Content,
+x-mitre-data-component--16e07530-764b-4d83-bae0-cdbfc31bf21d,x-mitre-data-component,Snapshot Deletion,
+x-mitre-data-component--181a9f8c-c780-4f1f-91a8-edb770e904ba,x-mitre-data-component,Network Connection Creation,
+x-mitre-data-component--1887a270-576a-4049-84de-ef746b2572d6,x-mitre-data-component,Process Access,
+x-mitre-data-component--18b236d8-7224-488f-9d2f-50076a0f653a,x-mitre-data-component,Active Directory Object Creation,
+x-mitre-data-component--1dad5aa4-4bb5-45e4-9e42-55d40003cfa6,x-mitre-data-component,Certificate Registration,
+x-mitre-data-component--235b7491-2d2b-4617-9a52-3c0783680f71,x-mitre-data-component,File Access,
+x-mitre-data-component--23e4ee78-26f3-4fcf-ba43-ab953962f96c,x-mitre-data-component,Kernel Module Load,
+x-mitre-data-component--2a80d95f-08c4-48e3-833e-151ef19d90f5,x-mitre-data-component,Instance Enumeration,
+x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c,x-mitre-data-component,File Creation,
+x-mitre-data-component--2e521444-7295-4dec-96c1-7595b2df7811,x-mitre-data-component,Active DNS,
+x-mitre-data-component--3551476e-14f5-4e48-a518-e82135329e03,x-mitre-data-component,Driver Load,
+x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c,x-mitre-data-component,Network Traffic Content,
+x-mitre-data-component--39b9db72-8b48-4595-a18d-db5bbba3091b,x-mitre-data-component,Logon Session Metadata,
+x-mitre-data-component--3acecdde-c327-4498-9bb8-33a2e63c6c57,x-mitre-data-component,Volume Deletion,
+x-mitre-data-component--3d20385b-24ef-40e1-9f56-f39750379077,x-mitre-data-component,Process Creation,
+x-mitre-data-component--3d6e6b3b-4aa8-40e1-8c47-91db0f313d9f,x-mitre-data-component,Drive Creation,
+x-mitre-data-component--3da222e6-53f3-451c-a239-0b405c009432,x-mitre-data-component,Snapshot Creation,
+x-mitre-data-component--45977f14-1bcc-4ec4-ac14-a30fd3a11f44,x-mitre-data-component,Cloud Storage Modification,
+x-mitre-data-component--45d0ff14-b9c4-41f5-8603-156657c20b75,x-mitre-data-component,Instance Modification,
+x-mitre-data-component--45fd904d-6eb0-4b50-8478-a961f09f898b,x-mitre-data-component,Instance Metadata,
+x-mitre-data-component--4c41e296-b8d2-4a37-b789-eb565c87c00c,x-mitre-data-component,Cloud Storage Deletion,
+x-mitre-data-component--4dcd8ba3-2075-4f8b-941e-39884ffaac08,x-mitre-data-component,Drive Modification,
+x-mitre-data-component--5263cb33-08cc-4a68-820f-004e1e400d76,x-mitre-data-component,Pod Creation,
+x-mitre-data-component--5297a638-1382-4f0c-8472-0d21830bf705,x-mitre-data-component,Service Creation,
+x-mitre-data-component--58ef998c-f3bf-4985-b487-b1005f5c05d1,x-mitre-data-component,Cloud Storage Access,
+x-mitre-data-component--59ec10d9-546b-4b8e-bccb-fa85f71e5055,x-mitre-data-component,Cloud Storage Creation,
+x-mitre-data-component--5b8b466b-2c81-4fe7-946f-d677a74ae3db,x-mitre-data-component,Active Directory Object Modification,
+x-mitre-data-component--5c6de881-bc70-4070-855a-7a9631a407f7,x-mitre-data-component,Active Directory Object Access,
+x-mitre-data-component--5f7c9def-0ddf-423b-b1f8-fb2ddeed0ce3,x-mitre-data-component,Web Credential Creation,
+x-mitre-data-component--5fe82895-28e5-4aac-845e-dc886b63be2e,x-mitre-data-component,Container Start,
+x-mitre-data-component--61f1d40e-f3d0-4cc6-aa2d-937b6204194f,x-mitre-data-component,Process Termination,
+x-mitre-data-component--639e87f3-acb6-448a-9645-258f20da4bc5,x-mitre-data-component,File Metadata,
+x-mitre-data-component--66531bc6-a509-4868-8314-4d599e91d222,x-mitre-data-component,Service Modification,
+x-mitre-data-component--672b2ebd-4310-4efe-bf03-7ab005298a74,x-mitre-data-component,Pod Modification,
+x-mitre-data-component--685f917a-e95e-4ba0-ade1-c7d354dae6e0,x-mitre-data-component,Command Execution,
+x-mitre-data-component--73ff2dcc-24b1-4368-b9dc-706dd9e68354,x-mitre-data-component,Drive Access,
+x-mitre-data-component--746f095a-f84c-4ccc-90a5-c7caa5c100a2,x-mitre-data-component,Firewall Metadata,
+x-mitre-data-component--74fa567d-bc90-425c-8a41-3c703abb221c,x-mitre-data-component,Service Metadata,
+x-mitre-data-component--7561ed50-16cb-4826-82c7-c1ddca61785e,x-mitre-data-component,Instance Deletion,
+x-mitre-data-component--7b375092-3a61-448d-900a-77c9a4bde4dc,x-mitre-data-component,Scheduled Job Metadata,
+x-mitre-data-component--7f70fae7-a68d-4730-a83a-f260b9606129,x-mitre-data-component,Windows Registry Key Creation,
+x-mitre-data-component--84572de3-9583-4c73-aabd-06ea88123dd8,x-mitre-data-component,File Modification,
+x-mitre-data-component--85a533a4-5fa4-4dba-b45d-f0717bedd6e6,x-mitre-data-component,Host Status,
+x-mitre-data-component--8b4ca854-ac08-47da-b24f-601b28a39aff,x-mitre-data-component,Image Deletion,
+x-mitre-data-component--8bc66f94-54a9-4be4-bdd1-fe90df643774,x-mitre-data-component,Snapshot Metadata,
+x-mitre-data-component--8c826308-2760-492f-9e36-4f0f7e23bcac,x-mitre-data-component,Cloud Service Enumeration,
+x-mitre-data-component--8d8c7cac-94cf-4726-8989-cab33851168c,x-mitre-data-component,Group Metadata,
+x-mitre-data-component--8e44412e-3238-4d64-8878-4f11e27784fe,x-mitre-data-component,Group Enumeration,
+x-mitre-data-component--8fb2f315-1aca-4cef-ae0d-8105e1f95985,x-mitre-data-component,Social Media,
+x-mitre-data-component--9085a576-636a-455b-91d2-c2921bbe6d1d,x-mitre-data-component,Active Directory Object Deletion,
+x-mitre-data-component--91b3ed33-d1b5-4c4b-a896-76c55eb3cfd8,x-mitre-data-component,Container Enumeration,
+x-mitre-data-component--93a6e38c-02a5-44d8-9035-b2e08459f31f,x-mitre-data-component,Malware Metadata,
+x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e,x-mitre-data-component,OS API Execution,
+x-mitre-data-component--9c2fa0ae-7abc-485a-97f6-699e3b6cf9fa,x-mitre-data-component,Application Log Content,
+x-mitre-data-component--9ce98c86-8d30-4043-ba54-0784d478d0b5,x-mitre-data-component,Logon Session Creation,
+x-mitre-data-component--9f387817-df83-432a-b56b-a8fb7f71eedd,x-mitre-data-component,Script Execution,
+x-mitre-data-component--a5ae90ca-0c4b-481c-959f-0eb18a7ff953,x-mitre-data-component,Container Creation,
+x-mitre-data-component--a7f22107-02e5-4982-9067-6625d4a1765a,x-mitre-data-component,Network Traffic Flow,
+x-mitre-data-component--a953ca55-921a-44f7-9b8d-3d40141aa17e,x-mitre-data-component,User Account Authentication,
+x-mitre-data-component--b008766d-f34f-4ded-b712-659f59aaed6e,x-mitre-data-component,Image Creation,
+x-mitre-data-component--b33d36e3-d7ea-4895-8eed-19a08a8f7c4f,x-mitre-data-component,Cloud Service Metadata,
+x-mitre-data-component--b597a220-6510-4397-b0d8-342cd2c58827,x-mitre-data-component,Image Metadata,
+x-mitre-data-component--b5b0e8ae-7436-4951-950a-7b83c4dd3f2c,x-mitre-data-component,Instance Creation,
+x-mitre-data-component--b5d0492b-cda4-421c-8e51-ed2b8d85c5d0,x-mitre-data-component,User Account Metadata,
+x-mitre-data-component--b9a1578e-8653-4103-be23-cb52e0b1816e,x-mitre-data-component,Named Pipe Metadata,
+x-mitre-data-component--b9d031bb-d150-4fc6-8025-688201bf3ffd,x-mitre-data-component,Firmware Modification,
+x-mitre-data-component--bf91faa8-0049-4870-810a-4df55e0b77ee,x-mitre-data-component,Firewall Enumeration,
+x-mitre-data-component--c0a4a086-cc20-4e1e-b7cb-29d99dfa3fb1,x-mitre-data-component,Module Load,
+x-mitre-data-component--c0edd522-0aef-46b3-8efa-2bd334ce4242,x-mitre-data-component,Pod Metadata,
+x-mitre-data-component--c97d0171-f6e0-4415-85ff-4082fdb8c72a,x-mitre-data-component,Firewall Disable,
+x-mitre-data-component--cc150ad8-ecfa-4340-9aaa-d21165873bd4,x-mitre-data-component,Passive DNS,
+x-mitre-data-component--d27b0089-2c39-4b6c-84ff-303e48657e77,x-mitre-data-component,User Account Modification,
+x-mitre-data-component--d2ff4b56-8351-4ed8-b0fb-d8605366005f,x-mitre-data-component,Firewall Rule Modification,
+x-mitre-data-component--d46272ce-a0fe-4256-855e-738de7bb63ee,x-mitre-data-component,Volume Modification,
+x-mitre-data-component--d5fca4e4-e47a-487b-873f-3d22f8865e96,x-mitre-data-component,Process Modification,
+x-mitre-data-component--d6257b8e-869c-41c0-8731-fdca40858a91,x-mitre-data-component,User Account Deletion,
+x-mitre-data-component--da85d358-741a-410d-9433-20d6269a6170,x-mitre-data-component,Windows Registry Key Modification,
+x-mitre-data-component--dad75cc7-5bae-4175-adb4-ca1962d8650e,x-mitre-data-component,Volume Creation,
+x-mitre-data-component--deb22295-7e37-4a3b-ac6f-c86666fbe63d,x-mitre-data-component,User Account Creation,
+x-mitre-data-component--df508a43-65f5-453f-8b8f-4b5d64e60a21,x-mitre-data-component,Container Metadata,
+x-mitre-data-component--e214eb6d-de8f-4154-9015-6d47915fbed1,x-mitre-data-component,Cloud Storage Metadata,
+x-mitre-data-component--e52d89f9-1710-4708-88a5-cbef77c4cd5e,x-mitre-data-component,Cloud Service Modification,
+x-mitre-data-component--e905dad2-00d6-477c-97e8-800427abd0e8,x-mitre-data-component,File Deletion,
+x-mitre-data-component--ec0612c5-2644-4c50-bcac-82586974fedd,x-mitre-data-component,Cloud Service Disable,
+x-mitre-data-component--ec225357-8197-47a4-a9cd-57741d592877,x-mitre-data-component,Volume Enumeration,
+x-mitre-data-component--ed0dd8aa-1677-4551-bb7d-8da767617e1b,x-mitre-data-component,Windows Registry Key Access,
+x-mitre-data-component--ee575f4a-2d4f-48f6-b18b-89067760adc1,x-mitre-data-component,Process Metadata,
+x-mitre-data-component--f1eb6ea9-f3ab-414f-af35-2d5427199984,x-mitre-data-component,Snapshot Modification,
+x-mitre-data-component--f42df6f0-6395-4f0c-9376-525a031f00c3,x-mitre-data-component,Scheduled Job Creation,
+x-mitre-data-component--f5468e67-51c7-4756-9b4f-65707708e7fa,x-mitre-data-component,Network Share Access,
+x-mitre-data-component--f5a9a1dd-82f9-41a3-85b8-13e5b9cd6c79,x-mitre-data-component,Driver Metadata,
+x-mitre-data-component--f8213cde-6b3a-420d-9ab7-41c9af1a919f,x-mitre-data-component,Instance Start,
+x-mitre-data-component--faa34cf6-cf32-4dc9-bd6a-8f7a606ff65b,x-mitre-data-component,Scheduled Job Modification,
+x-mitre-data-component--fafaa705-ec08-4405-ac62-288c252e520d,x-mitre-data-component,Cluster Metadata,
+x-mitre-data-component--fcc4811f-9cc8-4db5-8097-4d8242a380de,x-mitre-data-component,Cloud Storage Enumeration,
+x-mitre-data-component--ff93f688-d7a4-49cf-9c79-a14454da8428,x-mitre-data-component,Web Credential Usage,
+x-mitre-data-component--ff9b665a-598b-4bcb-8b2a-a87566aa1256,x-mitre-data-component,Domain Registration,
+x-mitre-data-component--ffd73905-2e51-4f2d-8549-e72fb0eb6c38,x-mitre-data-component,Snapshot Enumeration,
+x-mitre-data-source--06bb1e05-533b-4de3-ae87-9b99910465cf,x-mitre-data-source,Pod,DS0014
+x-mitre-data-source--072ec5a7-00ba-466f-9057-69751a22a967,x-mitre-data-source,Container,DS0032
+x-mitre-data-source--0b4f86ed-f4ab-46a3-8ed1-175be1974da6,x-mitre-data-source,User Account,DS0002
+x-mitre-data-source--0f42a24c-e035-4f93-a91c-5f7076bd8da0,x-mitre-data-source,Windows Registry,DS0024
+x-mitre-data-source--12c1e727-7fa4-49b6-af81-366ed2ce231e,x-mitre-data-source,Script,DS0012
+x-mitre-data-source--1ac0ca69-e07e-4b34-9061-e4588e146c52,x-mitre-data-source,Image,DS0007
+x-mitre-data-source--1e26f222-e27e-4bfa-830c-fa4b4f18b5e4,x-mitre-data-source,Web Credential,DS0006
+x-mitre-data-source--221adcd5-cccf-44df-9be6-ef607a6e1c3c,x-mitre-data-source,Named Pipe,DS0023
+x-mitre-data-source--29aa4e0e-4a26-4f79-a9bc-1ae66df1c923,x-mitre-data-source,Certificate,DS0037
+x-mitre-data-source--2cd6cc81-d86e-4595-a4f0-43f5519f14e6,x-mitre-data-source,WMI,DS0005
+x-mitre-data-source--2ce537a2-3b30-4374-9397-31d6460ec0bc,x-mitre-data-source,Cloud Storage,DS0010
+x-mitre-data-source--38fe306c-bdec-4f3d-8521-b72dd32dbd17,x-mitre-data-source,Internet Scan,DS0035
+x-mitre-data-source--3bef4799-906c-409c-ac00-3fb7a1e352e6,x-mitre-data-source,Persona,DS0021
+x-mitre-data-source--3c07684f-3794-4536-8f70-21efe700c0ec,x-mitre-data-source,Group,DS0036
+x-mitre-data-source--40269753-26bd-437b-986e-159c66dec5e4,x-mitre-data-source,Application Log,DS0015
+x-mitre-data-source--4358c631-e253-4557-86df-f687d0ef9891,x-mitre-data-source,Logon Session,DS0028
+x-mitre-data-source--45232bc0-e858-440d-aa93-d48c6cf167f0,x-mitre-data-source,Instance,DS0030
+x-mitre-data-source--4523e7f3-8de2-4078-96f8-1227eb537159,x-mitre-data-source,Sensor Health,DS0013
+x-mitre-data-source--509ed41e-ca42-461e-9058-24602256daf9,x-mitre-data-source,File,DS0022
+x-mitre-data-source--61bbbf27-f7c3-46ba-a6bc-48ae76928065,x-mitre-data-source,Drive,DS0016
+x-mitre-data-source--6d7de3b7-283d-48f9-909c-60d123d9d768,x-mitre-data-source,Snapshot,DS0020
+x-mitre-data-source--73691708-ffb5-4e29-906d-f485f6fa7089,x-mitre-data-source,Command,DS0017
+x-mitre-data-source--8765a845-dea1-4cd1-a56f-f54939b7ab9e,x-mitre-data-source,Kernel,DS0008
+x-mitre-data-source--9ec8c0d7-6137-456f-b829-c5f8b96ba054,x-mitre-data-source,Driver,DS0027
+x-mitre-data-source--b0b6d26f-3747-4444-ac7a-239a6ff80cb5,x-mitre-data-source,Volume,DS0034
+x-mitre-data-source--b1ddede4-cafe-4955-ac4c-14b33ac3f647,x-mitre-data-source,Cloud Service,DS0025
+x-mitre-data-source--b86d9b40-5fbe-4ef1-8dc3-263eff26f495,x-mitre-data-source,Malware Repository,DS0004
+x-mitre-data-source--ba27545a-9c32-47ea-ba6a-cce50f1b326e,x-mitre-data-source,Network Share,DS0033
+x-mitre-data-source--c000cd5c-bbb3-4606-af6f-6c6d9de0bbe3,x-mitre-data-source,Network Traffic,DS0029
+x-mitre-data-source--c3af32ff-65c5-4ea8-912a-fb4a85197239,x-mitre-data-source,Cluster,DS0031
+x-mitre-data-source--c9ddfb51-eb45-4e22-b614-44ac1caa7883,x-mitre-data-source,Scheduled Job,DS0003
+x-mitre-data-source--ca1cb239-ff6d-4f64-b9d7-41c8556a8b4f,x-mitre-data-source,Firmware,DS0001
+x-mitre-data-source--d6188aac-17db-4861-845f-57c369f9b4c8,x-mitre-data-source,Active Directory,DS0026
+x-mitre-data-source--d710099e-df94-4be4-bf85-cabd30e912bb,x-mitre-data-source,Service,DS0019
+x-mitre-data-source--dd75f457-8dc0-4a24-9ae5-4b61c33af866,x-mitre-data-source,Domain Name,DS0038
+x-mitre-data-source--e8b8ede7-337b-4c0c-8c32-5c7872c1ee22,x-mitre-data-source,Process,DS0009
+x-mitre-data-source--f2f4f4bd-3455-400f-b2ee-104004df0f5b,x-mitre-data-source,Firewall,DS0018
+x-mitre-data-source--f424e4b4-a8a4-4c58-a4ae-4f53bfd08563,x-mitre-data-source,Module,DS0011
+x-mitre-matrix--eafc1b4c-5e56-4965-bd4e-66a6a89c88cc,x-mitre-matrix,Enterprise ATT&CK,enterprise-attack
+x-mitre-tactic--2558fd61-8c75-4730-94c4-11926db2a263,x-mitre-tactic,Credential Access,TA0006
+x-mitre-tactic--4ca45d45-df4d-4613-8980-bac22d278fa5,x-mitre-tactic,Execution,TA0002
+x-mitre-tactic--5569339b-94c2-49ee-afb3-2222936582c8,x-mitre-tactic,Impact,TA0040
+x-mitre-tactic--5bc1d813-693e-4823-9961-abf9af4b0e92,x-mitre-tactic,Persistence,TA0003
+x-mitre-tactic--5e29b093-294e-49e9-a803-dab3d73b77dd,x-mitre-tactic,Privilege Escalation,TA0004
+x-mitre-tactic--7141578b-e50b-4dcc-bfa4-08a8dd689e9e,x-mitre-tactic,Lateral Movement,TA0008
+x-mitre-tactic--78b23412-0651-46d7-a540-170a1ce8bd5a,x-mitre-tactic,Defense Evasion,TA0005
+x-mitre-tactic--9a4e74ab-5008-408c-84bf-a10dfbc53462,x-mitre-tactic,Exfiltration,TA0010
+x-mitre-tactic--c17c5845-175e-4421-9713-829d0573dbc9,x-mitre-tactic,Discovery,TA0007
+x-mitre-tactic--d108ce10-2419-4cf9-a774-46161d6c6cfe,x-mitre-tactic,Collection,TA0009
+x-mitre-tactic--d679bca2-e57d-4935-8650-8031c87a4400,x-mitre-tactic,Resource Development,TA0042
+x-mitre-tactic--daa4cbb1-b4f4-4723-a824-7f1efd6e0592,x-mitre-tactic,Reconnaissance,TA0043
+x-mitre-tactic--f72804c5-f15a-449e-a5da-2eecd181f813,x-mitre-tactic,Command and Control,TA0011
+x-mitre-tactic--ffd5bcee-6e16-4dd2-8eca-7b3beedf33ca,x-mitre-tactic,Initial Access,TA0001
+course-of-action--2108b914-eee1-45cc-8840-36272b19596a,course-of-action,Group Policy Modification Mitigation,T1484
+tool--aafea02e-ece5-4bb2-91a6-3bf8c7f38a39,tool,Cobalt Strike,S0154
+malware--41e3fd01-7b83-471f-835d-d2b1dc9a770c,malware,Twitoor,S0302
+intrusion-set--049cef3b-22d5-4be6-b50c-9839c7a34fdd,intrusion-set,Bouncing Golf,G0097
+course-of-action--0e5bdf42-a7f7-4d16-a074-4915bd262f80,course-of-action,Exfiltration Over Alternative Protocol Mitigation,T1048
+course-of-action--28c0f30c-32c3-4c6c-a474-74820e55854f,course-of-action,Signed Binary Proxy Execution Mitigation,T1218
+course-of-action--56db6ccc-433d-4411-8383-c3fd7053e2c8,course-of-action,Execution through API Mitigation,T1106
+course-of-action--74febc44-8955-4e4d-aca0-d4dad2f967d7,course-of-action,Process Injection Mitigation,T1055
+course-of-action--823fbfe9-b015-4bf3-9e67-d340c7373ca0,course-of-action,Trusted Developer Utilities Mitigation,T1127
+course-of-action--8ca6a5e0-aae5-49bc-8d07-f888c7dba9ea,course-of-action,Office Application Startup Mitigation,T1137
+course-of-action--979e6485-7a2f-42bd-ae96-4e622c3cd173,course-of-action,Remote Services Mitigation,T1021
+course-of-action--a09375e5-63d2-4b65-8b0d-1cfe3e6304ca,course-of-action,Obfuscated Files or Information Mitigation,T1027
+course-of-action--a222db25-cafb-44b1-a64a-20eab050514c,course-of-action,File Permissions Modification Mitigation,T1222
+course-of-action--addb3703-5a59-4461-9bcd-7e2b5d4e92a0,course-of-action,Standard Application Layer Protocol Mitigation,T1071
+course-of-action--ba2ec548-fb75-4b8c-88d6-d91a77a943cf,course-of-action,Windows Management Instrumentation Mitigation,T1047
+course-of-action--c4585911-6ecf-47b6-aa6b-a2bae30fd3f7,course-of-action,Virtualization/Sandbox Evasion Mitigation,T1497
+course-of-action--d75a3d1b-b536-4f15-a23c-f4bcc17837b8,course-of-action,Connection Proxy Mitigation,T1090
+course-of-action--da8a87d2-946d-4c34-9a30-709058b98996,course-of-action,Input Capture Mitigation,T1056
+course-of-action--f28a20fd-d173-4603-807e-2cb3f51bdf04,course-of-action,Command-Line Interface Mitigation,T1059
+course-of-action--fdb1ae84-7b00-4d3d-b7dc-c774beef6425,course-of-action,Account Manipulation Mitigation,T1098
+intrusion-set--7636484c-adc5-45d4-9bfe-c3e062fbc4a0,intrusion-set,Charming Kitten,G0058

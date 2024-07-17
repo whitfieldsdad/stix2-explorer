@@ -1,0 +1,18 @@
+digraph G {
+    rankdir=LR;
+    node [shape=box];
+
+    local_files [label="Files"];
+    local_directories [label="Directories"];
+    remote_files [label="Remote files"];
+
+    stix2 [label="stix2"];
+
+    networkx [label="networkx"];
+
+    local_files -> stix2;
+    local_directories -> stix2;
+    remote_files -> stix2;
+
+    stix2 -> networkx;
+}

@@ -1,0 +1,183 @@
+control_id,control_name
+AC-4,Information Flow Enforcement
+CM-4,Impact Analyses
+CP-4,Contingency Plan Testing
+MP-8,Media Downgrading
+PE-2,Physical Access Authorizations
+PE-5,Access Control for Output Devices
+PM-5,System Inventory
+PM-7,Enterprise Architecture
+PT-7,Specific Categories of Personally Identifiable Information
+RA-2,Security Categorization
+SA-4,Acquisition Process
+SA-9,External System Services
+SA-12,Supply Chain Protection
+SC-13,Cryptographic Protection
+SC-28,Protection of Information at Rest
+SC-42,Sensor Capability and Data
+SI-6,Security and Privacy Function Verification
+SI-10,Information Input Validation
+SI-19,De-identification
+AC-19,Access Control for Mobile Devices
+AU-12,Audit Record Generation
+CA-5,Plan of Action and Milestones
+CM-3,Configuration Change Control
+CM-11,User-installed Software
+CP-8,Telecommunications Services
+IR-3,Incident Response Testing
+IR-6,Incident Reporting
+MP-4,Media Storage
+MP-5,Media Transport
+PE-10,Emergency Shutoff
+PE-11,Emergency Power
+PE-13,Fire Protection
+PL-8,Security and Privacy Architectures
+PM-16,Threat Awareness Program
+PT-5,Privacy Notice
+SA-11,Developer Testing and Evaluation
+SA-14,Criticality Analysis
+SA-21,Developer Screening
+SC-36,Distributed Processing and Storage
+SC-45,System Time Synchronization
+SC-48,Sensor Relocation
+SI-3,Malicious Code Protection
+SI-5,"Security Alerts, Advisories, and Directives"
+SI-18,Personally Identifiable Information Quality Operations
+SR-5,"Acquisition Strategies, Tools, and Methods"
+SR-6,Supplier Assessments and Reviews
+AC-21,Information Sharing
+AT-3,Role-based Training
+AU-8,Time Stamps
+AU-16,Cross-organizational Audit Logging
+CM-2,Baseline Configuration
+IA-3,Device Identification and Authentication
+IR-4,Incident Handling
+IR-7,Incident Response Assistance
+MA-6,Timely Maintenance
+MP-2,Media Access
+PE-18,Location of System Components
+PE-19,Information Leakage
+PS-6,Access Agreements
+SA-3,System Development Life Cycle
+SA-15,"Development Process, Standards, and Tools"
+SA-17,Developer Security and Privacy Architecture and Design
+SC-2,Separation of System and User Functionality
+SC-20,Secure Name/address Resolution Service (authoritative Source)
+SC-21,Secure Name/address Resolution Service (recursive or Caching Resolver)
+SC-23,Session Authenticity
+SC-31,Covert Channel Analysis
+SI-2,Flaw Remediation
+SI-8,Spam Protection
+SI-13,Predictable Failure Prevention
+AC-7,Unsuccessful Logon Attempts
+AC-11,Device Lock
+AC-18,Wireless Access
+AU-10,Non-repudiation
+AU-11,Audit Record Retention
+AU-13,Monitoring for Information Disclosure
+CP-6,Alternate Storage Site
+MA-2,Controlled Maintenance
+PM-20,Dissemination of Privacy Program Information
+PT-4,Consent
+RA-5,Vulnerability Monitoring and Scanning
+SA-5,System Documentation
+SA-19,Component Authenticity
+SC-18,Mobile Code
+SC-32,System Partitioning
+SI-12,Information Management and Retention
+AC-17,Remote Access
+AC-20,Use of External Systems
+AU-6,"Audit Record Review, Analysis, and Reporting"
+AU-14,Session Audit
+CA-3,Information Exchange
+CA-7,Continuous Monitoring
+CM-9,Configuration Management Plan
+CP-9,System Backup
+MA-3,Maintenance Tools
+MP-7,Media Use
+PE-14,Environmental Controls
+PS-4,Personnel Termination
+RA-3,Risk Assessment
+SC-4,Information in Shared System Resources
+SC-7,Boundary Protection
+SC-11,Trusted Path
+SC-12,Cryptographic Key Establishment and Management
+SC-37,Out-of-band Channels
+SI-14,Non-persistence
+SR-4,Provenance
+AC-6,Least Privilege
+AC-9,Previous Logon Notification
+AC-16,Security and Privacy Attributes
+AC-24,Access Control Decisions
+AU-3,Content of Audit Records
+AU-9,Protection of Audit Information
+CA-6,Authorization
+CA-9,Internal System Connections
+CM-10,Software Usage Restrictions
+CP-2,Contingency Plan
+CP-3,Contingency Training
+IA-5,Authenticator Management
+IA-8,Identification and Authentication (non-organizational Users)
+IA-9,Service Identification and Authentication
+IA-12,Identity Proofing
+IR-5,Incident Monitoring
+IR-9,Information Spillage Response
+MA-4,Nonlocal Maintenance
+PE-3,Physical Access Control
+PE-9,Power Equipment and Cabling
+SA-8,Security and Privacy Engineering Principles
+SA-10,Developer Configuration Management
+SA-18,Tamper Resistance and Detection
+SA-22,Unsupported System Components
+SC-26,Decoys
+SC-30,Concealment and Misdirection
+SC-34,Non-modifiable Executable Programs
+SC-39,Process Isolation
+SI-4,System Monitoring
+SI-7,"Software, Firmware, and Information Integrity"
+SR-9,Tamper Resistance and Detection
+SR-11,Component Authenticity
+AC-3,Access Enforcement
+AT-2,Literacy Training and Awareness
+AU-4,Audit Log Storage Capacity
+AU-7,Audit Record Reduction and Report Generation
+CA-8,Penetration Testing
+CM-7,Least Functionality
+CP-7,Alternate Processing Site
+IA-2,Identification and Authentication (organizational Users)
+IA-4,Identifier Management
+MA-5,Maintenance Personnel
+MP-6,Media Sanitization
+PE-12,Emergency Lighting
+PE-15,Water Damage Protection
+PL-2,System Security and Privacy Plans
+PL-4,Rules of Behavior
+PM-30,Supply Chain Risk Management Strategy
+PS-3,Personnel Screening
+PT-2,Authority to Process Personally Identifiable Information
+PT-3,Personally Identifiable Information Processing Purposes
+PT-6,System of Records Notice
+SC-3,Security Function Isolation
+SC-8,Transmission Confidentiality and Integrity
+SC-15,Collaborative Computing Devices and Applications
+SC-16,Transmission of Security and Privacy Attributes
+SC-29,Heterogeneity
+SC-40,Wireless Link Protection
+AC-12,Session Termination
+AC-14,Permitted Actions Without Identification or Authentication
+AU-2,Event Logging
+AU-5,Response to Audit Logging Process Failures
+CA-2,Control Assessments
+CM-5,Access Restrictions for Change
+CM-6,Configuration Settings
+CM-8,System Component Inventory
+CM-12,Information Location
+CP-10,System Recovery and Reconstitution
+IR-2,Incident Response Training
+IR-8,Incident Response Plan
+PE-6,Monitoring Physical Access
+PE-8,Visitor Access Records
+SC-5,Denial-of-service Protection
+SR-2,Supply Chain Risk Management Plan
+SR-3,Supply Chain Controls and Processes
+AC-2,Account Management
