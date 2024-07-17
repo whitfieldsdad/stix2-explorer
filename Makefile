@@ -22,5 +22,10 @@ data:
 	duckdb < scripts/process-mitre-capec-mappings.sql
 	duckdb < scripts/process-mitre-mbc-mappings.sql
 	duckdb < scripts/process-nist-sp-800-53-r5-mappings.sql
+	python3 examples/draw_stix2_bundle.py -i https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json > data/mitre-attack-enterprise/layout.dot
+	python3 examples/draw_stix2_bundle.py -i https://raw.githubusercontent.com/mitre/cti/master/capec/2.1/stix-capec.json > data/mitre-capec/layout.dot
+	python3 examples/draw_stix2_bundle.py -i https://raw.githubusercontent.com/MBCProject/mbc-stix2.1/main/mbc/mbc.json > data/mitre-mbc/layout.dot
+	python3 examples/draw_stix2_bundle.py -i https://raw.githubusercontent.com/center-for-threat-informed-defense/attack-control-framework-mappings/main/frameworks/attack_12_1/nist800_53_r5/stix/nist800-53-r5-controls.json -o data/nist-sp-800-53-r5/layout.dot
+	python3 examples/draw_stix2_bundle.py -i https://raw.githubusercontent.com/center-for-threat-informed-defense/attack-control-framework-mappings/main/frameworks/attack_12_1/nist800_53_r5/stix/nist800-53-r5-mappings.json -o data/mitre-attack-enterprise-to-nist-sp-800-53-r5/layout.dot
 
 .PHONY: data docs

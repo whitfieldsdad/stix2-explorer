@@ -1,0 +1,23 @@
+digraph G {
+    rankdir=LR;
+    node[shape=box];
+    splines=true;
+    nodesep=0.25;
+    ranksep=1;
+    concentrate=true;
+
+    "indicator" [label="indicator"];
+    "malware" [label="malware"];
+    "attack_pattern" [label="attack-pattern"];
+    "malware_behavior" [label="malware-behavior"];
+    "malware_method" [label="malware-method"];
+    "malware_objective" [label="malware-objective"];
+
+    "indicator" -> "malware" [label="indicates"];
+    "malware" -> "malware" [label="related-to"];
+    "malware" -> "attack_pattern" [label="uses"];
+    "malware" -> "malware_behavior" [label="uses"];
+    "malware" -> "malware_method" [label="uses"];
+    "malware_behavior" -> "malware_objective" [label="related-to"];
+    "malware_method" -> "malware_behavior" [label="related-to"];
+}

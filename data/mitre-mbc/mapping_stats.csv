@@ -2,7 +2,7 @@ source_object_type,relationship,target_object_type,total
 malware-method,related-to,malware-behavior,482
 malware,uses,malware-behavior,396
 malware,uses,malware-method,205
-indicator,indicates,malware,183
 malware-behavior,related-to,malware-objective,183
+indicator,indicates,malware,183
 malware,uses,attack-pattern,149
 malware,related-to,malware,20

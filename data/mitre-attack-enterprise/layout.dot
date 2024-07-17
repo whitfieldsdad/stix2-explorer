@@ -1,0 +1,38 @@
+digraph G {
+    rankdir=LR;
+    node[shape=box];
+    splines=true;
+    nodesep=0.25;
+    ranksep=1;
+    concentrate=true;
+
+    "attack_pattern" [label="attack-pattern"];
+    "x_mitre_tactic" [label="x-mitre-tactic"];
+    "campaign" [label="campaign"];
+    "intrusion_set" [label="intrusion-set"];
+    "malware" [label="malware"];
+    "tool" [label="tool"];
+    "course_of_action" [label="course-of-action"];
+    "x_mitre_data_component" [label="x-mitre-data-component"];
+    "x_mitre_data_source" [label="x-mitre-data-source"];
+    "x_mitre_matrix" [label="x-mitre-matrix"];
+
+    "attack_pattern" -> "x_mitre_tactic" [label="related-to"];
+    "attack_pattern" -> "attack_pattern" [label="revoked-by"];
+    "campaign" -> "intrusion_set" [label="attributed-to"];
+    "campaign" -> "attack_pattern" [label="uses"];
+    "campaign" -> "malware" [label="uses"];
+    "campaign" -> "tool" [label="uses"];
+    "course_of_action" -> "attack_pattern" [label="mitigates"];
+    "intrusion_set" -> "intrusion_set" [label="revoked-by"];
+    "intrusion_set" -> "attack_pattern" [label="uses"];
+    "intrusion_set" -> "malware" [label="uses"];
+    "intrusion_set" -> "tool" [label="uses"];
+    "malware" -> "malware" [label="revoked-by"];
+    "malware" -> "tool" [label="revoked-by"];
+    "malware" -> "attack_pattern" [label="uses"];
+    "tool" -> "attack_pattern" [label="uses"];
+    "x_mitre_data_component" -> "attack_pattern" [label="detects"];
+    "x_mitre_data_source" -> "x_mitre_data_component" [label="related-to"];
+    "x_mitre_tactic" -> "x_mitre_matrix" [label="related-to"];
+}

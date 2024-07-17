@@ -1,0 +1,13 @@
+digraph G {
+    rankdir=LR;
+    node[shape=box];
+    splines=true;
+    nodesep=0.25;
+    ranksep=1;
+    concentrate=true;
+
+    "course_of_action" [label="course-of-action"];
+    "attack_pattern" [label="attack-pattern"];
+
+    "course_of_action" -> "attack_pattern" [label="mitigates"];
+}
