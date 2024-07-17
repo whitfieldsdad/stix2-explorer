@@ -28,11 +28,39 @@ CREATE OR REPLACE TABLE controls_to_techniques AS (
     WHERE source_dataset != target_dataset
 );
 
+CREATE OR REPLACE TABLE techniques_to_tactics AS (
+    SELECT 
+        source_object_external_id AS technique_id,
+        source_object_name AS technique_name,
+        target_object_external_id AS tactic_id,
+        target_object_name AS tactic_name,
+    FROM 'data/mitre-attack-enterprise/mappings.csv' 
+    WHERE source_object_type = 'attack-pattern' AND target_object_type = 'x-mitre-tactic'
+);
+
+ALTER TABLE controls_to_techniques ADD COLUMN tactic_id TEXT;
+ALTER TABLE controls_to_techniques ADD COLUMN tactic_name TEXT;
+
+UPDATE controls_to_techniques c SET 
+    tactic_id = t.tactic_id,
+    tactic_name = t.tactic_name
+FROM techniques_to_tactics t
+WHERE c.technique_id = t.technique_id;
+
 CREATE OR REPLACE TABLE subcontrols_to_techniques AS (
     SELECT s.control_id, s.control_name, s.subcontrol_id, s.subcontrol_name, c.technique_id, c.technique_name 
     FROM subcontrols s 
     JOIN controls_to_techniques c ON s.control_id = c.control_id
 );
+
+ALTER TABLE subcontrols_to_techniques ADD COLUMN tactic_id TEXT;
+ALTER TABLE subcontrols_to_techniques ADD COLUMN tactic_name TEXT;
+
+UPDATE subcontrols_to_techniques s SET 
+    tactic_id = t.tactic_id,
+    tactic_name = t.tactic_name
+FROM techniques_to_tactics t
+WHERE s.technique_id = t.technique_id;
 
 CREATE OR REPLACE TABLE mapping_stats AS (
     SELECT 
