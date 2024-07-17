@@ -1,4 +1,4 @@
-source_object_type,relationship,target_object_type,total
-course-of-action,mitigates,attack-pattern,4929
-course-of-action,related-to,course-of-action,3431
-course-of-action,subcontrol-of,course-of-action,864
+source_dataset,source_object_type,relationship,target_dataset,target_object_type,total
+nist-sp-800-53-r5,course-of-action,mitigates,mitre-attack-enterprise,attack-pattern,4929
+nist-sp-800-53-r5,course-of-action,related-to,nist-sp-800-53-r5,course-of-action,3431
+nist-sp-800-53-r5,course-of-action,subcontrol-of,nist-sp-800-53-r5,course-of-action,864

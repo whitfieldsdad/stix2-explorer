@@ -36,8 +36,10 @@ CREATE OR REPLACE TABLE subcontrols_to_techniques AS (
 
 CREATE OR REPLACE TABLE mapping_stats AS (
     SELECT 
+        source_dataset,
         source_object_type, 
-        relationship, 
+        relationship,
+        target_dataset,
         target_object_type, 
         COUNT(*) as total 
     FROM 'data/mitre-attack-enterprise-to-nist-sp-800-53-r5/mappings.csv'  
